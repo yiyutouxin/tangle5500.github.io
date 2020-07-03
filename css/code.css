@@ -1,0 +1,21 @@
+.highlight .k {
+    color: #d73a49;
+}.highlight .nf {
+    color: #005cc5!important;
+}.highlight .s {
+    color: #0dbf13!important;
+}.highlight .bp {
+    color: #0027ff!important;
+}.highlight .nc {
+    color: #000000!important;
+}.highlight .mi {
+    color: #990000!important;
+}.highlight .c {
+    font-style: initial!important;
+}.highlight .err {
+    background-color: transparent!important;
+}.highlight pre code * {
+    white-space: pre!important;
+}.highlight .c1 {
+    font-style: initial!important;
+}

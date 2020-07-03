@@ -1,0 +1,49 @@
+---
+layout:     post
+title:      Office Excel 安装
+subtitle:   
+date:       2020-6-19
+author:     Tangle
+header-img: img/post-bg-ios9-web.jpg
+catalog: true
+tags:
+    - Office
+---
+
+# office 2016精简版
+
+0. 进入根目录点击**!)安装**
+0. 然后点击**+)激活状态监测**查看是否激活
+0. 卸载点击**-)卸载**
+
+# OInstall
+
+## 在线安装
+
+0. 右键**以管理员身份运行(A)**
+0. 勾选**ProPlus**
+0. 勾选**Word**
+0. 勾选**Excel**
+0. 勾选**PowerPoint**
+0. 反勾选**单个产品**
+0. 勾选**x64**
+0. 语言**zh-CN**
+0. 点击**安装 Office**
+
+## 离线安装
+
+0. 右键**以管理员身份运行(A)**
+0. 
+0. 勾选**ProPlus**
+0. 勾选**Word**
+0. 勾选**Excel**
+0. 勾选**PowerPoint**
+0. 反勾选**单个产品**
+0. 勾选**x64**
+0. 语言**zh-CN**
+0. 点击**离线安装**选择文件
+0. 
+
+## 激活
+
+俄国KMS激活工具AAct.x64汉化版.exe

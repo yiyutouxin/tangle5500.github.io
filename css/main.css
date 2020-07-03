@@ -1,0 +1,39 @@
+/* 页脚图标 */
+footer .list-inline {
+    display: none;
+}footer .copyright {
+    display: none;
+}
+
+/* 标题 */
+.h2_nav {
+    text-indent: 0.5em;
+}.h3_nav {
+    text-indent: 1em;
+}.h4_nav {
+    text-indent: 1.5em;
+}.h5_nav {
+    text-indent: 2em;
+}.h6_nav {
+    text-indent: 2.5em;
+}
+
+/* 标题导航 */
+.side-catalog {
+    width: 300px!importint;
+}
+
+/* 滚动条 */
+article {
+    overflow-x: visible!important;
+}
+
+/* 文章顶部 */
+.post-container {
+    margin: 40px 0!important;
+}
+
+/* ABOUT ME */
+.visible-md {
+    display: block!important;
+}

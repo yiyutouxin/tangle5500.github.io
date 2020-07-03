@@ -1,0 +1,31 @@
+---
+layout:     post
+title:      Python 嵌入式 Python
+subtitle:   
+date:       2019-9-12
+author:     Tangle
+header-img: img/post-bg-ios9-web.jpg
+catalog: true
+tags:
+    - Python
+---
+
+# python 嵌入包的下载
+
+- 进入官网 https://www.python.org/downloads/windows/
+
+- 找到 3.6.5 版本 Windows x86-64 embeddable zip file 下载即可。
+
+- 解压到自定义的目录，将解压路径加入环境变量中。
+
+# 安装 pip
+
+- 进入 https://bootstrap.pypa.io 下载 get-pip.py 放到 Python 的根目录下。
+
+- 打开 python36._pth 文件，去掉 # import site 前的 #号，即放开 import site 若不放开将会 pip 无法正确安装。
+
+- 进入 cmd 执行 get-pip.py 文件，安装 pip。
+
+- 以上操作将在 python 根目录下新建 Scripts 目录防止 pip 相关文件，以及 Lib\site-packages 目录放置 pip 未来下载的扩展依赖模块库。
+
+- 成功后，即可用类似 python1 -m pip install xxx 的方式安装自己的依赖包，xxx 替换为自己想安装的模块名。
