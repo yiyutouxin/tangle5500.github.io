@@ -1,13 +1,13 @@
 ---
 layout:     post
-title:      系统 ISO
+title:      Windows ISO
 subtitle:   
 date:       2020-6-19
 author:     Tangle
 header-img: img/post-bg-ios9-web.jpg
 catalog: true
 tags:
-    - 系统
+    - Windows
 ---
 
 # MSDN
