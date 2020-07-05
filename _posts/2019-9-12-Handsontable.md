@@ -1,13 +1,13 @@
 ---
 layout:     post
-title:      Web Handsontable
+title:      Handsontable
 subtitle:   
 date:       2019-9-12
 author:     Tangle
 header-img: img/post-bg-ios9-web.jpg
 catalog: true
 tags:
-    - Web
+    - Handsontable
 ---
 
 # 常用
