@@ -10,6 +10,8 @@ tags:
     - Python
 ---
 
+# import tkinter
+
 | 语法               | 作用           |
 | ------------------ | -------------- |
 | time = StringVar() | 声明字符串钩子 |
@@ -33,7 +35,7 @@ b1.pack()
 root.mainloop()
 ```
 
-# 主窗口参数
+## 主窗口参数
 
 | 语法                                                         | 作用                                             |
 | ------------------------------------------------------------ | ------------------------------------------------ |
@@ -56,7 +58,7 @@ root.mainloop()
 | root.destroy()                                               | 关闭窗口                                         |
 | root.mainloop()                                              | 主窗口循环更新                                   |
 
-# 窗口禁止关闭
+## 窗口禁止关闭
 
 ``` python
 def closeroot():
@@ -73,21 +75,21 @@ def closewindow():
 root.protocol("WM_DELETE_WINDOW", closewindow)
 ```
 
-#  Label 标签
+##  Label 标签
 
 | 语法                                                         | 作用     |
 | ------------------------------------------------------------ | -------- |
 | l = tk.label(root,text = '文本',bg = '颜色',font = ('Arial',12),width = 30,height = 2) | 创建标签 |
 | l.pack()                                                     | 显示标签 |
 
-# Button 按钮
+## Button 按钮
 
 | 语法                                                         | 作用       |
 | ------------------------------------------------------------ | ---------- |
 | b = tk.Button(root, text='文本', font=('Arial', 12), width=10, height=1, command=函数名) | 创建按钮。 |
 | b.pack()                                                     | 显示按钮。 |
 
-# Entry 输入框
+## Entry 输入框
 
 | 语法                                               | 作用                               |
 | -------------------------------------------------- | ---------------------------------- |
@@ -97,7 +99,7 @@ root.protocol("WM_DELETE_WINDOW", closewindow)
 | e2.pack()                                          | 放置输入框                         |
 | e.get()                                            | 输出输入框中的内容，可以作为变量。 |
 
-# Text 文本框
+## Text 文本框
 
 | 语法                            | 作用                        |
 | ------------------------------- | --------------------------- |
@@ -120,7 +122,7 @@ def demo():
 按钮.grid(row=5, column=0, padx=10, pady=5)
 ```
 
-# Listbox 窗口部件
+## Listbox 窗口部件
 
 列表框
 
@@ -129,23 +131,23 @@ def demo():
 | self.lb.curselection()              | 提取点中选项的下标   |
 | self.lb.get(self.lb.curselection()) | 提前点中选项下标的值 |
 
-# Radiobutton 窗口部件
+## Radiobutton 窗口部件
 
 单选框
 
-# Checkbutton 窗口部件
+## Checkbutton 窗口部件
 
 复选框
 
-# Scale 窗口部件
+## Scale 窗口部件
 
 刻度条
 
-# Canvas 窗口部件
+## Canvas 窗口部件
 
 画布
 
-# Menu 窗口部件
+## Menu 窗口部件
 
 | 语法                                                         | 作用                               |
 | ------------------------------------------------------------ | ---------------------------------- |
@@ -162,7 +164,7 @@ def demo():
 | 二级菜单.add_command(label='菜单名', command=函数名)         | 创建第三级菜单命令                 |
 | root.config(menu=菜单栏)                                     | 放置菜单栏                         |
 
-# Combobox 下拉选择
+## Combobox 下拉选择
 
 | 语法                                      | 作用                 |
 | ----------------------------------------- | -------------------- |
@@ -174,9 +176,9 @@ def demo():
 | demo = com.get()                          | 变量接受值           |
 | com.bind("<<ComboboxSelected>>", 函数名)  | 下拉数据点击调用函数 |
 
-# Frame 窗口部件
+## Frame 窗口部件
 
-# messageBox 弹窗
+## messageBox 弹窗
 
 | 语法                                                         | 作用         |
 | ------------------------------------------------------------ | ------------ |
@@ -201,7 +203,7 @@ def demo():
 | tk.filedialog.askopenfilenames()     | 元组           | 打开多个文件名               |
 | tk.filedialog.askopenfiles()#        | 列表           | 多个文件流对象               |
 
-# 部件放置方式
+## 部件放置方式
 
 | 放置方式 | 参数      | 作用                             |
 | -------- | --------- | -------------------------------- |
@@ -237,7 +239,7 @@ def demo():
 .place(x = 0,y = 0, anchor = 'nw')
 ```
 
-# 滚动条
+## 滚动条
 
 滚动条位置
 
@@ -245,9 +247,9 @@ def demo():
 self.slb.place(x=250, y=170,relwidth=0.05, relheight=0.3)
 ```
 
-# 事件绑定
+## 事件绑定
 
-## 事件序列
+### 事件序列
 
 - type 部分的内容是最重要的，它通常用于描述普通的事件类型，例如鼠标点击或键盘按键点击。
 - modifier 部分的内容是可选的，它通常用于描述组合键，例如 Ctrl + c，Shift + 鼠标左键点击。
@@ -259,7 +261,7 @@ self.slb.place(x=250, y=170,relwidth=0.05, relheight=0.3)
 | \<KeyPress-H>               | 用户点击 H 按键               |        |
 | \<Control-Shift-KeyPress-H> | 用户同时点击 Ctrl + Shift + H |        |
 
-## type
+### type
 
 | **type**      | **含义**                                                     |
 | ------------- | ------------------------------------------------------------ |
@@ -282,7 +284,7 @@ self.slb.place(x=250, y=170,relwidth=0.05, relheight=0.3)
 | Unmap         | 1. 当组件被取消映射的时候触发该事件 2. 意思是在应用程序中不再显示该组件的时候，例如调用 grid_remove() 方法 |
 | Visibility    | 当应用程序至少有一部分在屏幕中是可见的时候触发该事件         |
 
-## modifier
+### modifier
 
 在事件序列中，modifier 部分的内容可以是以下这些：
 
@@ -296,7 +298,7 @@ self.slb.place(x=250, y=170,relwidth=0.05, relheight=0.3)
 | Shift        | 当按下 Shift 按键的时候                                      |
 | Triple       | 跟 Double 类似，当后续三个事件被连续触发的时候               |
 
-## Event 对象
+### Event 对象
 
 当 Tkinter 去回调你定义的函数的时候，都会带着 Event 对象（作为参数）去调用，Event 对象以下这些属性你可以使用：
 
@@ -312,7 +314,7 @@ self.slb.place(x=250, y=170,relwidth=0.05, relheight=0.3)
 | width, height  | 组件的新尺寸（Configure 事件专属）                 |
 | type           | 该事件类型                                         |
 
-## Key names
+### Key names
 
 当事件为 <Key>，<KeyPress>，<KeyRelease> 的时候，detail 可以通过设定具体的按键名（keysym）来筛选。例如 <Key-H> 表示按下键盘上的大写字母 H 时候触发事件，<Key-Tab> 表示按下键盘上的 Tab 按键的时候触发事件。
 
@@ -388,7 +390,7 @@ self.slb.place(x=250, y=170,relwidth=0.05, relheight=0.3)
 | Tab                  | 23                    | Tab（制表）按键              |
 | Up                   | 98                    | ↑ 按键                       |
 
-## 捕获鼠标点击坐标
+### 捕获鼠标点击坐标
 
 ```python
 import tkinter as tk
@@ -403,7 +405,7 @@ frame.pack()
 root.mainloop()
 ```
 
-## 获取键盘事件
+### 获取键盘事件
 
 ```python
 import tkinter as tk
@@ -419,7 +421,7 @@ frame.pack()
 root.mainloop()
 ```
 
-## 捕获鼠标在组件上的运动轨迹
+### 捕获鼠标在组件上的运动轨迹
 
 ```python
 # 捕获鼠标在组件上的运动轨迹
@@ -436,7 +438,7 @@ frame.pack()
 root.mainloop()
 ```
 
-# 注意
+## 注意
 
 1、控件和放置最好两行代码，不然有可能返回 None
 
