@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Excel 函数
+title:      Office Excel 函数
 subtitle:   
 date:       2020-7-6
 author:     Tangle
@@ -8,7 +8,7 @@ header-img: img/post-bg-ios9-web.jpg
 catalog: true
 mathjax: false
 tags:
-    - Excel
+    - Office
 ---
 
 # 函数
