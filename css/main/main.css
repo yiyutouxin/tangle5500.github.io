@@ -42,3 +42,8 @@ article {
 .post-container ul ul {
     display: none;
 }
+
+/* 标签 */
+.one-tag-list .post-preview>a>.post-title {
+    line-height: 0;
+}
