@@ -45,5 +45,5 @@ article {
 
 /* 标签 */
 .one-tag-list .post-preview>a>.post-title {
-    line-height: 0.3;
+    line-height: 0.3!important;
 }
