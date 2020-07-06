@@ -1,13 +1,13 @@
 ---
 layout:     post
-title:      Excel 设置
+title:      Offce Excel 设置
 subtitle:   
 date:       2020-7-6
 author:     Tangle
 header-img: img/post-bg-ios9-web.jpg
 catalog: true
 tags:
-    - Excel
+    - Office
 ---
 
 # 锁定某单元格
