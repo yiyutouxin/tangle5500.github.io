@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Windows 7 热点
+title:      Windows 热点
 subtitle:   
 date:       2020-6-23
 author:     Tangle
@@ -11,7 +11,9 @@ tags:
     - Windows
 ---
 
-# 开启
+# Windows 7
+
+## 开启
 
 0. **以管理员身份运行：**cmd
 0. 执行 **netsh wlan show drivers** 查看 **支持的承载网络**
@@ -21,7 +23,7 @@ tags:
 0. 勾选**允许其他网络用户控制或禁用共享的 Internet 连接**
 0. netsh wlan start hostednetwork
 
-# 关闭
+## 关闭
 
 0. **以管理员身份运行：**cmd
 0. **停止：**netsh wlan stop hostednetwork 
