@@ -10,7 +10,7 @@ tags:
     - Excel
 ---
 
-# VBA
+# 语法
 
 ## 设置保护
 
@@ -194,4 +194,10 @@ End Sub
 
 ```vb
 =HYPERLINK("#sheet1!A1","返回目录")
+```
+
+# CMD
+
+```
+shell "notepad++"
 ```
