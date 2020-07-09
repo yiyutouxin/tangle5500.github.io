@@ -24,9 +24,9 @@ tags:
 ```
 **内容**                      # 加粗
 ~~内容~~                      # 删除线
-<font color=green>百度</font> # 颜色
 <sup>上标</sup>               # 上标
 <sub>下标</sub>               # 下标
+<b style="color:red">百度<b>  # 红色粗体
 ```
 
 [RGB颜色参考](https://tool.oschina.net/commons?type=3)
