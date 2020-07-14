@@ -17,9 +17,14 @@ https://github.com/mscststs/BLS
 
 # 使用说明
 
-1、安装 https://github.com/mscststs/BLS/releases
+1. 安装 https://github.com/mscststs/BLS/releases
+1. 安装 node
+1. 安装 yarn
 
-2、运行程序
+```
+npm install yarn
+```
+1. 运行
 
 ```
 yarn install 安装依赖
