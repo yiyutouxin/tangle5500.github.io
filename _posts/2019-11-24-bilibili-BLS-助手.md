@@ -19,13 +19,13 @@ https://github.com/mscststs/BLS
 
 1. 安装 https://github.com/mscststs/BLS/releases
 1. 安装 Node
-1. 安装 yarn
+1. 运行
 
 ```
 npm config set registry https://registry.npm.taobao.org        设置镜像源
 npm config get registry                                        验证镜像源
-npm install -g cnpm --registry=https://registry.npm.taobao.org 安装 cnpm
-cnpm install yarn                                              安装扩展包
+npm install -g cnpm --registry=https://registry.npm.taobao.org 安装扩展
+cnpm install yarn                                              安装扩展
 yarn install                                                   安装依赖
 yarn run dev                                                   运行程序
 ```
