@@ -20,6 +20,7 @@ net start npf
 ```
 http
 dns
+http.request.method==POST
 ```
 
 # 明文
