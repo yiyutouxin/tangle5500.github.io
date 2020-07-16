@@ -11,6 +11,10 @@ tags:
     - Wireshark
 ---
 
+```
+net start npf
+```
+
 # 过滤器
 
 ```
