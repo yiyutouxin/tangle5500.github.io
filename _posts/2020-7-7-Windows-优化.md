@@ -10,6 +10,14 @@ tags:
     - Windows
 ---
 
-# windwos 优化
+# 禁用小娜
 
-关闭 Windows Search 服务
+0. gpedit.msc
+0. 计算机配置 — 管理模版 — Windows 组件 — 搜索
+0. 禁用**允许使用 Cortana**
+
+# 禁用服务
+
+```
+Windows Search
+```
