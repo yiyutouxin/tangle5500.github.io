@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Wireshark
+title:      抓包 Wireshark 使用
 subtitle:   
 date:       2020-7-16
 author:     Tangle
@@ -8,12 +8,8 @@ header-img: img/post-bg-ios9-web.jpg
 catalog: true
 mathjax: false
 tags:
-    - Wireshark
+    - 抓包
 ---
-
-```
-net start npf
-```
 
 # 过滤器
 
@@ -23,7 +19,7 @@ dns
 http.request.method==POST
 ```
 
-# 明文
+# http
 
 0. 打开**Wireshark**
 0. 打开**http://www.4399.com/**
