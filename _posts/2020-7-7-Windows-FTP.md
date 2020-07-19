@@ -91,7 +91,7 @@ Windows 7
 | 参数 | 作用                                                         |
 | ---- | ------------------------------------------------------------ |
 | -i   | 在多个文件传输期间关闭交互提示                               |
-| -s   | 文件名指定包含 ftp 命令的文本文件。在 ftp 命令启动后将自动运行这些命令。在加的参数里不能有空格。 |
+| -s   | 文件名指定包含 ftp 命令的文本文件。在 ftp 命令启动后将自动运行这些命令。在加的参数里不能有空格 |
 
 | 命令              | 作用         |
 | ----------------- | ------------ |
@@ -100,13 +100,13 @@ Windows 7
 ```
 echo .bat
 @echo off
-echo open 192.168.1.233>>ftp.tmp
-echo Easy Love>>ftp.tmp
-echo heheda>>ftp.tmp
-echo get demo.txt>>ftp.tmp
-echo bye>>ftp.tmp
-ftp -i -s:ftp.tmp
-del ftp.tmp
+echo open 192.168.1.1>>ftp.tmp & echo IP 地址
+echo username>>ftp.tmp         & echo 账号
+echo password>>ftp.tmp         & echo 密码
+echo get demo.txt>>ftp.tmp     & echo 下载
+echo bye>>ftp.tmp              & echo 退出
+ftp -i -s:ftp.tmp              & echo 执行文件
+del ftp.tmp                    & echo 删除文件
 ```
 
 # 映射网络驱动器
