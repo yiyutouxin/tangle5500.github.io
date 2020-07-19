@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      驱动 NVDIA 安装
+title:      Windows 驱动 NVDIA 安装
 subtitle:   
 date:       2020-6-20
 author:     Tangle
@@ -8,8 +8,9 @@ header-img: img/post-bg-ios9-web.jpg
 catalog: true
 mathjax: false
 tags:
-    - 驱动
+    - Windows
 ---
 
 0. **官网：**https://www.nvidia.cn/
 0. 驱动程序 — GEFORCE 驱动程序 — 自动驱动程序更新 — 立即下载
+0. 快速安装
