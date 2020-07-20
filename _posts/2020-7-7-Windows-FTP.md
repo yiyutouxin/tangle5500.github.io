@@ -98,15 +98,17 @@ Windows 7
 | ftp -i -s:ftp.tmp | ftp 执行文件 |
 
 ```
-echo .bat
-@echo off
-echo open 192.168.1.1>>ftp.tmp & echo IP 地址
-echo username>>ftp.tmp         & echo 账号
-echo password>>ftp.tmp         & echo 密码
-echo get demo.txt>>ftp.tmp     & echo 下载
-echo bye>>ftp.tmp              & echo 退出
-ftp -i -s:ftp.tmp              & echo 执行文件
-del ftp.tmp                    & echo 删除文件
+rem .bat
+echo open 192.168.1.1>>ftp.tmp
+echo username>>ftp.tmp
+echo password>>ftp.tmp
+echo dir>>ftp.tmp
+echo get data.xls>>ftp.tmp
+echo bye>>ftp.tmp
+ftp -i -s:ftp.tmp
+echo bye>>ftp.tmp
+del ftp.tmp
+start data.xls
 ```
 
 # 映射网络驱动器
