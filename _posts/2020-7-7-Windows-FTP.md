@@ -102,11 +102,9 @@ rem .bat
 echo open 192.168.1.1>>ftp.tmp
 echo username>>ftp.tmp
 echo password>>ftp.tmp
-echo dir>>ftp.tmp
 echo get data.xls>>ftp.tmp
 echo bye>>ftp.tmp
 ftp -i -s:ftp.tmp
-echo bye>>ftp.tmp
 del ftp.tmp
 start data.xls
 ```
