@@ -55,3 +55,8 @@ article {
 pre {
     margin: 5px 0 5px!important;
 }
+
+/* 列表 */
+.post-container ul, .post-container ol {
+    margin-bottom: 0px!important;
+}
