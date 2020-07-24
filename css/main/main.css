@@ -58,10 +58,10 @@ pre {
 
 /* 列表 */
 .post-container ul, .post-container ol {
-    margin-bottom: 0px!important;
+    margin-bottom: 5px 0px 5px!important;
 }
 
 /* 表格 */
 .table {
-    margin-bottom: 0px!important;
+    margin-bottom: 5px 0 5px!important;
 }
