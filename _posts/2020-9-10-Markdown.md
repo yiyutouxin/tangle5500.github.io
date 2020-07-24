@@ -13,20 +13,20 @@ tags:
 # 常用
 
 ```
-<br>            # 换行
-[toc]           # 目录
----             # 分割线
-\               # 转义符
+<br>  # 换行
+[toc] # 目录
+---   # 分割线
+\     # 转义符
 ```
 
 # 字体
 
 ```
-**内容**                      # 加粗
-~~内容~~                      # 删除线
-<sup>上标</sup>               # 上标
-<sub>下标</sub>               # 下标
-<b style="color:red">百度<b>  # 红色粗体
+**内容**                     # 加粗
+~~内容~~                     # 删除线
+<sup>上标</sup>              # 上标
+<sub>下标</sub>              # 下标
+<b style="color:red">百度<b> # 红色粗体
 ```
 
 [RGB颜色参考](https://tool.oschina.net/commons?type=3)
