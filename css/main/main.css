@@ -48,3 +48,8 @@ article {
     line-height: 1.5!important;
     margin: 0!important;
 }
+
+/* 代码块 */
+pre {
+    margin: 5px 0 5px!important;
+}
