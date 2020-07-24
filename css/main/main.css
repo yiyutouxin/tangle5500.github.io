@@ -60,3 +60,8 @@ pre {
 .post-container ul, .post-container ol {
     margin-bottom: 0px!important;
 }
+
+/* 表格 */
+.table {
+    margin-bottom: 0px!important;
+}
