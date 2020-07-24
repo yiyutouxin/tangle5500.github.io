@@ -65,3 +65,30 @@ pre {
 .table {
     margin-bottom: 5px 0 5px!important;
 }
+
+
+
+
+
+
+
+
+
+/* 代码块 */
+pre {
+    color: #ff0101!important;
+}
+
+.highlight .n {
+    color: #fcf8e3!important;
+}
+
+/* 文本 */
+body {
+    color: #c6c6c6!important;
+}
+
+/* 背景 */
+body {
+    background: #000!important;
+}
