@@ -75,13 +75,15 @@ pre {
 
 
 /* 代码块 */
-pre {
-    color: #ff0101!important;
-}
+/*
+    pre {
+        color: #ff0101!important;
+    }
 
-.highlight .n {
-    color: #fcf8e3!important;
-}
+    .highlight .n {
+        color: #fcf8e3!important;
+    }
+*/
 
 /* 文本 */
 body {
