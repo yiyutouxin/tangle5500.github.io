@@ -22,7 +22,7 @@ footer .list-inline {
 
 /* 段落 */
 p {
-    margin: 5px 0;
+    margin: 5px 0!important;
 }
 
 /* 文本 */
