@@ -98,6 +98,8 @@ body {
 }
 
 /* 标签 */
-.post-preview > a {
+a {
     color: #c6c6c6!important;
 }
+
+/*.post-preview > */
