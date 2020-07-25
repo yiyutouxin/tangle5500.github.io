@@ -31,6 +31,9 @@ body {
 }
 
 /* 滚动条 */
+article {
+    overflow-x: visible!important;
+}
 
 /* 文章顶部 */
 .post-container {
