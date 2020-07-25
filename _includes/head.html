@@ -32,9 +32,8 @@
         {% endif %}
         
         
-        <link rel="stylesheet"
-              href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.2/build/styles/default.min.css">
-        <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.2/build/highlight.min.js"></script>
+        <link rel="stylesheet" href="{{ "/css/code/monokai-sublime.css" | prepend: site.baseurl }}">
+                <script src="{{ "/js/code/highlight.pack.js" | prepend: site.baseurl }}"></script>
         <script>hljs.initHighlightingOnLoad();</script>
         
         
