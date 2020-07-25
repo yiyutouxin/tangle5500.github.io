@@ -20,7 +20,9 @@
         <script src="{{ "/js/main/main.js" | prepend: site.baseurl }}"></script>
     
         <!-- code -->
-<!--         <link rel="stylesheet" href="{{ "/css/code/code.css" | prepend: site.baseurl }}"> -->
+        <link rel="stylesheet" href="{{ "/css/code/monokai-sublime.css" | prepend: site.baseurl }}">
+        <script src="{{ "/js/code/highlight.pack.js" | prepend: site.baseurl }}"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
 
         <!-- mermaid -->
         <script src="https://cdn.bootcss.com/mermaid/8.0.0-rc.8/mermaid.min.js"></script>
@@ -30,14 +32,7 @@
             <script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});</script>
             <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML"></script>
         {% endif %}
-        
-        
-        <link rel="stylesheet" href="{{ "/css/code/monokai-sublime.css" | prepend: site.baseurl }}">
-                <script src="{{ "/js/code/highlight.pack.js" | prepend: site.baseurl }}"></script>
-        <script>hljs.initHighlightingOnLoad();</script>
-        
-        
-        
+
     <!-- Web App Manifest -->
     <link rel="manifest" href="{{ site.baseurl }}/pwa/manifest.json">
 
@@ -55,9 +50,6 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ "/css/hux-blog.min.css" | prepend: site.baseurl }}">
-
-    <!-- Pygments Github CSS -->
-    <!--     <link rel="stylesheet" href="{{ "/css/syntax.css" | prepend: site.baseurl }}"> -->
     
     <!-- Custom Fonts -->
     <!-- <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
