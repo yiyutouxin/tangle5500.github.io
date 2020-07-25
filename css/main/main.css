@@ -92,8 +92,8 @@ header.intro-header {
 
 /* 分页 */
 .pager li>a, .pager li>span {
-    background-color: #f90!important;
-    border: 0px!important;
+    background-color: #23241f!important;
+    border: 3px solid #f90;
 }
 
 /* 分割线 */
