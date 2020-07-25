@@ -56,7 +56,13 @@ body {
 /* 代码块 */
 pre {
     margin: 5px 0 5px!important;
+    /* color: #ff0101!important; */
 }
+/*
+    .highlight .n {
+        color: #fcf8e3!important;
+    }
+*/
 
 /* 列表 */
 .post-container ul, .post-container ol {
@@ -78,20 +84,12 @@ body {
     background: #000!important;
 }
 
-/* 代码块 */
-/*
-    pre {
-        color: #ff0101!important;
-    }
-
-    .highlight .n {
-        color: #fcf8e3!important;
-    }
-*/
-
 /* 标签云 */
 .tags a, .tags .tag {
     color: #f90!important;
 }
 
 /* 标签 */
+a {
+    color: #f90!important;
+}
