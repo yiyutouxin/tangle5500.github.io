@@ -167,7 +167,9 @@
         async('{{ "/js/jquery.tagcloud.js" | prepend: site.baseurl }}',function(){
             $.fn.tagcloud.defaults = {
                 //size: {start: 1, end: 1, unit: 'em'},
-                color: {start: '#bbbbee', end: '#0085a1'},
+                //color: {start: '#bbbbee', end: '#0085a1'},
+                    <!-- tangle -->
+                    color: {start: '#333', end: '#333'},
             };
             $('#tag_cloud a').tagcloud();
         })
