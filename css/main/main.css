@@ -96,4 +96,5 @@ body {
 /* 分页 */
 .pager li>a, .pager li>span {
     background-color: #f90!important;
+    border: 0px!important;
 }
