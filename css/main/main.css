@@ -90,3 +90,6 @@ body {
 }
 
 /* 标签 */
+.post-preview > a {
+    color: #f90!important;
+}
