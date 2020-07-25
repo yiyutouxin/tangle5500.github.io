@@ -91,3 +91,8 @@ body {
         color: #fcf8e3!important;
     }
 */
+
+/* 标签云 */
+.tags a, .tags .tag {
+    color: #f90!important;
+}
