@@ -74,13 +74,13 @@ pre {
     margin-bottom: 5px 0 5px!important;
 }
 
-/* 介绍背景 */
-header.intro-header {
-    background: #000!important;
-}
-
 /* 背景 */
 body {
+    background: #23241f!important;
+}
+
+/* 介绍背景 */
+header.intro-header {
     background: #23241f!important;
 }
 
