@@ -72,6 +72,8 @@ pre {
     padding: 0px!important;
     border: 0px!important;
     border-radius: 0px!important;
+}.hljs {
+    padding: 0em!important;
 }
 
 /* 列表 */
