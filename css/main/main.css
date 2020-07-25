@@ -25,6 +25,11 @@ p {
     margin: 5px 0!important;
 }
 
+/* 表格 */
+.table {
+    margin: 5px 0 5px!important;
+}
+
 /* 文本 */
 body {
     color: #c6c6c6!important;
@@ -72,11 +77,6 @@ pre {
 /* 列表 */
 .post-container ul, .post-container ol {
     margin-bottom: 5px 0px 5px!important;
-}
-
-/* 表格 */
-.table {
-    margin-bottom: 5px 0 5px!important;
 }
 
 /* 背景 */
