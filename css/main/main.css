@@ -88,8 +88,3 @@ body {
 .tags a, .tags .tag {
     color: #f90!important;
 }
-
-/* 标签 */
-.post-preview > a {
-    color: #f90!important;
-}
