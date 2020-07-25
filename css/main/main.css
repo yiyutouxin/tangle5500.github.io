@@ -88,6 +88,8 @@ header.intro-header {
 .tags a, .tags .tag a {
     color: #f90!important;
     background: #333!important;
+    border: 0px!important;
+    border-radius: 0px!important;
 }
 
 /* 分页 */
