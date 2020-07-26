@@ -18,11 +18,8 @@ p {
 /* 表格 */
 .table {
     margin: 5px 0!important;
-}th{
-    /* 设置水平方向居中 */
-    text-align:center;
-    /* 设置垂直方向居中 */
-    vertical-align:middle
+}th {
+    text-align: center!important;
 }
 
 /* 文本 */
