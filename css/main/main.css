@@ -51,8 +51,8 @@ pre {
     padding: 0px!important;
     border-radius: 0px!important;
     border: 1px solid #eee!importnat;
-}.hljs {
-    padding: 0 0.5px!important;
+}code {
+    font-size: 90%!importnat;
 }
 
 /* 列表 */
