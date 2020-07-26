@@ -45,11 +45,6 @@ article {
     display: block!important;
 }
 
-/* 目录 */
-.post-container ul ul {
-    display: none;
-}
-
 /* 标签 */
 .one-tag-list .post-preview>a>.post-title {
     line-height: 1.5!important;
@@ -116,6 +111,8 @@ a {
     border-radius: 4px!important;
     background-color: #262626!important;
     border: 0px solid #f90!important;
+}.side-catalog .catalog-body li a {
+    padding-left: 0px!important;
 }.h2_nav {
     text-indent: 0.5em;
 }.h3_nav {
@@ -126,6 +123,9 @@ a {
     text-indent: 2em;
 }.h6_nav {
     text-indent: 2.5em;
+}/* 目录 */
+.post-container ul ul {
+    display: none;
 }
 
 /* 沉浸式导航栏 */
