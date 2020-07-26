@@ -108,9 +108,11 @@ a {
 
 /* 目录 */
 .side-catalog .catalog-body .active {
-    border-radius: 4px!important;
-   background-color: rgb(128 128 128 / 0.5)!important;
+    border-radius: 0px!important;
+    background-color: rgb(128 128 128 / 0.5)!important;
     border: 0px solid #f90!important;
+}.post-container ul ul {
+    display: none;
 }.h2_nav {
     text-indent: 0.5em;
 }.h3_nav {
@@ -121,9 +123,6 @@ a {
     text-indent: 2em;
 }.h6_nav {
     text-indent: 2.5em;
-}/* 目录 */
-.post-container ul ul {
-    display: none;
 }
 
 /* 沉浸式导航栏 */
