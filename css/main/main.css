@@ -131,6 +131,10 @@ hr {
     border: 0px solid #f90!important;
 }.post-container ul ul {
     display: none;
+}.post-container a:hover, .post-container a:focus {
+    color: #f90!important;
+}.post-container a {
+    color: #bfbfbf!important;
 }.h2_nav {
     text-indent: 0.5em;
 }.h3_nav {
