@@ -92,6 +92,11 @@ header.intro-header {
     background: #404040!important;
 }.tags a:hover, .tags .tag:hover, .tags a:active, .tags .tag:active {
     background: #404040!important;
+}.post-preview>a {
+    color: #c6c6c6!important;
+}.post-preview>a:hover, .post-preview>a:focus {
+    text-decoration: none;
+    color: #f90!important;
 }
 
 /* 分页 */
@@ -109,7 +114,7 @@ hr {
 
 /* 链接 */
 a {
-    color: #f90!important;
+    color: #f90；
 }.post-content-preview:hover {
     color: #f90!important;
 }.sidebar-container a:hover, .sidebar-container a:active {
