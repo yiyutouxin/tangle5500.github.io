@@ -8,6 +8,7 @@ footer .list-inline {
 /* 标题 */
 .h1, .h2, .h3, h1, h2, h3 {
     margin: 10px 0!important;
+    text-align:center!important;
 }
 
 /* 段落 */
