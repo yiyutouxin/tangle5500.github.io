@@ -113,6 +113,8 @@ hr {
 /* 链接 */
 a {
     color: #f90!important;
+}.post-content-preview:hover {
+    color: #f90!important;
 }
 
 /* 沉浸式导航栏 */
