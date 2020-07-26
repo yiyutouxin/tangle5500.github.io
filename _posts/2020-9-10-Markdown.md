@@ -16,16 +16,7 @@ tags:
 <br>  # 换行
 ---   # 分割线
 \     # 转义符
-```
-# 目录
-
-```
-# kramdown
-* TOC
-{:toc}
-
-# markdown
-[toc]
+[toc] # 目录
 ```
 
 # 字体
