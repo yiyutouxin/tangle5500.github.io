@@ -54,7 +54,7 @@ pre {
     border-radius: 0px!important;
     border: 1px solid #eee!importnat;
 }code {
-    font-size: 90%!importnat;
+    font-size: 90%!important;
 }
 
 /* 列表 */
