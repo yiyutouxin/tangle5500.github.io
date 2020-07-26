@@ -12,12 +12,12 @@ footer .list-inline {
 
 /* 段落 */
 p {
-    margin: 5px 0.5em!important;
+    margin: 5px 0!important;
 }
 
 /* 表格 */
 .table {
-    margin: 5px 0.5em!important;
+    margin: 5px 0!important;
 }
 
 /* 文本 */
@@ -58,7 +58,7 @@ pre {
     border: 0px!important;
     border-radius: 0px!important;
 }.hljs {
-    padding: 0 1em!important;
+    padding: 0 0em!important;
 }
 
 /* 列表 */
