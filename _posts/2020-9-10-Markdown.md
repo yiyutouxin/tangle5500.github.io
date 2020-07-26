@@ -14,9 +14,18 @@ tags:
 
 ```
 <br>  # 换行
-[toc] # 目录
 ---   # 分割线
 \     # 转义符
+```
+# 目录
+
+```
+# kramdown
+* TOC
+{:toc}
+
+# markdown
+[toc]
 ```
 
 # 字体
