@@ -99,7 +99,7 @@ header.intro-header {
     background-color: #23241f!important;
     border: 3px solid #f90!important;
 }.pager li>a:hover>span, .pager li>a:focus>span {
-    color: #f90;
+    color: #f90!important;
 }
 
 /* 分割线 */
