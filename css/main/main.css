@@ -147,4 +147,6 @@ hr {
     color: #bfbfbf!important;
 }a:focus, a:hover {
     text-decoration: none!important;
+}.sidebar-container h5 a {
+    color: #bfbfbf!important;
 }
