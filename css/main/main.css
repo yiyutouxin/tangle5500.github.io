@@ -52,9 +52,7 @@ pre {
     margin: 5px 0 5px!important;
     padding: 0px!important;
     border-radius: 0px!important;
-    border: 1px solid #eee!importnat;
-}code {
-    font-size: 90%!important;
+    border: 0.5px solid #eee!importnat;
 }
 
 /* 列表 */
@@ -62,6 +60,8 @@ pre {
     margin-bottom: 5px 0px 5px!important;
 }.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
     padding: 5px!important;
+}.table th, .table td {
+    border: 0.5px solid #eee!important;
 }
 
 /* 背景 */
