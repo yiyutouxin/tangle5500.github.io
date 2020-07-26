@@ -114,8 +114,8 @@ a {
 /* 目录 */
 .side-catalog .catalog-body .active {
     border-radius: 4px!important;
-    background-color: #23241f!important;
-    border: 2px solid #f90!important;
+    background-color: #262626!important;
+    border: 0px solid #f90!important;
 }.h2_nav {
     text-indent: 0.5em;
 }.h3_nav {
