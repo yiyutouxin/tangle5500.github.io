@@ -58,7 +58,7 @@ pre {
     border: 0px!important;
     border-radius: 0px!important;
 }.hljs {
-    padding: 2em!important;
+    padding: 0 2em!important;
 }
 
 /* 列表 */
