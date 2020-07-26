@@ -29,9 +29,43 @@ tags:
 # 列表嵌套
 
 ```
-1. a
+0. test
+test
+
+0. test
+
+0. test
     ```
-    print
+    test
     ```
-1. b
+
+0. test
+   ```
+   test
+   ```
+   test
+   ```
+   test
+   ```
+0. test
 ```
+
+0. test
+test
+
+0. test
+
+0. test
+    ```
+    test
+    ```
+
+0. test
+   ```
+   test
+   ```
+   test
+   ```
+   test
+   ```
+0. test
