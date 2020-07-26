@@ -20,36 +20,6 @@ tags:
 
 # 有序列表
 
-```
-1. a
-1. b
-1. c
-```
-
-# 列表嵌套
-
-```
-0. test
-test
-
-0. test
-
-0. test
-    ```
-    test
-    ```
-
-0. test
-   ```
-   test
-   ```
-   test
-   ```
-   test
-   ```
-0. test
-```
-
 0. test
 test
 
