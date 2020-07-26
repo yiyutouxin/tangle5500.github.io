@@ -115,6 +115,8 @@ a {
     color: #f90!important;
 }.post-content-preview:hover {
     color: #f90!important;
+}.sidebar-container a:hover, .sidebar-container a:active {
+    color: #f90!important;
 }
 
 /* 沉浸式导航栏 */
