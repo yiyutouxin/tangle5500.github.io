@@ -45,14 +45,6 @@ article {
     display: block!important;
 }
 
-/* 标签 */
-.one-tag-list .post-preview>a>.post-title {
-    line-height: 1.5!important;
-    margin: 0!important;
-}.sidebar-container .tags a:hover, .sidebar-container .tags a:active {
-    background: #404040!important;
-}
-
 /* 代码块 */
 pre {
     margin: 5px 0 5px!important;
@@ -84,6 +76,16 @@ header.intro-header {
     background: #333!important;
     border: 0px!important;
     border-radius: 0px!important;
+}
+
+/* 标签 */
+.one-tag-list .post-preview>a>.post-title {
+    line-height: 1.5!important;
+    margin: 0!important;
+}.sidebar-container .tags a:hover, .sidebar-container .tags a:active {
+    background: #404040!important;
+}.tags a:hover, .tags .tag:hover, .tags a:active, .tags .tag:active {
+    background: #404040!important;
 }
 
 /* 分页 */
