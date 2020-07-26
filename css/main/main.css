@@ -117,6 +117,8 @@ a {
     color: #f90!important;
 }.sidebar-container a:hover, .sidebar-container a:active {
     color: #f90!important;
+}#tag_cloud a:hover, #tag_cloud .tag:hover, #tag_cloud a:active, #tag_cloud .tag:active {
+    background-color: ##404040 !important;
 }
 
 /* 沉浸式导航栏 */
