@@ -12,7 +12,7 @@ footer .list-inline {
 
 /* 段落 */
 p {
-    margin: 5px 0!important;
+    margin: 5px 0.5em!important;
 }
 
 /* 表格 */
