@@ -1,10 +1,10 @@
 # Site settings
 title: Tangle
-SEOTitle: Tangle Blog
+SEOTitle: Tangle blog
 header-img: # img/tag-bg-o.jpg                                        # 主页图片
 email:                                                                # 345474054@qq.com
 description: ""                                                       # 关于描述
-keyword: "Tangle,Tangle Blog"                                         # 关键词
+keyword: "Tangle,Tangle blog"                                         # 关键词
 url: "https://jiujie.gq/"                                             # 您的主机，绝对 URL
 baseurl: ""                                                           # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: https://github.com/tangle5500/tangle5500.github.io       # 你的代码库
