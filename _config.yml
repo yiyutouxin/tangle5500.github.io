@@ -1,7 +1,7 @@
 # Site settings
 title: Tangle Blog
 SEOTitle: Tangle Blog
-header-img: img/tag-bg-o.jpg
+header-img: # img/tag-bg-o.jpg                                        # 主页图片
 email:                                                                # 345474054@qq.com
 description: ""                                                       # 关于描述
 keyword: "Tangle,Tangle Blog"                                         # 关键词
