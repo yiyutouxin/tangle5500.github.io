@@ -58,7 +58,8 @@ pre {
 /* 列表 */
 .post-container ul, .post-container ol {
     margin-bottom: 5px 0px 5px!important;
-    padding: 5px!important;
+}.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 5px!importnat;
 }
 
 /* 背景 */
