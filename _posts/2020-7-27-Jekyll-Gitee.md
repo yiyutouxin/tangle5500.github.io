@@ -14,10 +14,6 @@ tags:
     ```
     https://github.com/tangle5500/tangle5500.github.io.git
     ```
-0. 管理 — 基本设置 — 仓库名称 — 改成 **username.gitee.io**
-0. _config.yml — baseurl — 改成 **/username.gitee.io**
+0. 管理 — 基本设置 — 仓库名称 — 改成 gitee **个人空间地址**
 0. _includes — head.html — 注释 lock
-0. 服务 — Gitee Pages
-0. **部署分支**选择 **master**
-0. 勾选**强制使用 HPPTS**
-0. 启动
+0. 服务 — Gitee Pages — 启动
