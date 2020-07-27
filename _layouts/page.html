@@ -87,13 +87,32 @@ layout: default
                     <hr class="hidden-sm hidden-xs">
                     <h5><a href="{{'/tags/' | prepend: site.baseurl }}">FEATURED TAGS</a></h5>
                     <div class="tags">
-                        {% for tag in site.tags %}
+<!--                         {% for tag in site.tags %}
                             {% if tag[1].size > {{site.featured-condition-size}} %}
                                 <a href="{{ site.baseurl }}/tags/#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">
                                     {{ tag[0] }}
                                 </a>
                             {% endif %}
+                        {% endfor %} -->
+			    
+			    
+			                            {% capture tags %}
+                            {% for tag in site.tags %}
+                                {{ tag | downcase | replace:' ','-' }}
+                            {% endfor %}
+                        {% endcapture %}
+                        {% assign sorted_post_tags = tags | split:' ' | sort %}
+                        {% for sorted_tag in sorted_post_tags %}
+                            {% for tag in site.tags %}
+                                {% assign downcase_tag = tag | downcase | replace:' ','-' %}
+                                {% if downcase_tag == sorted_tag %}
+                                    <a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
+                                {% endif %}
+                            {% endfor %}
                         {% endfor %}
+			    
+			    
+			    
                     </div>
                 </section>
                 {% endif %}
