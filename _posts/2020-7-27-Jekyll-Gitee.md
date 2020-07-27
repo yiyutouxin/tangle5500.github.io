@@ -15,5 +15,4 @@ tags:
     https://github.com/tangle5500/tangle5500.github.io.git
     ```
 0. 管理 — 基本设置 — 仓库名称 — 改成 gitee **个人空间地址**
-0. _includes — head.html — 注释 lock
 0. 服务 — Gitee Pages — 启动
