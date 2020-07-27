@@ -28,7 +28,7 @@ header-img: # "img/tag-bg.jpg"
 		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 			
             <!-- 标签云 -->
-			<div id='tag_cloud' class="tags">
+            <div id='tag_cloud' class="tags">
                 {% capture tags %}
                     {% for tag in site.tags %}
                         {{ tag | downcase | replace:' ','-' }}
@@ -43,7 +43,7 @@ header-img: # "img/tag-bg.jpg"
                         {% endif %}
                     {% endfor %}
                 {% endfor %}
-			</div>1
+            </div>
 
             <!--<blockquote class="tag-comments">
                 标签命名规范：
