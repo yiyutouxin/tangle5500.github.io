@@ -8,7 +8,6 @@ keyword: "Tangle,Tangle blog"                                         # 关键�
 url: "https://jiujie.gq/"                                             # 您的主机，绝对 URL
 baseurl: ""                                                           # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: https://github.com/tangle5500/tangle5500.github.io       # 你的代码库
-
 # Sidebar settings
 sidebar: true                                                         # 是否使用补充工具栏
 # sidebar-about-description: "Goals determine what you going to be!"
@@ -34,6 +33,7 @@ permalink: pretty
 paginate: 10
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 anchorjs: true                                                        # if you want to customize anchor. check out line:181 of `post.html`
+future: true                                                          # 未来日期
 
 
 
