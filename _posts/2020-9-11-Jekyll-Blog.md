@@ -12,7 +12,8 @@ tags:
 
 # Jekyll
 
-**官网：**https://www.jekyll.com.cn/
+0. **官网：**https://www.jekyll.com.cn/
+0. **模版：**https://github.com/jekyll/jekyll/wiki/Sites
 
 ## _config.yml
 
