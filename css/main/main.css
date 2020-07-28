@@ -130,14 +130,19 @@ hr {
 /* 目录 */
 .h2_nav {
     text-indent: 0.5em;
+    display: none;
 }.h3_nav {
     text-indent: 1em;
+    display: none;
 }.h4_nav {
     text-indent: 1.5em;
+    display: none;
 }.h5_nav {
     text-indent: 2em;
+    display: none;
 }.h6_nav {
     text-indent: 2.5em;
+    display: none;
 }.side-catalog .catalog-body .active {
     border-radius: 0px!important;
     background-color: rgb(128 128 128 / 0.5)!important;
