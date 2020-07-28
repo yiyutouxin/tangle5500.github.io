@@ -161,3 +161,7 @@ hr {
     display: block;
 }
 
+/* 新目录 */
+.affix {
+    position: absolute;
+}
