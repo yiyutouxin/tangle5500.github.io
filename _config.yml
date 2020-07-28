@@ -50,7 +50,8 @@ gems: [jekyll-paginate]
 # document: http://jekyllrb.com/docs/configuration/                   # kramdown
 markdown: kramdown                                                    # 仅支持 kramdown
 highlighter: rouge           
-kramdown:           
+kramdown:
+    auto_id_prefix: true
     input: GFM                                                        # use Github Flavored Markdown !important
            
            
