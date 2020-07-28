@@ -157,4 +157,7 @@ hr {
     text-decoration: none!important;
 }.sidebar-container h5 a {
     color: #f90!important;
+}.active {
+    display: block;
 }
+
