@@ -170,4 +170,13 @@ hr {
 /* 新目录 */
 .affix {
     position: absolute!important;
+}.sidebar-container h5 {
+    color: #f90!important;
+}nav[data-toggle=toc] .nav>.active:focus>a, nav[data-toggle=toc] .nav>.active:hover>a, nav[data-toggle=toc] .nav>.active>a {
+    color: #f90!important;
+    font-size: 13px!important;
+    font-weight: 700!important;
+}nav[data-toggle=toc] .nav .nav>li>a {
+    font-size: 13px!important;
+    font-weight: 700!important;
 }
