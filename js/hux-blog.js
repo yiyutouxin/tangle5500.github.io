@@ -57,6 +57,11 @@ jQuery(document).ready(function($) {
                     $catalog = $('.side-catalog');
 
                 //check if user is scrolling up by mouse or keyborad
+         
+         
+                /*
+         
+         
                 if (currentTop < this.previousTop) {
                     //if scrolling up...
                     if (currentTop > 0 && $('.navbar-custom').hasClass('is-fixed')) {
@@ -79,6 +84,14 @@ jQuery(document).ready(function($) {
                 } else {
                     $catalog.removeClass('fixed')
                 }
+                
+                
+                
+                */
+                
+                
+                
+                
             });
     }
 });
