@@ -179,4 +179,6 @@ hr {
 }nav[data-toggle=toc] .nav .nav>li>a {
     font-size: 13px!important;
     font-weight: 700!important;
+}nav[data-toggle=toc] .nav>li>a {
+    padding: 0px 1em!important;
 }
