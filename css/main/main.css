@@ -181,4 +181,7 @@ hr {
     font-weight: 700!important;
 }nav[data-toggle=toc] .nav>li>a {
     padding: 0px 1em!important;
+}nav[data-toggle=toc] .nav>.active>ul {
+    margin: 0 2em!important;
+    padding-bottom: 0!important;
 }
