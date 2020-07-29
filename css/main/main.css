@@ -173,6 +173,7 @@ hr {
 }.sidebar-container h5 {
     color: #f90!important;
 }nav[data-toggle=toc] .nav>.active:focus>a, nav[data-toggle=toc] .nav>.active:hover>a, nav[data-toggle=toc] .nav>.active>a {
+    border-right: 0px solid #337ab7!important;
     color: #f90!important;
     font-size: 13px!important;
     font-weight: 700!important;
@@ -186,4 +187,6 @@ hr {
 }nav[data-toggle=toc] .nav>.active>ul {
     margin: 0 2em!important;
     padding-bottom: 0!important;
+}nav[data-toggle=toc] .nav>li>a:focus, nav[data-toggle=toc] .nav>li>a:hover {
+    border-right: 0px solid #337ab7!important;
 }
