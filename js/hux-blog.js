@@ -79,7 +79,8 @@ jQuery(document).ready(function($) {
                 if (currentTop > (bannerHeight + 41)) {
                     $catalog.addClass('fixed')
                 } else {
-                    $catalog.removeClass('fixed')
+//                     $catalog.removeClass('fixed')
+                    $catalog.addClass('fixed')
                 }
             });
     }
