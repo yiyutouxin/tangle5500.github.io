@@ -5,9 +5,21 @@ footer .list-inline {
     display: none;
 }
 
+/* 主页 */
+.post-content-preview {
+    font-style: initial!important;
+}.post-preview>.post-meta {
+    font-style: initial!important;
+}
+
 /* 标题 */
 .h1, .h2, .h3, h1, h2, h3 {
     margin: 10px 0!important;
+}
+
+/* 文章标题 */
+.intro-header .post-heading .meta {
+    font-style: initial!important;
 }
 
 /* 段落 */
