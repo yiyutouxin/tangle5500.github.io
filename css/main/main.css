@@ -163,5 +163,5 @@ hr {
 
 /* 新目录 */
 .affix {
-    position: absolute;
+    position: absolute!important;
 }
