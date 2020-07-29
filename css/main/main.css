@@ -10,6 +10,11 @@ footer .list-inline {
     margin: 10px 0!important;
 }
 
+/* 文章标题 */
+.post_title {
+    font-size: 50px;
+}
+
 /* 段落 */
 p {
     margin: 5px 0!important;
