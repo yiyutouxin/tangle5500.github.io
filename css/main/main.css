@@ -172,6 +172,7 @@ hr {
     position: absolute!important;
 }.sidebar-container h5 {
     color: #f90!important;
+    padding-bottom: 0em!important;
 }nav[data-toggle=toc] .nav>.active:focus>a, nav[data-toggle=toc] .nav>.active:hover>a, nav[data-toggle=toc] .nav>.active>a {
     border-right: 0px solid #337ab7!important;
     color: #f90!important;
