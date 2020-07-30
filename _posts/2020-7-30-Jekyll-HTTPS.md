@@ -10,7 +10,7 @@ tags:
     - Jekyll
 ---
 
-# 域名
+# 设置域名
 
 ```
 # hosts
