@@ -63,7 +63,7 @@ tags:
         ssl_prefer_server_ciphers  on;
         location / {
             # 代理通行证
-            proxy_pass http://localhost:4000;
+            proxy_pass http://127.0.0.1:4000;
         }
     }
     ```
