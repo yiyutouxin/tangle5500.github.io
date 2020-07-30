@@ -56,7 +56,7 @@ tags:
         # 会话缓存
         ssl_session_cache    shared:SSL:1m;
         # 会话超时
-        ssl_session_timeout  5h;
+        ssl_session_timeout  5m;
         # 密码
         ssl_ciphers  HIGH:!aNULL:!MD5;
         # 首选服务器密码
