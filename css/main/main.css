@@ -49,7 +49,7 @@ body {
 
 /* 滚动条 */
 article {
-    overflow-x: visible!important;
+    overflow-x: initial!important;
 }.side-catalog.fixed {
     top: 0px!important;
 }
