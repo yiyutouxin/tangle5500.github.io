@@ -44,7 +44,7 @@ tags:
         listen       80;
         server_name  work.com www.work.com;
         # 重定向
-        return 301 https://xxx.abc.com$request_uri;
+        return 301 https://www.work.com$request_uri;
     }
     
     # HTTPS server
