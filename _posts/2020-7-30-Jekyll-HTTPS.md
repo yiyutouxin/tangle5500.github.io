@@ -52,8 +52,6 @@ tags:
         listen       443 ssl;
         # 域名
         server_name    www.work.com;
-        # 重定向
-        rewrite ^(.*) https://$server_name$1 permanent;
         # 证书
         ssl_certificate      /name.pem;
         # 密钥
