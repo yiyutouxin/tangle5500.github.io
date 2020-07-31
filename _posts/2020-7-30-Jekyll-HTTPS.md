@@ -10,23 +10,22 @@ tags:
     - Jekyll
 ---
 
-# 设置域名
+# 本地域名
 
 ```
 # hosts
-127.0.0.1 work
-127.0.0.1 work.com
-127.0.0.1 www.work.com
+
+0.0.0.0 www.work.com
 ```
 
-浏览器输入 **work:4000**
+浏览器输入 **www.work.com**
 
 # 生成证书
 
 1. 官网：<http://slproweb.com/products/Win32OpenSSL.html>
 1. 下载 **Win64 OpenSSL v1.1.1g Light**
 1. 环境变量添加 **bin** 目录
-1. 生成证书 **Common Name (e.g. server FQDN or YOUR name) []:** 输入域名 **work**
+1. 生成证书 **Common Name (e.g. server FQDN or YOUR name) []:** 输入域名 **www.work.com**
     ```
     openssl genrsa -out name.key 1024                                        # 生成 key 密钥
     openssl req -new -x509 -key name.key -out name.pem -days 365             # 生成 pem 证书
@@ -46,7 +45,7 @@ tags:
     server {
         listen       443 ssl;
         # 域名
-        server_name    work;
+        server_name    www.work.com;
         # 重定向
         rewrite ^(.*) https://$server_name$1 permanent;
         # 证书
@@ -69,3 +68,17 @@ tags:
     ```
 1. cmd
 1. nginx.exe
+
+# 客户端
+
+```
+# hosts
+
+0.0.0.0 www.work.com
+```
+
+浏览器输入 **www.work.com**
+
+
+
+
