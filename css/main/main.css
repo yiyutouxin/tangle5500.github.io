@@ -201,5 +201,5 @@ hr {
 }nav[data-toggle=toc] .nav>li>a:focus, nav[data-toggle=toc] .nav>li>a:hover {
     border-right: 0px solid #337ab7!important;
 }.side-catalog {
-    width: 550px!important;
+    width: 210px!important;
 }
