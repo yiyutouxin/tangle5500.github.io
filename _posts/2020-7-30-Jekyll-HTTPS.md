@@ -29,7 +29,7 @@ tags:
 1. 生成证书 **Common Name (e.g. server FQDN or YOUR name) []:** 输入域名 **work**
     ```
     openssl genrsa -out name.key 1024                                        # 生成 key 密钥
-    openssl req -new -x509 -key name.key -out cert.pem -days 365             # 生成 pem 证书
+    openssl req -new -x509 -key name.key -out name.pem -days 365             # 生成 pem 证书
     openssl req -new -key name.key -out name.csr                             # 生成 ssr 证书
     openssl x509 -req -days 365 -in name.csr -signkey name.key -out name.crt # 生成 crt 证书
     ```
