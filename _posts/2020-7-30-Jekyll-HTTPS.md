@@ -14,7 +14,6 @@ tags:
 
 ```
 # hosts
-
 0.0.0.0 www.work.com
 ```
 
@@ -73,7 +72,6 @@ tags:
 
 ```
 # hosts
-
 0.0.0.0 www.work.com
 ```
 
