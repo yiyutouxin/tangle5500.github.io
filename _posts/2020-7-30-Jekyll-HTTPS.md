@@ -55,7 +55,7 @@ tags:
         # 重定向
         rewrite ^(.*) https://$server_name$1 permanent;
         # 证书
-        ssl_certificate      /name.crt;
+        ssl_certificate      /name.pem;
         # 密钥
         ssl_certificate_key  /name.key;
         # 会话缓存
