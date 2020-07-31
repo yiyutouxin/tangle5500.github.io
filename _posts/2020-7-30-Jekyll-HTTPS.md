@@ -43,6 +43,7 @@ tags:
     server {
         listen       80;
         server_name  work.com www.work.com;
+        # 重定向
         return 301 https://xxx.abc.com$request_uri;
     }
     
