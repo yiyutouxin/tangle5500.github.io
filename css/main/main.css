@@ -22,9 +22,10 @@ footer .list-inline {
     font-style: initial!important;
 }
 
-/* 段落 */
+/* 文本 */
 p {
     margin: 5px 0!important;
+    word-break: break-word!important;
 }
 
 /* 表格 */
