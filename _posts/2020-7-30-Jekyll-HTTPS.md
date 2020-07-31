@@ -39,8 +39,14 @@ tags:
 1. 添加配置
     ```
     # nginx.conf
-
-    #HTTPS server
+    
+    server {
+        listen       80;
+        server_name  work.com www.work.com;
+        return 301 https://xxx.abc.com$request_uri;
+    }
+    
+    # HTTPS server
     server {
         listen       443 ssl;
         # 域名
