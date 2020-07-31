@@ -48,9 +48,12 @@ body {
 }
 
 /* 滚动条 */
-article {
-    overflow-x: initial!important;
-}.side-catalog.fixed {
+/*
+    article {
+        overflow-x: initial!important;
+    }
+*/
+.side-catalog.fixed {
     top: 0px!important;
 }
 
