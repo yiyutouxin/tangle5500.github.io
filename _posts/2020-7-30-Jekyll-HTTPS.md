@@ -73,6 +73,10 @@ tags:
 1. cmd
 1. nginx.exe
 
+## 配置
+
+http://nginx.org/en/docs/http/ngx_http_ssl_module.html#ssl_session_timeout
+
 # 客户端
 
 ```
