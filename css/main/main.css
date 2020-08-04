@@ -49,11 +49,6 @@ body {
 }
 
 /* 滚动条 */
-/*
-    article {
-        overflow-x: initial!important;
-    }
-*/
 .side-catalog.fixed {
     top: 0px!important;
 }
@@ -141,6 +136,8 @@ hr {
     color: #f90!important;
 }#tag_cloud a:hover, #tag_cloud .tag:hover, #tag_cloud a:active, #tag_cloud .tag:active {
     background-color: #404040 !important;
+}a {
+    word-break: break-word!important;
 }
 
 /* 目录 */
