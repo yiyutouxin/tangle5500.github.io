@@ -60,14 +60,14 @@ featured-condition-size: 1 # 相同标签数量大于这个数才会出现在首
 
 ```
 ---
-layout:     post                    # 使用的布局（Username.github.io/_layouts）
+layout:     post                    # 布局
 title:      My First Post           # 标题
-subtitle:   Hello World, Hello Blog # 副标题
+subtitle:   Hello World             # 副标题
 date:       2017-02-06              # 日期
 author:     Tangle                  # 作者
-header-img: img/post-bg-2015.jpg    # 这篇文章标题背景图片
+header-img: img/post-bg-2015.jpg    # 文章标题背景图片
 catalog: true                       # 目录
-mathjax: true                       # mathjax（数学公式）
+mathjax: true                       # 数学公式
 tags:                               # 标签
     - 生活
     - 日常
