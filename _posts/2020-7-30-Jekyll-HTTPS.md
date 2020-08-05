@@ -17,7 +17,7 @@ tags:
 0.0.0.0 www.work.com
 ```
 
-浏览器输入 **www.work.com**
+浏览 **www.work.com**
 
 # 生成证书
 
@@ -88,4 +88,4 @@ tags:
     # hosts
     0.0.0.0 www.work.com
     ```
-0. 浏览器输入 **www.work.com**
+0. 浏览 **www.work.com**
