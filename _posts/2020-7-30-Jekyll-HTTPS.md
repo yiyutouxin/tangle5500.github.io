@@ -80,16 +80,16 @@ https://blog.sspirits.top/archives/nginx-ssl-tls-configuration-optimization
 ## 配置
 
 0. https://www.bookstack.cn/read/nginx-docs/%E6%A8%A1%E5%9D%97%E5%8F%82%E8%80%83-mail-ngx_mail_ssl_module.md
-0. http://nginx.org/en/docs/http/ngx_http_ssl_module.html#ssl_session_timeout
 
 # 客户端
 
-```
-# hosts
-0.0.0.0 www.work.com
-```
-
-浏览器输入 **www.work.com**
+0. 导入 pem 根证书
+0. 本地域名
+    ```
+    # hosts
+    0.0.0.0 www.work.com
+    ```
+0. 浏览器输入 **www.work.com**
 
 
 
