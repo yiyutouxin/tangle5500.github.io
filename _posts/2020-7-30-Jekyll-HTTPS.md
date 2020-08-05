@@ -79,7 +79,7 @@ https://blog.sspirits.top/archives/nginx-ssl-tls-configuration-optimization
 
 ## 配置
 
-0. https://www.bookstack.cn/read/nginx-docs/%E6%A8%A1%E5%9D%97%E5%8F%82%E8%80%83-mail-ngx_mail_ssl_module.md
+https://www.bookstack.cn/read/nginx-docs/%E6%A8%A1%E5%9D%97%E5%8F%82%E8%80%83-mail-ngx_mail_ssl_module.md
 
 # 客户端
 
