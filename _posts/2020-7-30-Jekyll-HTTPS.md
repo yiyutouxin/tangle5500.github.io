@@ -64,7 +64,7 @@ tags:
         ssl_ciphers  HIGH:!aNULL:!MD5;
         # 首选服务器密码
         ssl_prefer_server_ciphers  on;
-        #
+        # 会话复用
         ssl_session_tickets       off;
         location / {
             # 代理通行证
