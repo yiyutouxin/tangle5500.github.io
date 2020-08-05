@@ -41,34 +41,34 @@ tags:
     # nginx.conf
     
     server {
-        listen       80;
-        server_name  work.com www.work.com;
+        listen                    80;
+        server_name               0.0.0.0 work.com www.work.com;
         # 重定向
-        return 301 https://www.work.com$request_uri;
+        return 301                https://www.work.com$request_uri;
     }
     
     # HTTPS server
     server {
-        listen       443 ssl;
+        listen                    443 ssl;
         # 域名
-        server_name    www.work.com;
+        server_name               www.work.com;
         # 证书
-        ssl_certificate      /name.pem;
+        ssl_certificate           /name.pem;
         # 密钥
-        ssl_certificate_key  /name.key;
+        ssl_certificate_key       /name.key;
         # 会话缓存
-        ssl_session_cache    shared:SSL:1m;
+        ssl_session_cache         shared:SSL:1m;
         # 会话超时
-        ssl_session_timeout  5m;
-        # 密码
-        ssl_ciphers  HIGH:!aNULL:!MD5;
-        # 首选服务器密码
-        ssl_prefer_server_ciphers  on;
+        ssl_session_timeout       5m;
         # 会话复用
         ssl_session_tickets       off;
+        # 密码
+        ssl_ciphers               HIGH:!aNULL:!MD5;
+        # 首选服务器密码
+        ssl_prefer_server_ciphers on;
         location / {
             # 代理通行证
-            proxy_pass http://127.0.0.1:4000;
+            proxy_pass            http://127.0.0.1:4000;
         }
     }
     ```
