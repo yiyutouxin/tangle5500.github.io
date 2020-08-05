@@ -21,10 +21,10 @@ tags:
 
 # 生成证书
 
-1. 官网：<http://slproweb.com/products/Win32OpenSSL.html>
-1. 下载 **Win64 OpenSSL v1.1.1g Light**
-1. 环境变量添加 **bin** 目录
-1. 生成证书 **Common Name (e.g. server FQDN or YOUR name) []:** 输入域名 **www.work.com**
+0. 官网：<http://slproweb.com/products/Win32OpenSSL.html>
+0. 下载 **Win64 OpenSSL v1.1.1g Light**
+0. 环境变量添加 **bin** 目录
+0. 生成证书 **Common Name (e.g. server FQDN or YOUR name) []:** 输入域名 **www.work.com**
     ```
     openssl genrsa -out name.key 1024                                        # 生成 key 密钥
     openssl req -new -x509 -key name.key -out name.pem -days 365             # 生成 pem 证书
@@ -34,9 +34,9 @@ tags:
 
 # nginx
 
-1. 官网：<http://nginx.org/en/download.html>
-1. 下载 **nginx/Windows-1.12.2**
-1. 添加配置
+0. 官网：<http://nginx.org/en/download.html>
+0. 下载 **nginx/Windows-1.12.2**
+0. 添加配置
     ```
     # nginx.conf
     
@@ -64,22 +64,21 @@ tags:
         ssl_ciphers  HIGH:!aNULL:!MD5;
         # 首选服务器密码
         ssl_prefer_server_ciphers  on;
+        #
+        ssl_session_tickets       off;
         location / {
             # 代理通行证
             proxy_pass http://127.0.0.1:4000;
         }
     }
     ```
-1. cmd
-1. nginx.exe
+0. cmd
+0. nginx.exe
 
-## 会话复用
+## 参考
 
-https://blog.sspirits.top/archives/nginx-ssl-tls-configuration-optimization
-
-## 配置
-
-https://www.bookstack.cn/read/nginx-docs/%E6%A8%A1%E5%9D%97%E5%8F%82%E8%80%83-mail-ngx_mail_ssl_module.md
+0. 会话复用：https://blog.sspirits.top/archives/nginx-ssl-tls-configuration-optimization
+0. 配置：https://www.bookstack.cn/read/nginx-docs/%E6%A8%A1%E5%9D%97%E5%8F%82%E8%80%83-mail-ngx_mail_ssl_module.md
 
 # 客户端
 
@@ -90,7 +89,3 @@ https://www.bookstack.cn/read/nginx-docs/%E6%A8%A1%E5%9D%97%E5%8F%82%E8%80%83-ma
     0.0.0.0 www.work.com
     ```
 0. 浏览器输入 **www.work.com**
-
-
-
-
