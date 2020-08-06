@@ -77,12 +77,12 @@ tags:
 
 ## 参考
 
-0. 会话复用：https://blog.sspirits.top/archives/nginx-ssl-tls-configuration-optimization
 0. 配置：https://www.bookstack.cn/read/nginx-docs/%E6%A8%A1%E5%9D%97%E5%8F%82%E8%80%83-mail-ngx_mail_ssl_module.md
+0. 会话复用：https://blog.sspirits.top/archives/nginx-ssl-tls-configuration-optimization
 
 # 客户端
 
-0. 导入 pem 根证书
+0. 导入对应的证书
 0. 本地域名
     ```
     # hosts
