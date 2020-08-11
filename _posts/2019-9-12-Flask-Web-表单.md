@@ -89,6 +89,7 @@ class NameForm(Form):
 
 ## 使用 Flask-WTF 和 Flask-Bootstrap 渲染表单
 
+<!-- {% raw %} -->
 ```html
 {%extends "base.html" %}
 {%import "bootstrap/wtf.html" as wtf %}
@@ -100,6 +101,7 @@ class NameForm(Form):
 {{ wtf.quick_form(form) }}
 {%endblock %}
 ```
+<!-- {% endraw %} -->
 
 # 在视图函数中处理表单
 
@@ -133,6 +135,7 @@ def index():
 app.run(debug=True)
 ```
 
+<!-- {% raw %} -->
 ```html
 <!-- base.html -->
 {% extends "bootstrap/base.html" %}
@@ -177,7 +180,9 @@ app.run(debug=True)
 {{ moment.include_moment() }}
 {% endblock %}
 ```
+<!-- {% endraw %} -->
 
+<!-- {% raw %} -->
 ```html
 <!-- index.html -->
 {% extends "base.html" %}
@@ -192,6 +197,7 @@ app.run(debug=True)
 {{ wtf.quick_form(form) }}
 {% endblock %}
 ```
+<!-- {% endraw %} -->
 
 # 重定向和用户会话
 
@@ -224,6 +230,7 @@ def index():
 app.run()
 ```
 
+<!-- {% raw %} -->
 ```html
 <!-- base.html -->
 {% extends "bootstrap/base.html" %}
@@ -268,7 +275,9 @@ app.run()
 {{ moment.include_moment() }}
 {% endblock %}
 ```
+<!-- {% endraw %} -->
 
+<!-- {% raw %} -->
 ```html
 <!-- index.html -->
 {% extends "base.html" %}
@@ -283,6 +292,7 @@ app.run()
 {{ wtf.quick_form(form) }}
 {% endblock %}
 ```
+<!-- {% endraw %} -->
 
 # Flash 消息
 
@@ -317,6 +327,7 @@ def index():
 app.run(debug=True)
 ```
 
+<!-- {% raw %} -->
 ```html
 <!-- base.html -->
 {% extends "bootstrap/base.html" %}
@@ -368,7 +379,9 @@ app.run(debug=True)
 {{ moment.include_moment() }}
 {% endblock %}
 ```
+<!-- {% endraw %} -->
 
+<!-- {% raw %} -->
 ```html
 <!-- index.html -->
 {% extends "base.html" %}
@@ -383,3 +396,4 @@ app.run(debug=True)
 {{ wtf.quick_form(form) }}
 {% endblock %}
 ```
+<!-- {% endraw %} -->

@@ -94,6 +94,7 @@ templates\student.html
 
 emplates\result.html
 
+<!-- {% raw %} -->
 ```html
 <!doctype html>
 <html>
@@ -109,6 +110,7 @@ emplates\result.html
     </body>
 </html>
 ```
+<!-- {% endraw %} -->
 
 # Cookies
 
@@ -223,9 +225,11 @@ if __name__ == '__main__':
 
 test.html
 
+<!-- {% raw %} -->
 ```html
 <h1>My name is {{request.cookies.get('Name')}}</h1>
 ```
+<!-- {% endraw %} -->
 
 ## 删除 cookie
 
@@ -315,6 +319,7 @@ if __name__ == "__main__":
 
 layout.html 
 
+<!-- {% raw %} -->
 ```html
 <!doctype html>
 <title>My Application</title>
@@ -329,9 +334,11 @@ layout.html
 {% endwith %}
 {% block body %}{% endblock %}
 ```
+<!-- {% endraw %} -->
 
 index.html
 
+<!-- {% raw %} -->
 ```html
 {% extends "layout.html" %}
 {% block body %}
@@ -339,9 +346,11 @@ index.html
   <p>Do you want to <a href="{{ url_for('login') }}">log in?</a>
 {% endblock %}
 ```
+<!-- {% endraw %} -->
 
 login.html
 
+<!-- {% raw %} -->
 ```html
 {% extends "layout.html" %}
 {% block body %}
@@ -361,6 +370,7 @@ login.html
     </form>
 {% endblock %}
 ```
+<!-- {% endraw %} -->
 
 ## 分类闪现
 
