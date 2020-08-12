@@ -10,4 +10,9 @@ tags:
 
 # 花括号
 
-<https://github.com/tangle5500/tangle5500.github.io/blob/master/_posts/2019-9-12-Flask-Web-%E8%A1%A8%E5%8D%95.md>
+{% assign openTag = '{' %}
+    {{ openTag }}% raw %}
+    ```
+    {{ openTag }}{ var }}
+    ```
+    {{ openTag }}% endraw %}
