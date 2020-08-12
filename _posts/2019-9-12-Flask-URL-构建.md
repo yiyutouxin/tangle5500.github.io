@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Flask-URL 构建
+title:      Flask URL 构建
 subtitle:   
 date:       2019-9-12
 author:     Tangle
