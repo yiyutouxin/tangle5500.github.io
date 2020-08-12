@@ -10,6 +10,8 @@ tags:
     - Flask
 ---
 
+<!-- {% raw %} -->
+
 ```
 pip install flask-pagedown markdown bleach
 ```
@@ -47,7 +49,6 @@ if __name__ == '__main__':
 	app.run(host='127.0.0.1',port = 5000)
 ```
 
-<!-- {% raw %} -->
 ```html
 <!-- templates\index.html -->
 <html lang="zh-cn">
@@ -64,11 +65,9 @@ if __name__ == '__main__':
     </body>
 </html>
 ```
-<!-- {% endraw %} -->
 
 # 编辑器
 
-<!-- {% raw %} -->
 ```html
 <!-- static/editormd -->
 <!-- templates/index.html -->
@@ -98,7 +97,6 @@ if __name__ == '__main__':
 </body>
 </html>
 ```
-<!-- {% endraw %} -->
 
 ```python
 # main.py
@@ -126,3 +124,5 @@ if __name__ == '__main__':
 	app.debug = True
 	app.run(host='127.0.0.1',port = 5000)
 ```
+
+<!-- {% endraw %} -->
