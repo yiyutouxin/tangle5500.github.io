@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Flask-使用 Markdown 和 Flask-PageDown 支持富文本文章
+title:      Flask 使用 Markdown 和 Flask PageDown 支持富文本文章
 subtitle:   
 date:       2019-9-12
 author:     Tangle
