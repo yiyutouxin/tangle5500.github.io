@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Flask-HTTP 方法
+title:      Flask HTTP 方法
 subtitle:   
 date:       2019-9-12
 author:     Tangle
