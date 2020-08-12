@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Flask-database
+title:      Flask database
 subtitle:   
 date:       2019-9-12
 author:     Tangle
