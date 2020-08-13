@@ -117,3 +117,9 @@ start data.xls
 3. 在 **internet 地址或网络地址**输入 **ftp://IP 地址**
 4. 用户名
 5. 随意名称
+
+# ERROR
+
+## Windows 无法访问此文件夹
+
+计算机 — 管理 — 服务和应用程序 — Internet 信息服务(IIS)管理 — 网站 — 右键**编辑绑定** — IP 地址
