@@ -20,14 +20,14 @@ tags:
 
 # 有序列表
 
-0. test  
-test  
+0. text  
+text  
    ```
-   test
+   text
    ```
-   test
+   text
    ```
-   test
+   text
    ```
-0. test
-0. test
+0. text
+0. text
