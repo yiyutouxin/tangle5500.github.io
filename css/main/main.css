@@ -200,9 +200,3 @@ hr {
 }.side-catalog {
     width: 210px!important;
 }
-
-/* 行内代码 */
-code {
-    color: #f92672!important;
-    background-color: #00000000!important;
-}
