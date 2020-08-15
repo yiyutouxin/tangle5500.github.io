@@ -2,7 +2,7 @@ body {
     background: #23241f;
 }.label {
     color: #fff;
-    font-weight: 0;
+    font-weight: initial;
 }.edgePath .path {
     stroke: #fff;
     stroke-width: 1.5px;
@@ -16,4 +16,6 @@ body {
     fill: #fff;
 }.node .label {
     text-align: center;
+}#mermaidChart1 {
+    max-width: 700px;
 }
