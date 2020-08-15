@@ -12,7 +12,7 @@ tags:
 ---
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script src="https://unpkg.com/mermaid@7.0.0/dist/mermaid.min.js"></script>
 <script>mermaid.initialize({startOnLoad:true});</script>
   
 <div class="mermaid">
