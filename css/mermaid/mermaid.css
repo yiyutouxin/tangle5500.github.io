@@ -16,4 +16,5 @@
     text-align: center;
 }[id^='mermaidChart'] {
     max-width: 700px!important;
+    background: #23241f;
 }
