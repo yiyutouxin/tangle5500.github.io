@@ -1,8 +1,6 @@
-body {
-    background: #23241f;
-}.label {
+.label {
     color: #fff;
-    font-weight: initial;
+    font-weight: initial!important;
 }.edgePath .path {
     stroke: #fff;
     stroke-width: 1.5px;
@@ -17,5 +15,5 @@ body {
 }.node .label {
     text-align: center;
 }#mermaidChart1 {
-    max-width: 700px;
+    max-width: 700px!important;
 }
