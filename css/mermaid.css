@@ -1,0 +1,19 @@
+body {
+    background: #23241f;
+}.label {
+    font-family: trebuchet ms,verdana,arial;
+    color: #fff;
+}.edgePath .path {
+    stroke: #fff;
+    stroke-width: 1.5px;
+}.node>rect {
+    fill: #0000;
+    stroke: #ffffff;
+    stroke-width: 1px;
+}foreignObject {
+    background: #23241f;
+}[id^='arrowhead'] {
+    fill: #fff;
+}.node .label {
+    text-align: center;
+}
