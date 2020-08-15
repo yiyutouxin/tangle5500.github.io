@@ -28,11 +28,11 @@ tags:
 <b style="color:red">百度<b> # 红色粗体
 ```
 
-[RGB颜色参考](https://tool.oschina.net/commons?type=3)
+RGB颜色参考：https://tool.oschina.net/commons?type=3
 
 # ASCII
 
-[ASCII对照表](http://tool.oschina.net/commons?type=4)
+ASCII对照表：http://tool.oschina.net/commons?type=4
 
 ```
 &#37;
@@ -48,15 +48,15 @@ tags:
 
 # 代码高亮
 
-| 名称         | 关键字                      |
-| ------------ | --------------------------- |
-| Shell        | bash \| shell               |
-| C            | cpp \| c                    |
-| C#           | c# \| c-sharp \| csharp     |
-| CSS          | css                         |
-| Java         | java                        |
-| JavaScript   | js \| jscript \| javascript |
-| text         | text \| plain               |
-| Python       | py \| python                |
-| SQL          | sql                         |
-| Visual Basic | vb \| vbnet                 |
+```
+Shell        # bash   shell
+C            # cpp    c
+C#           # c#     c-sharp   csharp
+CSS          # css
+Java         # java
+JavaScript   # js     jscript   javascript
+text         # text   plain
+Python       # py     python
+SQL          # sql
+Visual Basic # vb     vbnet
+```
