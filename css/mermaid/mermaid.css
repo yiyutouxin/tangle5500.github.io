@@ -17,10 +17,3 @@
 }[id^='mermaidChart'] {
     max-width: 700px!important;
 }
-
-
-span.edgeLabel {
-    position: absolute;
-    top: 30%;
-    left: 10%;
-}
