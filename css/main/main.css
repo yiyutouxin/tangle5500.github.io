@@ -200,3 +200,8 @@ hr {
 }.side-catalog {
     width: 210px!important;
 }
+
+/* 图像 */ 
+.post-container img {
+    margin: 5px 0!important;
+}
