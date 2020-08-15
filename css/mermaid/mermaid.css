@@ -14,10 +14,13 @@
     fill: #fff;
 }.node .label {
     text-align: center;
-}#mermaidChart1 {
+}[id^='mermaidChart'] {
     max-width: 700px!important;
-}.edgeLabel {
+}
+
+
+/* .edgeLabel {
     position: absolute;
     top: 30%;
     left: 10%;
-}
+} */
