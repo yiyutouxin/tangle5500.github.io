@@ -18,7 +18,7 @@
     
         <!-- main js -->
         <script src="{{ "/js/main/main.js" | prepend: site.baseurl }}"></script>
-    
+
         <!-- code -->
         <link rel="stylesheet" href="{{ "/css/code/monokai-sublime.css" | prepend: site.baseurl }}">
         <script src="{{ "/js/code/highlight.pack.js" | prepend: site.baseurl }}"></script>
@@ -26,7 +26,8 @@
 
         <!-- mermaid -->
         <script src="https://cdn.bootcss.com/mermaid/7.0.0/mermaid.min.js"></script>
-
+        <link rel="stylesheet" href="{{ "/css/mermaid/mermaid.css" | prepend: site.baseurl }}">
+        
         <!-- LaTex -->    
         {% if page.mathjax %} 
             <script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});</script>
