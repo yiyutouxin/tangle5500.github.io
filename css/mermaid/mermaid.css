@@ -1,8 +1,8 @@
 body {
     background: #23241f;
 }.label {
-    font-family: trebuchet ms,verdana,arial;
     color: #fff;
+    font-weight: 0;
 }.edgePath .path {
     stroke: #fff;
     stroke-width: 1.5px;
