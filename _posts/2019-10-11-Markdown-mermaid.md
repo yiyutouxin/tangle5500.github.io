@@ -12,22 +12,15 @@ tags:
 ---
 
 ```html
-<!-- 引入 -->
-<script src="https://cdn.bootcss.com/mermaid/8.0.0-rc.8/mermaid.min.js"></script>
-
-<!-- 圆边链接 -->
-<script>
-mermaid.initialize ({
-    flowchart: { 
-        curve: 'basis' 
-    }
-});
-</script>
-
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({startOnLoad:true});</script>
+  
 <div class="mermaid">
-    graph TD
-        A-->B
+    graph LR
+        A(text)--text-->B(text)
+        C(text)--text-->B(text)
 </div>
+
 ```
 
 # 流程图
