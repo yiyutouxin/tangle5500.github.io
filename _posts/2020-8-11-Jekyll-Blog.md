@@ -1,10 +1,8 @@
 ---
 layout:     post
 title:      Jekyll Blog
-subtitle:   
 date:       2020-8-11
 author:     Tangle
-header-img: img/post-bg-ios9-web.jpg
 catalog: true
 tags:
     - Jekyll
