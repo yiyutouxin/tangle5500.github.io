@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      GitHub Git 配置
+title:      GitHub Git 初始化
 subtitle:   
 date:       2020-6-26
 author:     Tangle
