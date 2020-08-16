@@ -19,8 +19,11 @@ tags:
 0. git config --list
 0. ssh-keygen -t rsa -C "useremail"
 0. 把 **id_rsa.pub** 中的文本全部复制到 github 上
-0. 在操作中出现 **CredentialHelperSelector** 弹窗选择 **store** 即可
-
+0. 在操作中出现 **CredentialHelperSelector** 弹窗选择 **store**
+    ```
+    git config --global credential.helper store
+    ```
+    
 ## 修改用户
 
 ```
