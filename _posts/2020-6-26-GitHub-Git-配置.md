@@ -28,11 +28,9 @@ tags:
 # C:\Users\Tangle
 .bash_history    # 历史命令
 .gitconfig       # 用户存储
-.git-credentials # 证书
+.git-credentials # 资格证书
 ```
 
 0. **修改用户：**git config --global user.name "username"
 0. **修改邮箱：**git config --global user.email "useremail"
-0. ssh-keygen -t rsa -C "useremail"
-0. 把 **id_rsa.pub** 中的文本全部复制到 github 上
-0. 修改**证书**中的账号密码
+0. 修改**资格证书**中的账号密码
