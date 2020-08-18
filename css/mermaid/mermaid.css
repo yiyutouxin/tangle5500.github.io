@@ -8,8 +8,6 @@
     fill: #0000;
     stroke: #ffffff;
     stroke-width: 1px;
-}foreignObject {
-    background: #23241f;
 }[id^='arrowhead'] {
     fill: #fff;
 }[id^='mermaidChart'] {
@@ -20,5 +18,7 @@
  /*
     .node .label {
         text-align: center;
+    }foreignObject {
+        background: #23241f;
     }
 */
