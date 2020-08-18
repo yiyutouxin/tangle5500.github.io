@@ -12,9 +12,13 @@
     background: #23241f;
 }[id^='arrowhead'] {
     fill: #fff;
-}.node .label {
-    text-align: center;
 }[id^='mermaidChart'] {
     max-width: 700px!important;
     background: #23241f;
 }
+
+ /*
+    .node .label {
+        text-align: center;
+    }
+*/
