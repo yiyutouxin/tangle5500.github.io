@@ -13,12 +13,6 @@
 }[id^='mermaidChart'] {
     max-width: 700px!important;
     background: #23241f;
+}.edgeLabel {
+    background: #23241f;
 }
-
- /*
-    .node .label {
-        text-align: center;
-    }foreignObject {
-        background: #23241f;
-    }
-*/
