@@ -180,9 +180,9 @@ hr {
 }nav[data-toggle=toc] .nav>li>a:focus, nav[data-toggle=toc] .nav>li>a:hover {
     border-right: 0px solid #337ab7!important;
 }.side-catalog {
-    width: 210px!important;
+    width: 260px!important; /* 目录宽度 */
 }.nav > li {
-    white-space: nowrap;
+    white-space: nowrap;    /* 目录不换行 */
 }
 
 /* 图像 */ 
