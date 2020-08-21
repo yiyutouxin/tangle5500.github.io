@@ -180,9 +180,13 @@ hr {
 }nav[data-toggle=toc] .nav>li>a:focus, nav[data-toggle=toc] .nav>li>a:hover {
     border-right: 0px solid #337ab7!important;
 }.side-catalog {
-    width: 260px!important; /* 目录宽度 */
+    width: 260px!important;  /* 目录宽度 */
 }.nav > li {
-    white-space: nowrap;    /* 目录不换行 */
+    white-space: nowrap;     /* 目录不换行 */
+}nav[data-toggle=toc] .nav .nav>li>a {
+    overflow: hidden;        /* 溢出隐藏 */
+    max-width: 180px;
+    text-overflow: ellipsis; /* 省略号 */
 }
 
 /* 图像 */ 
