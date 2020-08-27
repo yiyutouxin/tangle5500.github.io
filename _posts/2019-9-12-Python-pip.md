@@ -30,16 +30,13 @@ tags:
 
 # 镜像源
 
-1、进入 Python 目录 D:\Easy Love\Python 3.6.5\Lib\site-packages\pip\internal\models
-
-2、打开 index.py 文件
-
-3、把 https://pypi.python.org/ 修改为下方链接
-
-```
-https://pypi.douban.com/                # 豆瓣
-https://mirrors.aliyun.com/pypi/simple/ # 阿里云
-```
+0. 进入 Python 目录 D:\Easy Love\Python 3.6.5\Lib\site-packages\pip\internal\models
+0. 打开 index.py 文件
+0. 把 https://pypi.python.org/ 修改为下方链接
+    ```
+    https://pypi.douban.com/                # 豆瓣
+    https://mirrors.aliyun.com/pypi/simple/ # 阿里云
+    ```
 
 # 扩展包作用
 
@@ -74,7 +71,7 @@ pip install -r import.txt
 
 ## 在线下载某一个扩展包
 
-```p
+```
 pip download pywin32 -d ./666
 ```
 
