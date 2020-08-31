@@ -43,11 +43,6 @@ body {
     color: #c6c6c6!important;
 }
 
-/* 标题导航 */
-.side-catalog {
-    width: 300px!importint;
-}
-
 /* 滚动条 */
 .side-catalog.fixed {
     top: 0px!important;
@@ -192,6 +187,8 @@ hr {
     overflow: hidden;        /* 目录不换行 */
     white-space: nowrap;     /* 溢出隐藏 */
     width: 220px;
+}.side-catalog {
+    overflow-x: hidden!important;
 }
 
 /* 图像 */ 
