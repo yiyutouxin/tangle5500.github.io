@@ -187,6 +187,11 @@ hr {
     overflow: hidden;        /* 溢出隐藏 */
     max-width: 180px;
     text-overflow: ellipsis; /* 省略号 */
+}nav[data-toggle=toc] .nav>li>a {
+    text-overflow: ellipsis; /* 省略号 */
+    overflow: hidden;        /* 目录不换行 */
+    white-space: nowrap;     /* 溢出隐藏 */
+    width: 200px;
 }
 
 /* 图像 */ 
