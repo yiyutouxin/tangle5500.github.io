@@ -38,6 +38,12 @@ tags:
     https://mirrors.aliyun.com/pypi/simple/ # 阿里云
     ```
 
+## 临时
+
+```
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple gevent
+```
+
 # 扩展包作用
 
 | 语法                                                         | 作用                 |
