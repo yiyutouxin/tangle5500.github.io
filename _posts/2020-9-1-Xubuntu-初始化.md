@@ -1,0 +1,17 @@
+---
+layout:     post
+title:      Xubuntu 初始化
+date:       2020-9-1
+author:     Tangle
+catalog: true
+tags:
+    - Xubuntu
+---
+
+0. 开始菜单
+0. 搜索**Software & Updates**
+0. Download from — Other... — China — mirrors.aliyun.com — Choose Server — Password — Close — Close
+0. Language Support — Install/Remove Languages... — 勾选**Chinese(simplified)** — Apply
+0. 把**汉语(中国)**拖动到**English**上面
+0. Regional Formats — 选择**汉语(中国)** — Close
+0. 注销
