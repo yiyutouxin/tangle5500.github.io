@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Xubuntu 卸载
+title:      Xubuntu 软件卸载
 date:       2020-9-1
 author:     Tangle
 catalog: true
