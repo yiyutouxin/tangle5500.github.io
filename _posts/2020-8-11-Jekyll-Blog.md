@@ -86,18 +86,13 @@ http://www.freenom.com/zh/index.html
 
 https://www.dnspod.cn
 
-1、添加域名
-
-2、进入 Freenom — servrces — My Domains — Manage Domain — Management Tools — Nameservers
-
-3、把 dnspod 两个记录值添加进去
-
-4、然后在 dnspod 中添加 3个纪录
-
-| 主机纪录 | 纪录类型 | 线路类型 | 记录值                  | TTL  |
-| -------- | -------- | -------- | ----------------------- | ---- |
-| *        | A        | 默认     | ping username.github.io | 600  |
-| @        | A        | 默认     | ping username.github.io | 600  |
-| www      | CNAME    |          | username.github.io      | 600  |
-
-5、把注册好的域名添加到 github 的 CNAME文件中
+0. 添加域名
+0. 进入 Freenom — servrces — My Domains — Manage Domain — Management Tools — Nameservers
+0. 把 dnspod 两个记录值添加进去
+0. 然后在 dnspod 中添加 3个纪录
+    | 主机纪录 | 纪录类型 | 线路类型 | 记录值                  | TTL  |
+    | -------- | -------- | -------- | ----------------------- | ---- |
+    | *        | A        | 默认     | ping username.github.io | 600  |
+    | @        | A        | 默认     | ping username.github.io | 600  |
+    | www      | CNAME    |          | username.github.io      | 600  |
+0. 把注册好的域名添加到 github 的 CNAME文件中
