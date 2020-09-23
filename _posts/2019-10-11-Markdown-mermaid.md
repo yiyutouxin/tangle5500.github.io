@@ -1,12 +1,9 @@
 ---
 layout:     post
 title:      Markdown mermaid
-subtitle:   
 date:       2019-10-11
 author:     Tangle
-header-img: img/post-bg-ios9-web.jpg
 catalog: true
-mathjax: false
 tags:
     - Markdown
 ---
