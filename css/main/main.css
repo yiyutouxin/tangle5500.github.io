@@ -36,11 +36,16 @@ p {
 }.table-responsive {
     margin-bottom: 0px!important;
     border: 0px solid #ddd!important;
+}code {
+    font-size: 100%!important;
+}table {
+    font-size: 90%!important;
 }
 
 /* 文本 */
 body {
     color: #c6c6c6!important;
+    font-family: Menlo,Monaco,Consolas,"Courier New",monospace!important;
 }
 
 /* 滚动条 */
