@@ -29,4 +29,12 @@ tags:
 
 # mysql 安装
 
-<http://c.biancheng.net/view/2391.html>
+0. <http://c.biancheng.net/view/2391.html>
+0. <https://dev.mysql.com/downloads/mysql/>
+0. 点击**Looking for previous GA versions?**
+    ```
+    5.7.32               # Select Version:
+    Microsoft Windows    # Select Operating System:
+    Windows (x86,64-bit) # Select OS Version:
+    ZIP Archive          # Other Downloads:
+    ```
