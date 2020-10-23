@@ -29,13 +29,4 @@ tags:
 
 # mysql 安装
 
-## x64
-
-0. 打开 <https://dev.mysql.com/downloads/mysql/>
-0. **选择操作系统：**微软Windows
-0. Windows（x86，64位），ZIP存档
-0. 下载
-
-## x86
-
-点击**寻找先前的GA版本吗？**
+<http://c.biancheng.net/view/2391.html>
