@@ -70,14 +70,13 @@ tags:
     net stop mysql                            # 关闭服务
     ```
 0. 初始化后会在目录下生成 data 文件夹
-0. 设置登陆密码
+0. 设置登陆密码默认为无密码
     ```
-    mysqladmin -u root -p password
     ```
 0. 登陆测试
     ```
-    mysql -u root -p
-    show databases; # 查看所有数据库
+    mysql -u root -p # 登陆
+    show databases;  # 查看所有数据库
     ```
 
 ## ERROR
