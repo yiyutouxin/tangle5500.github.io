@@ -62,6 +62,7 @@ tags:
     ```
 0. 安装服务
     ```
+    cd /d C:\mysql-5.7.32-winx64\bin          # 必须切换到 bin 目录安装服务
     mysqld -remove                            # 删除服务
     mysqld -install                           # 安装服务
     mysqld --initialize-insecure --user=mysql # 初始化
