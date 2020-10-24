@@ -75,9 +75,8 @@ tags:
     ```
 0. 登陆后测试
     ```
-    show databases:
+    show databases; # 查看所有数据库
     ```
-
 
 ## ERROR
 
