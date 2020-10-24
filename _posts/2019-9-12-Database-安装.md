@@ -85,3 +85,7 @@ tags:
 0. 下载
 0. `vcredist_x64.exe`
 0. Next
+
+# navicat
+
+<https://tangle.lanzoui.com/i0KYXhp466d>
