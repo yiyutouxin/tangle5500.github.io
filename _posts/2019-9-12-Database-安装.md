@@ -38,6 +38,45 @@ tags:
     Windows (x86,64-bit) # Select OS Version:
     ZIP Archive          # Other Downloads:
     ```
+## 配置
+
+0. 将 bin 添加到环境变量
+0. 在根目录创建配置文件 `my.ini`
+    ```
+    [mysql]
+    # 设置mysql客户端默认字符集
+    default-character-set=utf8
+    [mysqld]
+    # 设置3306端口
+    port=3306
+    # 设置mysql的安装目录
+    basedir=D:\mysql-5.7.20-winx64
+    # 设置mysql数据库的数据的存放目录
+    datadir=D:\mysq1-5.7.20-winx64\data
+    # 允许最大连接数
+    max_connections=200
+    # 服务端使用的字符集默认为8比特编码的latin1字符集
+    character-set-server=utf8
+    # 创建新表时将使用的默认存储引擎
+    default-storage-engine=INNODB
+    ```
+0. 安装服务
+    ```
+    mysql -remove
+    mysql -install
+    mysql --initialize-insecure --user=mysql
+    ```
+0. 执行 `mysql --initialize-insecure --user=mysql` 命令后会在目录下生成 data 文件夹
+0. 启动服务并使用用户 root 登陆同时设置登陆密码
+    ```
+    net start mysql
+    mysqladmin -u root -p password
+    ```
+0. 登陆后测试
+    ```
+    show databases:
+    ```
+
 
 ## ERROR
 
