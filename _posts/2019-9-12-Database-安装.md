@@ -74,8 +74,9 @@ tags:
     ```
     mysqladmin -u root -p password
     ```
-0. 登陆后测试
+0. 登陆测试
     ```
+    mysql -u root -p
     show databases; # 查看所有数据库
     ```
 
