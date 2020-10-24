@@ -64,9 +64,9 @@ tags:
     ```
     mysqld -remove                            # 删除服务
     mysqld -install                           # 安装服务
-    mysqld --initialize-insecure --user=mysql
+    mysqld --initialize-insecure --user=mysql # 初始化
     ```
-0. 执行 `mysql --initialize-insecure --user=mysql` 命令后会在目录下生成 data 文件夹
+0. 初始化后会在目录下生成 data 文件夹
 0. 启动服务并使用用户 root 登陆同时设置登陆密码
     ```
     net start mysql
