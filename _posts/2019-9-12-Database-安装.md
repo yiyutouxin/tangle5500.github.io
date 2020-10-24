@@ -86,6 +86,6 @@ tags:
 0. `vcredist_x64.exe`
 0. Next
 
-# navicat
+# 可视化
 
-<https://tangle.lanzoui.com/i0KYXhp466d>
+**navicat：**<https://tangle.lanzoui.com/i0KYXhp466d>
