@@ -38,6 +38,7 @@ tags:
     Windows (x86,64-bit) # Select OS Version:
     ZIP Archive          # Other Downloads:
     ```
+    
 ## 配置
 
 0. 将 bin 添加到环境变量
