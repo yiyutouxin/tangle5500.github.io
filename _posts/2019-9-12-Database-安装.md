@@ -52,7 +52,7 @@ tags:
     net stop mysql                            # 关闭服务
     ```
 0. 初始化后会在目录下生成 data 文件夹
-0. 在根目录创建配置文件 `my.ini`
+0. 在根目录创建配置文件 `my.ini` 使用 ANSI 编码
     ```
     [mysql]
     # 设置mysql客户端默认字符集
