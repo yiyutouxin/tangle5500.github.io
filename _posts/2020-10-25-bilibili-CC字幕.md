@@ -5,7 +5,7 @@ date:    2020-10-25
 author:  Tangle
 catalog: true
 tags:
-    - B站
+    - bilibili
 ---
 
 # 工具
