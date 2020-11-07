@@ -5,7 +5,7 @@ date:       2019-12-9
 author:     Tangle
 catalog: true
 tags:
-    - B站
+    - bilibili
 ---
 
 ```
