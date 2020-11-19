@@ -1,8 +1,8 @@
 ---
-layout:     post
-title:      Markdown mermaid
-date:       2019-10-11
-author:     Tangle
+layout:  post
+title:   Markdown mermaid
+date:    2019-10-11
+author:  Tangle
 catalog: true
 tags:
     - Markdown
