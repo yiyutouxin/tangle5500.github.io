@@ -21,3 +21,8 @@ tags:
 USBDeview.exe / stop_by_drive g：
 USBDeview.exe / stop_by_drive / showmsg f：
 ```
+
+# 转换为其他语言
+
+0. <http://www.nirsoft.net/utils/usb_devices_view.html>
+0. End
