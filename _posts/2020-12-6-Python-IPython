@@ -7,3 +7,10 @@ catalog: true
 tags:
     - Python
 ---
+
+# 帮助
+
+```
+dir(str)
+help(str.find)
+```
