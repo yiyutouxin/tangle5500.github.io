@@ -8,6 +8,27 @@ tags:
     - Python
 ---
 
+# 安装
+
+## Windows
+
+```
+pip install ipython
+```
+
+## Ubunut
+
+0. 下载 <https://github.com/ipython/ipython/tree/7.19.0>
+0. 拷贝文件
+    ```
+    /home/install/ipython
+    ```
+0. 执行命令
+    ```
+    cd /home/install/ipython
+    sudo python3 setup.py install
+    ```
+
 # 常用
 
 ```
