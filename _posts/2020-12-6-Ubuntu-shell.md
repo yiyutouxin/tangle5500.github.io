@@ -276,7 +276,7 @@ tags:
     alias l='ls'
     alias grep='grep --color=auto'
     alias la='ls -a'
-    alias vim='sudo vim'
+    #alias vim='sudo vim'
     alias server='telnet 172.16.99.31 -l fengchunwang -E'
 
     #[Esc][h] man 当前命令时，显示简短说明
