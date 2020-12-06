@@ -19,7 +19,10 @@ tags:
 0. 用户名不能有大写
 0. 映射驱动器
     ```
-    \\wsl$\Ubuntu\home
+    cd /home
+    explorer.exe .
+
+    \\wsl$\Ubuntu\home # 映色驱动器文件夹
     ```
 
 ## 更换源
