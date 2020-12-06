@@ -22,6 +22,7 @@ tags:
     ```
 0. 切换
     ```
-    cat /etc/shells  # 查看 shell
-    chsh -s /bin/zsh # 切换 shell
+    cat /etc/shells      # 查看 shell
+    chsh -s /bin/zsh     # 切换 shell
+    chsh -s $(which zsh) # 切换 shell
     ```
