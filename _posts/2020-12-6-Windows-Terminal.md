@@ -16,9 +16,33 @@ tags:
 0. Microsoft Store
 0. 安装 `Windows Terminal`
 0. 安装 `Ubuntu`
-0. 
+0. 用户名不能有大写
+0. 映射驱动器
+    ```
+    \\wsl$\Ubuntu\home
+    ```
 
+## 更换源
 
+```
+cd /etc/apt
+sudo cp sources.list _sources.list
+sudo vim sources.list
+```
+
+```
+# 替换
+deb https://mirrors.ustc.edu.cn/ubuntu/ bionic main restricted universe multiverse
+deb https://mirrors.ustc.edu.cn/ubuntu/ bionic-updates main restricted universe multiverse
+deb https://mirrors.ustc.edu.cn/ubuntu/ bionic-backports main restricted universe multiverse
+deb https://mirrors.ustc.edu.cn/ubuntu/ bionic-security main restricted universe multiverse
+deb https://mirrors.ustc.edu.cn/ubuntu/ bionic-proposed main restricted universe multiverse
+deb-src https://mirrors.ustc.edu.cn/ubuntu/ bionic main restricted universe multiverse
+deb-src https://mirrors.ustc.edu.cn/ubuntu/ bionic-updates main restricted universe multiverse
+deb-src https://mirrors.ustc.edu.cn/ubuntu/ bionic-backports main restricted universe multiverse
+deb-src https://mirrors.ustc.edu.cn/ubuntu/ bionic-security main restricted universe multiverse
+deb-src https://mirrors.ustc.edu.cn/ubuntu/ bionic-proposed main restricted universe multiverse
+```
 
 # 默认
 
