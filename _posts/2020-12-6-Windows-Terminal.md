@@ -10,6 +10,16 @@ tags:
 
 <https://github.com/microsoft/terminal>
 
+# 安装
+
+0. 控制面板 — 程序和功能 — 启用或关闭 Windows 功能 — 勾选**适用于 Linux 的 Windows 子系统**
+0. Microsoft Store
+0. 安装 `Windows Terminal`
+0. 安装 `Ubuntu`
+0. 
+
+
+
 # 默认
 
 ```
