@@ -57,6 +57,5 @@ deb-src https://mirrors.ustc.edu.cn/ubuntu/ bionic-proposed main restricted univ
 # 关机
 
 ```
-net start LxssManager
-net stop LxssManager
+exit
 ```
