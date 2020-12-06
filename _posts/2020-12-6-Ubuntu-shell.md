@@ -16,9 +16,9 @@ tags:
     ```
 0. 浏览 <https://github.com/ohmyzsh/ohmyzsh>
     ```
-    git clone https://github.com/ohmyzsh/ohmyzsh.git # 克隆配置文件
-    cp ohmyzsh/templates/zshrc.zsh-template ~/.zshrc # 拷贝到用户目录
-    source ~/.zshrc                                  # 声明配置文件来源
+    git clone https://github.com/ohmyzsh/ohmyzsh.git ~/.oh-my-zsh # 克隆配置文件
+    cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc         # 拷贝到用户目录
+    source $ZSH/oh-my-zsh.sh                                      # 声明在文件中
     ```
 0. 切换
     ```
