@@ -8,6 +8,8 @@ tags:
     - Ubuntu
 ---
 
+<!-- {% raw %} -->
+
 # zsh
 
 0. 浏览 <https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH>
@@ -387,3 +389,5 @@ tags:
     chsh -s /bin/zsh     # 切换 shell
     chsh -s $(which zsh) # 切换 shell
     ```
+
+<!-- {% endraw %} -->
