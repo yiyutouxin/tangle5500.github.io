@@ -381,13 +381,14 @@ tags:
     ```
 0. 执行命令
     ```
-    sudo vim ~/.zshrc    # 拷贝
-    :set ff=unix         # 使用 unix 换行符
-    :w                   # 保存文件
-    source ~/.zshrc      # 来源
-    cat /etc/shells      # 查看 shell
-    chsh -s /bin/zsh     # 切换 shell
-    chsh -s $(which zsh) # 切换 shell
+    sudo vim ~/.zshrc                    # 拷贝
+    :set ff=unix                         # 使用 unix 换行符
+    :w                                   # 保存文件
+    source ~/.zshrc                      # 来源
+    cat /etc/shells                      # 查看 shell
+    chsh -s /bin/zsh                     # 切换 shell
+    chsh -s $(which zsh)                 # 切换 shell
+    mv ~/.zsh_history ~/.zsh_history_233 # 备份文件
     ```
 
 <!-- {% endraw %} -->
