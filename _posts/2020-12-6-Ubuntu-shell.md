@@ -383,6 +383,7 @@ tags:
     ```
     sudo vim ~/.zshrc                    # 拷贝配置
     :set ff=unix                         # 使用 unix 换行符
+    :set nobomb                          # 以 UTF-8 无 BOM 格式编码
     source ~/.zshrc                      # 来源
     cat /etc/shells                      # 查看 shell
     chsh -s /bin/zsh                     # 切换 shell
