@@ -381,9 +381,8 @@ tags:
     ```
 0. 执行命令
     ```
-    sudo vim ~/.zshrc                    # 拷贝
+    sudo vim ~/.zshrc                    # 拷贝配置
     :set ff=unix                         # 使用 unix 换行符
-    :w                                   # 保存文件
     source ~/.zshrc                      # 来源
     cat /etc/shells                      # 查看 shell
     chsh -s /bin/zsh                     # 切换 shell
