@@ -31,7 +31,7 @@ tags:
 
 ## 使用别人的配置
 
-0. 拷贝下方代码到用户目录的 `~/.zshrc` 文件中
+0. 拷贝下方代码到 `~/.zshrc` 文件中
     ```
     #color{{{
     autoload colors
