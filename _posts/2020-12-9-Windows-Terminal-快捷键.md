@@ -18,6 +18,6 @@ shift + alt + =      # 拆分新垂直窗格
 shift + alt + -      # 拆分新水平窗格
 alt + 箭头键         # 切换窗格
 shift + alt + 箭头键 # 窗格尺寸
-ctrl + shift + w     # 关闭当前控制台
 alt + shift + d      # 复制窗格
+ctrl + shift + w     # 关闭当前控制台
 ```
