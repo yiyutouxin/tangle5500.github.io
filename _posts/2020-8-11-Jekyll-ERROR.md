@@ -1,8 +1,8 @@
 ---
-layout:     post
-title:      Jekyll ERROR
-date:       2020-8-11
-author:     Tangle
+layout:  post
+title:   Jekyll ERROR
+date:    2020-8-11
+author:  Tangle
 catalog: true
 tags:
     - Jekyll
