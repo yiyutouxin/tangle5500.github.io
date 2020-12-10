@@ -27,3 +27,9 @@ shift + alt + 箭头键 # 窗格尺寸
 alt + shift + d      # 复制窗格
 ctrl + shift + w     # 关闭当前窗格
 ```
+
+# 打开下拉菜单
+
+```
+ctrl + shift + space # 下拉菜单
+```
