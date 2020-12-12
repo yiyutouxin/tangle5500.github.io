@@ -33,6 +33,3 @@ K            # 显示文档
     ```
     vim +PluginInstall +qall
     ```
-
-## Windows
-
