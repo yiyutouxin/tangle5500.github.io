@@ -8,7 +8,9 @@ tags:
     - Vim
 ---
 
-# Ubuntu
+# 插件管理器（vim-plug）
+
+## Ubuntu
 
 0. Windows 7 git
     ```
@@ -28,5 +30,6 @@ tags:
     call plug#end()
     ```
     
-# Windows
+## Windows
 
+# 自动补全（coc.nvim）
