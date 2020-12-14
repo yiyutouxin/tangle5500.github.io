@@ -33,3 +33,11 @@ tags:
 ## Windows
 
 # 自动补全（coc.nvim）
+
+```
+:CocInstall [插件名]   # 安装插件
+:CocUninstall [插件名] # 卸载插件
+:help coc-nvim         # 帮助
+:CocConfig             # 语言服务器配置
+:CocInstall coc-python # python 补全
+```
