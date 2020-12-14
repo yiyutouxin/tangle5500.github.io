@@ -7,3 +7,26 @@ catalog: true
 tags:
     - Vim
 ---
+
+# Ubuntu
+
+0. Windows 7 git
+    ```
+    curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+    ```
+0. 安装
+    ```
+    $HOME/vimfiles/autoload/plug.vim
+    ```
+0. `.vimrc`
+    ```
+    call plug#begin('~/.vim/bunble')
+
+    Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+    call plug#end()
+    ```
+    
+# Windows
+
