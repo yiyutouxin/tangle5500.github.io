@@ -1,6 +1,6 @@
 ---
 layout:  post
-title:   Vim 插件管理器
+title:   Vim 插件管理器（Vundle）
 date:    2019-10-13
 author:  Tangle
 catalog: true
