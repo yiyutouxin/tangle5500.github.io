@@ -20,5 +20,6 @@ tags:
 0. 下载 `64-bit Git for Windows Portable.`
 0. 环境变量
     ```
+    Git
     Git\bin
     ```
