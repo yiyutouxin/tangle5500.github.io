@@ -63,7 +63,7 @@ tags:
 0. `_vimrc`
     ```
     " 插件管理器（vim-plug）
-        call plug#begin('$vim\vimfiles\bundle')
+        call plug#begin('$HOME\vimfiles\bundle')
         Plug 'neoclide/coc.nvim', {'branch': 'release'}
         call plug#end()
     ```
