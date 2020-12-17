@@ -69,7 +69,7 @@ tags:
     " 插件管理器
         filetype off
 
-        set rtp+=$HOME\vimfiles\bundle\Vundle.vim
+        set rtp+=$VIM\vimfiles\bundle\Vundle.vim
         call vundle#begin('$HOME\vimfiles\bundle') " 插件放在 begin 下方
 
         Plugin 'VundleVim/Vundle.vim'             " 插件管理器自身
