@@ -58,12 +58,12 @@ tags:
     ```
 0. 安装
     ```
-    $HOME/vimfiles/autoload/plug.vim
+    $VIM/vimfiles/autoload/plug.vim
     ```
 0. `_vimrc`
     ```
     " 插件管理器（vim-plug）
-        call plug#begin('$HOME\vimfiles\bundle')
+        call plug#begin('$VIM\vimfiles\bundle')
         Plug 'neoclide/coc.nvim', {'branch': 'release'}
         call plug#end()
     ```
