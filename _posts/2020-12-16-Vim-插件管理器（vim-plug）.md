@@ -33,7 +33,6 @@ tags:
         call plug#begin('~/.vim/bundle')
         Plug 'VundleVim/Vundle.vim'                           " 插件管理器自身
         Plug 'https://github.com/preservim/nerdcommenter.git' " 代码注释
-        Plug 'davidhalter/jedi-vim'                           " Python 帮助
         Plug 'https://github.com/sickill/vim-monokai.git'     " 代码高亮
         Plug 'https://github.com/rkulla/pydiction.git'        " 代码补全
         Plug 'preservim/nerdtree'                             " 目录结构
