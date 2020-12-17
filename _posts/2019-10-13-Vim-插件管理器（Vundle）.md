@@ -106,7 +106,7 @@ sudo chmod -R 777 ~
 
 0. 安装
     ```
-    gvim_8.2.1724_x86\vimfiles\bundle
+    $VIM\vimfiles\bundle
     git clone https://github.com/preservim/nerdcommenter.git
     copy nerdcommenter\plugin ..\plugin
     ```
@@ -175,7 +175,7 @@ Plugin 'davidhalter/jedi-vim' # Vundle 安装
 
 ## Windows
 
-0. 打开目录 `gvim_8.2.1724_x86\vimfiles\bundle`
+0. 打开目录 `$VIM\vimfiles\bundle`
 0. 安装
     ```
     git clone https://github.com/sickill/vim-monokai.git
