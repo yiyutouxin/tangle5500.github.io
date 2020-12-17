@@ -39,7 +39,6 @@ tags:
 
     Plugin 'VundleVim/Vundle.vim'                           " 插件管理器自身
     Plugin 'https://github.com/preservim/nerdcommenter.git' " 代码注释
-    Plugin 'davidhalter/jedi-vim'                           " Python 帮助
     Plugin 'https://github.com/sickill/vim-monokai.git'     " 代码高亮
     Plugin 'https://github.com/rkulla/pydiction.git'        " 代码补全
     Plugin 'preservim/nerdtree'                             " 目录结构
