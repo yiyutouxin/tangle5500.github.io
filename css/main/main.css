@@ -203,3 +203,26 @@ hr {
 .post-container img {
     margin: 5px 0!important;
 }
+
+/* 复制到剪切板 */
+.cnblogs-markdown pre {
+  position: relative;
+}
+.cnblogs-markdown pre > span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 2px;
+  padding: 0 10px;
+  font-size: 12px;
+  background: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  cursor: pointer;
+  display:none;
+}
+.cnblogs-markdown pre:hover > span {
+  display:block;
+}
+.cnblogs-markdown pre > .copyed {
+  background: #67c23a;
+}
