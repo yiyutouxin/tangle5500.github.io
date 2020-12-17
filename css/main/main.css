@@ -205,10 +205,10 @@ hr {
 }
 
 /* 复制到剪切板 */
-.cnblogs-markdown pre {
+pre {
   position: relative;
 }
-.cnblogs-markdown pre > span {
+pre > span {
   position: absolute;
   top: 0;
   right: 0;
@@ -220,9 +220,9 @@ hr {
   cursor: pointer;
   display:none;
 }
-.cnblogs-markdown pre:hover > span {
+pre:hover > span {
   display:block;
 }
-.cnblogs-markdown pre > .copyed {
+pre > .copyed {
   background: #67c23a;
 }
