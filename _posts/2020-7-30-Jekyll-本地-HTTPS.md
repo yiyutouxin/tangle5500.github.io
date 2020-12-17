@@ -1,11 +1,9 @@
 ---
-layout:     post
-title:      Jekyll HTTPS
-subtitle:   
-date:       2020-7-30
-author:     Tangle
+layout:  post
+title:   Jekyll 本地 HTTPS
+date:    2020-7-30
+author:  Tangle
 catalog: true
-mathjax: false
 tags:
     - Jekyll
 ---
