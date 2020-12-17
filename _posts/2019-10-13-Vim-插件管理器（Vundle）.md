@@ -59,7 +59,7 @@ tags:
 0. 浏览 <https://curl.se/download.html>
 0. 下载 `Windows 64 bit` — `the curl project`
 0. 环境变量 bin
-0. 打开目录 `gvim_8.2.1724_x86\vimfiles\bundle`
+0. 打开目录 `$VIM\vimfiles\bundle`
 0. 安装Vundle
     ```
     git clone https://github.com/VundleVim/Vundle.vim.git
@@ -70,7 +70,7 @@ tags:
         filetype off
 
         set rtp+=$VIM\vimfiles\bundle\Vundle.vim
-        call vundle#begin('$HOME\vimfiles\bundle') " 插件放在 begin 下方
+        call vundle#begin('$VIM\vimfiles\bundle') " 插件放在 begin 下方
 
         Plugin 'VundleVim/Vundle.vim'             " 插件管理器自身
 
