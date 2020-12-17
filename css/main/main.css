@@ -196,33 +196,34 @@ hr {
 
 /* 复制到剪切板 */
 pre {
-  position: relative;
-}
-pre > span {
-  position: absolute;
-  top: 0;
-  right: 0;
-  border-radius: 2px;
-  padding: 0 10px;
-  font-size: 12px;
-  background: rgba(0, 0, 0, 0.4);
-  color: #fff;
-  cursor: pointer;
-  display:none;
-}
-pre:hover > span {
-  display:block;
-}
-pre > .copyed {
-  background: #67c23a;
-}
-
-/* 代码块 */
-pre {
+    position: relative;
+    /* 代码块 */
     margin: 5px 0 5px!important;
     padding: 0px!important;
     border-radius: 0px!important;
     border: 0.5px solid #eee!important;
-}.hljs-emphasis {
+    /* 代码块 */
+}
+pre > span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 2px;
+    padding: 0 10px;
+    font-size: 12px;
+    background: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    cursor: pointer;
+    display:none;
+}
+pre:hover > span {
+    display:block;
+}
+pre > .copyed {
+    background: #67c23a;
+}
+
+/* 代码块 */
+.hljs-emphasis {
     font-style: initial!important;
 }
