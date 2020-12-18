@@ -206,7 +206,7 @@ pre {
 }
 
 /* 复制到剪切板 */
-pre {
+pre.highlight {
     position: relative;
 }
 pre.highlight > span {
