@@ -12,44 +12,44 @@ tags:
 
 0. 手册 <https://github.com/VundleVim/Vundle.vim/blob/master/doc/vundle.txt>
 0. 命令
-    ```
-    :PluginList              # 插件列表
-    :PluginInstall           # 安装插件
-    vim +PluginInstall +qall # 命令行安装插件
-    :PluginUpdate            # 更新插件
-    :PluginSearch foo        # 搜索插件
-    :PluginClean             # 移除插件
-    :h vundle                # 帮助
-    ```
+```
+:PluginList              # 插件列表
+:PluginInstall           # 安装插件
+vim +PluginInstall +qall # 命令行安装插件
+:PluginUpdate            # 更新插件
+:PluginSearch foo        # 搜索插件
+:PluginClean             # 移除插件
+:h vundle                # 帮助
+```
 
 ## Ubuntu
 
 0. <https://github.com/VundleVim/Vundle.vim>
 0. 安装
-    ```
-    git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-    ```
+```
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+```
 0. `.vimrc`
-    ```
-    " 插件管理器
-    set nocompatible
-    filetype off
-    set rtp+=~/.vim/bundle/Vundle.vim
-    call vundle#begin('~/.vim/bundle') " 插件放在 begin 下方
+```
+" 插件管理器
+set nocompatible
+filetype off
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin('~/.vim/bundle') " 插件放在 begin 下方
 
-    Plugin 'VundleVim/Vundle.vim'                           " 插件管理器自身
-    Plugin 'https://github.com/preservim/nerdcommenter.git' " 代码注释
-    Plugin 'https://github.com/sickill/vim-monokai.git'     " 代码高亮
-    Plugin 'https://github.com/rkulla/pydiction.git'        " 代码补全
-    Plugin 'preservim/nerdtree'                             " 目录结构
-    Plugin 'https://github.com/vim-scripts/VisIncr.git'     " 序列
-    Plugin 'jiangmiao/auto-pairs'                           " 自动配对
-    Plugin 'Lokaltog/vim-powerline'                         " 状态线
-    Plugin 'https://github.com/Yggdroot/indentLine.git'     " 缩进线
+Plugin 'VundleVim/Vundle.vim'                           " 插件管理器自身
+Plugin 'https://github.com/preservim/nerdcommenter.git' " 代码注释
+Plugin 'https://github.com/sickill/vim-monokai.git'     " 代码高亮
+Plugin 'https://github.com/rkulla/pydiction.git'        " 代码补全
+Plugin 'preservim/nerdtree'                             " 目录结构
+Plugin 'https://github.com/vim-scripts/VisIncr.git'     " 序列
+Plugin 'jiangmiao/auto-pairs'                           " 自动配对
+Plugin 'Lokaltog/vim-powerline'                         " 状态线
+Plugin 'https://github.com/Yggdroot/indentLine.git'     " 缩进线
 
-    call vundle#end()                  " 插件放在 end 上方
-    filetype plugin indent on          " 打开文件类型插件缩进
-    ```
+call vundle#end()                  " 插件放在 end 上方
+filetype plugin indent on          " 打开文件类型插件缩进
+```
 
 ## Windows
 
@@ -60,22 +60,22 @@ tags:
 0. 环境变量 bin
 0. 打开目录 `$VIM\vimfiles\bundle`
 0. 安装Vundle
-    ```
-    git clone https://github.com/VundleVim/Vundle.vim.git
-    ```
+```
+git clone https://github.com/VundleVim/Vundle.vim.git
+```
 0. `_vimrc`
-    ```
-    " 插件管理器
-        filetype off
+```
+" 插件管理器
+    filetype off
 
-        set rtp+=$VIM\vimfiles\bundle\Vundle.vim
-        call vundle#begin('$VIM\vimfiles\bundle') " 插件放在 begin 下方
+    set rtp+=$VIM\vimfiles\bundle\Vundle.vim
+    call vundle#begin('$VIM\vimfiles\bundle') " 插件放在 begin 下方
 
-        Plugin 'VundleVim/Vundle.vim'             " 插件管理器自身
+    Plugin 'VundleVim/Vundle.vim'             " 插件管理器自身
 
-        call vundle#end()                         " 插件放在 end 上方
-        filetype plugin indent on                 " 打开文件类型插件缩进
-    ```
+    call vundle#end()                         " 插件放在 end 上方
+    filetype plugin indent on                 " 打开文件类型插件缩进
+```
 
 ## WSH Ubuntu
 
@@ -104,34 +104,34 @@ sudo chmod -R 777 ~
 ## Windows
 
 0. 安装
-    ```
-    $VIM\vimfiles\bundle
-    git clone https://github.com/preservim/nerdcommenter.git
-    copy nerdcommenter\plugin ..\plugin
-    ```
+```
+$VIM\vimfiles\bundle
+git clone https://github.com/preservim/nerdcommenter.git
+copy nerdcommenter\plugin ..\plugin
+```
 0. `_vimrc`
-    ```
-    " 注释
-        filetype plugin on
-        let g:NERDSpaceDelims = 1 " 默认情况下在注释定界符后添加空格
-        let mapleader=","         " \ 替换 ,
-    ```
+```
+" 注释
+    filetype plugin on
+    let g:NERDSpaceDelims = 1 " 默认情况下在注释定界符后添加空格
+    let mapleader=","         " \ 替换 ,
+```
 
 ## Ubuntu
 
 0. 安装
-    ```
-    cd ~/.vim/bundle
-    git clone https://github.com/preservim/nerdcommenter.git
-    cp -r nerdcommenter/plugin/ ~/.vim
-    ```
+```
+cd ~/.vim/bundle
+git clone https://github.com/preservim/nerdcommenter.git
+cp -r nerdcommenter/plugin/ ~/.vim
+```
 0. `.vimrc`
-    ```
-    " 注释
-        filetype plugin on
-        let g:NERDSpaceDelims = 1 " 默认情况下在注释定界符后添加空格
-        let mapleader=","         " \ 替换 ,
-    ```
+```
+" 注释
+    filetype plugin on
+    let g:NERDSpaceDelims = 1 " 默认情况下在注释定界符后添加空格
+    let mapleader=","         " \ 替换 ,
+```
 
 # 代码高亮（monokai）
 
@@ -139,32 +139,32 @@ sudo chmod -R 777 ~
 
 0. <https://github.com/sickill/vim-monokai>
 0. 安装
-    ```
-    cd ~/.vim/bundle
-    git clone https://github.com/sickill/vim-monokai.git
-    cp -r ~/.vim/bundle/vim-monokai/colors/ ~/.vim
-    ```
+```
+cd ~/.vim/bundle
+git clone https://github.com/sickill/vim-monokai.git
+cp -r ~/.vim/bundle/vim-monokai/colors/ ~/.vim
+```
 0. `.vimrc`
-    ```
-    " 代码高亮
-        syntax enable
-        colorscheme monokai
-    ```
+```
+" 代码高亮
+    syntax enable
+    colorscheme monokai
+```
 
 ## Windows
 
 0. 打开目录 `$VIM\vimfiles\bundle`
 0. 安装
-    ```
-    git clone https://github.com/sickill/vim-monokai.git
-    copy vim-monokai\colors ..\colors
-    ```
+```
+git clone https://github.com/sickill/vim-monokai.git
+copy vim-monokai\colors ..\colors
+```
 0. `_vimrc`
-    ```
-    " 代码高亮
-        syntax enable
-        colorscheme monokai
-    ```
+```
+" 代码高亮
+    syntax enable
+    colorscheme monokai
+```
     
 # 代码补全（pydiction）
 
@@ -173,35 +173,35 @@ sudo chmod -R 777 ~
 ## Ubuntu
 
 0. 安装
-    ```
-    cd ~/.vim/bundle
-    git clone https://github.com/rkulla/pydiction.git
-    cp -r ~/.vim/bundle/pydiction/after ~/.vim
-    ```
+```
+cd ~/.vim/bundle
+git clone https://github.com/rkulla/pydiction.git
+cp -r ~/.vim/bundle/pydiction/after ~/.vim
+```
 0. `.vimrc`
-    ```
-    " 代码补全
-        filetype plugin on                                                 " 启用
-        let g:pydiction_location = '~/.vim/bundle/pydiction/complete-dict' " complete-dict 路径
-        let g:pydiction_menu_height = 3                                    " 菜单的高度
-    ```
+```
+" 代码补全
+    filetype plugin on                                                 " 启用
+    let g:pydiction_location = '~/.vim/bundle/pydiction/complete-dict' " complete-dict 路径
+    let g:pydiction_menu_height = 3                                    " 菜单的高度
+```
 0. tab 补全
 
 ## Windows
 
 0. 打开目录 `gvim_8.2.1724_x86\vimfiles\bundle`
 0. 安装
-    ```
-    git clone https://github.com/rkulla/pydiction.git
-    copy pydiction\after\ftplugin\python_pydiction.vim ..\plugin
-    ```
+```
+git clone https://github.com/rkulla/pydiction.git
+copy pydiction\after\ftplugin\python_pydiction.vim ..\plugin
+```
 0. `_vimrc`
-    ```
-    " 代码补全
-        filetype plugin on                                                 " 启用
-        let g:pydiction_location = '~/.vim/bundle/pydiction/complete-dict' " complete-dict 路径
-        let g:pydiction_menu_height = 3                                    " 菜单的高度
-    ```
+```
+" 代码补全
+    filetype plugin on                                                 " 启用
+    let g:pydiction_location = '~/.vim/bundle/pydiction/complete-dict' " complete-dict 路径
+    let g:pydiction_menu_height = 3                                    " 菜单的高度
+```
 0. tab 补全
 
 # 目录结构（nerdtree）
@@ -233,28 +233,28 @@ I  # 切换是否显示隐藏文件
 ## Windows
 
 0. Vundle 安装
-    ```
-    Plugin 'preservim/nerdtree'
-    ```
+```
+Plugin 'preservim/nerdtree'
+```
 0. `_vimrc`
-    ```
-    " 目录结构
-        autocmd StdinReadPre * let s:std_in=1
-        autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
-    ```
+```
+" 目录结构
+    autocmd StdinReadPre * let s:std_in=1
+    autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+```
 
 ## Ubuntu
 
 0. Vundle 安装
-    ```
-    Plugin 'preservim/nerdtree'
-    ```
+```
+Plugin 'preservim/nerdtree'
+```
 0. `.vimrc`
-    ```
-    " 目录结构
-        autocmd StdinReadPre * let s:std_in=1
-        autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
-    ```
+```
+" 目录结构
+    autocmd StdinReadPre * let s:std_in=1
+    autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+```
 
 # 序列（VisIncr）
 
