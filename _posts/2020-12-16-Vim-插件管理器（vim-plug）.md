@@ -28,8 +28,9 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 ~/.vim/autoload/plug.vim
 ```
 0. `.vimrc`
+
 ```
-" 插件管理器（vim-plug）
+222" 插件管理器（vim-plug）
     call plug#begin('~/.vim/bundle')
     Plug 'VundleVim/Vundle.vim'                           " 插件管理器自身
     Plug 'https://github.com/preservim/nerdcommenter.git' " 代码注释
