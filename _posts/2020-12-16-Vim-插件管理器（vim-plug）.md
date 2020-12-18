@@ -18,19 +18,23 @@ tags:
 
 ## Ubuntu
 
-0. Windows git
+- Windows git
+
 ```
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
-0. 安装
+
+- 安装
+
 ```
 ~/.vim/autoload/plug.vim
 ```
-0. `.vimrc`
+
+- `.vimrc`
 
 ```
-222" 插件管理器（vim-plug）
+" 插件管理器（vim-plug）
     call plug#begin('~/.vim/bundle')
     Plug 'VundleVim/Vundle.vim'                           " 插件管理器自身
     Plug 'https://github.com/preservim/nerdcommenter.git' " 代码注释
@@ -47,20 +51,27 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 
 ## Windows
 
-0. Windows git
+- Windows git
+
 ```
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
-0. 环境变量
+
+- 环境变量
+
 ```
 Git\bin
 ```
-0. 安装
+
+- 安装
+
 ```
 $VIM/vimfiles/autoload/plug.vim
 ```
-0. `_vimrc`
+
+- `_vimrc`
+
 ```
 " 插件管理器（vim-plug）
     call plug#begin('$VIM\vimfiles\bundle')
