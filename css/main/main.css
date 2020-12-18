@@ -197,12 +197,6 @@ hr {
 /* 复制到剪切板 */
 pre {
     position: relative;
-    /* 代码块 */
-    margin: 5px 0 5px!important;
-    padding: 0px!important;
-    border-radius: 0px!important;
-    border: 0.5px solid #eee!important;
-    /* 代码块 */
 }
 pre.highlight > span {
     position: absolute;
@@ -224,6 +218,12 @@ pre.highlight > .copyed {
 }
 
 /* 代码块 */
+pre {
+    margin: 5px 0 5px!important;
+    padding: 0px!important;
+    border-radius: 0px!important;
+    border: 0.5px solid #eee!important;
+}
 .hljs-emphasis {
     font-style: initial!important;
 }
