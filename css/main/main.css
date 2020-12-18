@@ -206,10 +206,10 @@ pre {
 }
 
 /* 复制到剪切板 */
-pre.highlight {
+pre {
     position: relative;
 }
-pre.highlight > span {
+pre > span {
     position: absolute;
     top: 0;
     right: 0;
@@ -221,9 +221,9 @@ pre.highlight > span {
     cursor: pointer;
     display:none;
 }
-pre.highlight:hover > span {
+pre:hover > span {
     display:block;
 }
-pre.highlight > .copyed {
+pre > .copyed {
     background: #67c23a;
 }
