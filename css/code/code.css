@@ -1,6 +1,8 @@
 /* 复制到剪切板 */
 pre {
     position: relative;
+    padding: 0px;
+    border-radius: 0px;
 }
 pre > span {
     position: absolute;
