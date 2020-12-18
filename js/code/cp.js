@@ -5,7 +5,7 @@ $(function() {
             var t = $(this)
                 .children("code")
                 .text()
-                .slice(1,-1);
+                .slice(0,-1);
             var btn = $('<span class="copy">复制</span>').attr(
                 "data-clipboard-text",
                 t
