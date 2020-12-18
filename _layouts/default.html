@@ -20,7 +20,31 @@
 <!-- 复制到剪切板 -->
 <script src="/js/code/clipboard.min.js"></script>
 <script src="/js/code/cp.js"></script>
-
+<style>
+/* 复制到剪切板 */
+pre {
+    position: relative;
+}
+pre > span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 2px;
+    padding: 0 10px;
+    font-size: 12px;
+    background: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    cursor: pointer;
+    display:none;
+}
+pre:hover > span {
+    display:block;
+}
+pre > .copyed {
+    background: #67c23a;
+}
+</style>
+    
 </body>
 
 </html>
