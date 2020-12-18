@@ -10,8 +10,10 @@ tags:
 
 # 插件管理器（Vundle）
 
-0. 手册 <https://github.com/VundleVim/Vundle.vim/blob/master/doc/vundle.txt>
-0. 命令
+- 手册 <https://github.com/VundleVim/Vundle.vim/blob/master/doc/vundle.txt>
+
+- 命令
+
 ```
 :PluginList              # 插件列表
 :PluginInstall           # 安装插件
@@ -24,12 +26,16 @@ vim +PluginInstall +qall # 命令行安装插件
 
 ## Ubuntu
 
-0. <https://github.com/VundleVim/Vundle.vim>
-0. 安装
+- <https://github.com/VundleVim/Vundle.vim>
+
+- 安装
+
 ```
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ```
-0. `.vimrc`
+
+- `.vimrc`
+
 ```
 " 插件管理器
 set nocompatible
@@ -53,17 +59,26 @@ filetype plugin indent on          " 打开文件类型插件缩进
 
 ## Windows
 
-0. Windows 7
-0. <https://github.com/VundleVim/Vundle.vim/wiki/Vundle-for-Windows>
-0. 浏览 <https://curl.se/download.html>
-0. 下载 `Windows 64 bit` — `the curl project`
-0. 环境变量 bin
-0. 打开目录 `$VIM\vimfiles\bundle`
-0. 安装Vundle
+- Windows 7
+
+- <https://github.com/VundleVim/Vundle.vim/wiki/Vundle-for-Windows>
+
+- 浏览 <https://curl.se/download.html>
+
+- 下载 `Windows 64 bit` — `the curl project`
+
+- 环境变量 bin
+
+- 打开目录 `$VIM\vimfiles\bundle`
+
+- 安装Vundle
+
 ```
 git clone https://github.com/VundleVim/Vundle.vim.git
 ```
-0. `_vimrc`
+
+- `_vimrc`
+
 ```
 " 插件管理器
     filetype off
@@ -103,13 +118,16 @@ sudo chmod -R 777 ~
 
 ## Windows
 
-0. 安装
+- 安装
+
 ```
 $VIM\vimfiles\bundle
 git clone https://github.com/preservim/nerdcommenter.git
 copy nerdcommenter\plugin ..\plugin
 ```
-0. `_vimrc`
+
+- `_vimrc`
+
 ```
 " 注释
     filetype plugin on
@@ -119,13 +137,16 @@ copy nerdcommenter\plugin ..\plugin
 
 ## Ubuntu
 
-0. 安装
+- 安装
+
 ```
 cd ~/.vim/bundle
 git clone https://github.com/preservim/nerdcommenter.git
 cp -r nerdcommenter/plugin/ ~/.vim
 ```
-0. `.vimrc`
+
+- `.vimrc`
+
 ```
 " 注释
     filetype plugin on
@@ -137,14 +158,18 @@ cp -r nerdcommenter/plugin/ ~/.vim
 
 ## Ubuntu
 
-0. <https://github.com/sickill/vim-monokai>
-0. 安装
+- <https://github.com/sickill/vim-monokai>
+
+- 安装
+
 ```
 cd ~/.vim/bundle
 git clone https://github.com/sickill/vim-monokai.git
 cp -r ~/.vim/bundle/vim-monokai/colors/ ~/.vim
 ```
-0. `.vimrc`
+
+- `.vimrc`
+
 ```
 " 代码高亮
     syntax enable
@@ -153,13 +178,17 @@ cp -r ~/.vim/bundle/vim-monokai/colors/ ~/.vim
 
 ## Windows
 
-0. 打开目录 `$VIM\vimfiles\bundle`
-0. 安装
+- 打开目录 `$VIM\vimfiles\bundle`
+
+- 安装
+
 ```
 git clone https://github.com/sickill/vim-monokai.git
 copy vim-monokai\colors ..\colors
 ```
-0. `_vimrc`
+
+- `_vimrc`
+
 ```
 " 代码高亮
     syntax enable
@@ -172,42 +201,52 @@ copy vim-monokai\colors ..\colors
 
 ## Ubuntu
 
-0. 安装
+- 安装
+
 ```
 cd ~/.vim/bundle
 git clone https://github.com/rkulla/pydiction.git
 cp -r ~/.vim/bundle/pydiction/after ~/.vim
 ```
-0. `.vimrc`
+
+- `.vimrc`
+
 ```
 " 代码补全
     filetype plugin on                                                 " 启用
     let g:pydiction_location = '~/.vim/bundle/pydiction/complete-dict' " complete-dict 路径
     let g:pydiction_menu_height = 3                                    " 菜单的高度
 ```
-0. tab 补全
+
+- tab 补全
 
 ## Windows
 
-0. 打开目录 `gvim_8.2.1724_x86\vimfiles\bundle`
-0. 安装
+- 打开目录 `gvim_8.2.1724_x86\vimfiles\bundle`
+
+- 安装
+
 ```
 git clone https://github.com/rkulla/pydiction.git
 copy pydiction\after\ftplugin\python_pydiction.vim ..\plugin
 ```
-0. `_vimrc`
+
+- `_vimrc`
+
 ```
 " 代码补全
     filetype plugin on                                                 " 启用
     let g:pydiction_location = '~/.vim/bundle/pydiction/complete-dict' " complete-dict 路径
     let g:pydiction_menu_height = 3                                    " 菜单的高度
 ```
-0. tab 补全
+
+- tab 补全
 
 # 目录结构（nerdtree）
 
-0. 项目 <https://github.com/preservim/nerdtree>
-0. 文档 <https://github.com/preservim/nerdtree/blob/master/doc/NERDTree.txt>
+- 项目 <https://github.com/preservim/nerdtree>
+
+- 文档 <https://github.com/preservim/nerdtree/blob/master/doc/NERDTree.txt>
 
 ```
 # 打开文件
@@ -232,11 +271,14 @@ I  # 切换是否显示隐藏文件
 
 ## Windows
 
-0. Vundle 安装
+- Vundle 安装
+
 ```
 Plugin 'preservim/nerdtree'
 ```
-0. `_vimrc`
+
+- `_vimrc`
+
 ```
 " 目录结构
     autocmd StdinReadPre * let s:std_in=1
@@ -245,11 +287,14 @@ Plugin 'preservim/nerdtree'
 
 ## Ubuntu
 
-0. Vundle 安装
+- Vundle 安装
+
 ```
 Plugin 'preservim/nerdtree'
 ```
-0. `.vimrc`
+
+- `.vimrc`
+
 ```
 " 目录结构
     autocmd StdinReadPre * let s:std_in=1
