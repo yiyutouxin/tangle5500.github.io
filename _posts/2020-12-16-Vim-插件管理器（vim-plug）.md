@@ -28,6 +28,7 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 ~/.vim/autoload/plug.vim
 ```
 0. `.vimrc`
+
 ```
 " 插件管理器（vim-plug）
     call plug#begin('~/.vim/bundle')
