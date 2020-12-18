@@ -194,6 +194,17 @@ hr {
     margin: 5px 0!important;
 }
 
+/* 代码块 */
+pre {
+    margin: 5px 0 5px!important;
+    padding: 0px!important;
+    border-radius: 0px!important;
+    border: 0.5px solid #eee!important;
+}
+.hljs-emphasis {
+    font-style: initial!important;
+}
+
 /* 复制到剪切板 */
 pre {
     position: relative;
@@ -215,15 +226,4 @@ pre.highlight:hover > span {
 }
 pre.highlight > .copyed {
     background: #67c23a;
-}
-
-/* 代码块 */
-pre {
-    margin: 5px 0 5px!important;
-    padding: 0px!important;
-    border-radius: 0px!important;
-    border: 0.5px solid #eee!important;
-}
-.hljs-emphasis {
-    font-style: initial!important;
 }
