@@ -4,7 +4,8 @@ $(function() {
         pres.each(function() {
             var t = $(this)
                 .children("code")
-                .text();
+                .text()
+                .slice(1,-1);
             var btn = $('<span class="copy">复制</span>').attr(
                 "data-clipboard-text",
                 t
