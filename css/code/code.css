@@ -7,18 +7,18 @@ pre {
 }
 pre > span {
     position: absolute;
-    top: 0;
-    right: 0;
-    border-radius: 2px;
+    top: 5px;
+    right: 5px;
+    border-radius: 0px;
     /* padding: 0 10px; */
-    font-size: 12px;
-    background: rgba(0, 0, 0, 0.4);
-    color: #fff;
+    font-size: 13px;
+    background: #ff9900;
+    color: #ff9900;
     cursor: pointer;
-    display:none;
+    display: none;
 }
 pre:hover > span {
-    display:block;
+    display: block;
 }
 pre > .copyed {
     background: #67c23a;
