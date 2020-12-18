@@ -3,7 +3,8 @@ pre {
     position: relative;
     padding: 0px;
     border-radius: 0px;
-    margin: 0px;
+/*     margin: 0px; */
+    margin: 5px 0 5px;
 }
 pre > span {
     position: absolute;
