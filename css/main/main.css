@@ -204,3 +204,10 @@ pre {
 .hljs-emphasis {
     font-style: initial!important;
 }
+
+/* 标签标题 */
+.post-preview {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.5;
+}
