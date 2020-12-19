@@ -1,10 +1,8 @@
 ---
-layout:     post
-title:      Markdown
-subtitle:   
-date:       2020-8-11
-author:     Tangle
-header-img: img/post-bg-ios9-web.jpg
+layout:  post
+title:   Markdown 语法
+date:    2020-8-11
+author:  Tangle
 catalog: true
 tags:
     - Markdown
