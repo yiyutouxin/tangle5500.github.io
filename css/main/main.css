@@ -98,8 +98,11 @@ header.intro-header {
     background: #404040!important;
 }.tags a:hover, .tags .tag:hover, .tags a:active, .tags .tag:active {
     background: #404040!important;
-}.post-preview>a {
+}.post-preview>a { /* 标签标题 */
     color: #c6c6c6!important;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.5;
 }.post-preview>a:hover, .post-preview>a:focus {
     text-decoration: none;
     color: #f90!important;
@@ -203,12 +206,4 @@ pre {
 }
 .hljs-emphasis {
     font-style: initial!important;
-}
-
-/* 标签标题 */
-/* a.post-title */
-.post-preview>a {
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 1.5;
 }
