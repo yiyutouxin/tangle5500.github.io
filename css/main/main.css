@@ -36,6 +36,9 @@ footer .list-inline {
 }a.post-title1 {
     font-family: -apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,"PingFang SC","Hiragino Sans GB",STHeiti,"Microsoft YaHei","Microsoft JhengHei","Source Han Sans SC","Noto Sans CJK SC","Source Han Sans CN","Noto Sans SC","Source Han Sans TC","Noto Sans CJK TC","WenQuanYi Micro Hei",SimSun,sans-serif;
     font-weight: 700;
+}a.post-content-preview1 {
+    font-size: 14px;
+    color: #a3a3a3;
 }
 
 /* 文章标题 */
