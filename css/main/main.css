@@ -206,7 +206,8 @@ pre {
 }
 
 /* 标签标题 */
-a.post-title {
+/* a.post-title */
+.post-preview>a {
     font-weight: 500;
     font-size: 18px;
     line-height: 1.5;
