@@ -1,12 +1,9 @@
 ---
-layout:     post
-title:      GitHub Git 初始化
-subtitle:   
-date:       2020-6-26
-author:     Tangle
-header-img: img/post-bg-ios9-web.jpg
+layout:  post
+title:   GitHub Git 初始化
+date:    2020-6-26
+author:  Tangle
 catalog: true
-mathjax: false
 tags:
     - GitHub
 ---
@@ -15,25 +12,31 @@ tags:
 
 ## 初始化用户
 
-0. **修改用户：**git config --global user.name "username"
-0. **修改邮箱：**git config --global user.email "useremail"
-0. git config --list
-0. ssh-keygen -t rsa -C "useremail"
-0. 把 **id_rsa.pub** 中的文本全部复制到 github 上
-0. 在操作中出现 **CredentialHelperSelector** 弹窗选择 **store**
-    ```
-    git config --global credential.helper store
-    ```
+```
+git config --global user.name "username"   # 修改用户
+git config --global user.email "useremail" # 修改邮箱
+git config --list
+ssh-keygen -t rsa -C "useremail"
+```
+
+- 把 `id_rsa.pub` 中的文本全部复制到 github 上
+
+- 在操作中出现 `CredentialHelperSelector` 弹窗选择 `store`
+
+```
+git config --global credential.helper store
+```
 
 ## 修改用户
 
+- 目录：$HOME
+
 ```
-# C:\Users\Tangle
-.bash_history    # 历史命令
-.gitconfig       # 用户存储
-.git-credentials # 资格证书
+.bash_history                              # 历史命令
+.gitconfig                                 # 用户存储
+.git-credentials                           # 资格证书
+git config --global user.name "username"   # 修改用户
+git config --global user.email "useremail" # 修改邮箱
 ```
 
-0. **修改用户：**git config --global user.name "username"
-0. **修改邮箱：**git config --global user.email "useremail"
-0. 修改**资格证书**中的账号密码
+- 修改**资格证书**中的账号密码
