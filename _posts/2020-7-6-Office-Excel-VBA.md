@@ -1,22 +1,20 @@
 ---
-layout:     post
-title:      Excel VBA
-subtitle:   
-date:       2019-9-12
-author:     Tangle
-header-img: img/post-bg-ios9-web.jpg
+layout:  post
+title:   Office Excel VBA
+date:    2019-9-12
+author:  Tangle
 catalog: true
 tags:
-    - Excel
+    - Office
 ---
 
 # 语法
 
 ## 设置保护
 
-1、工具 — VBAproject — 保护
+- 工具 — VBAproject — 保护
 
-2、勾选查看时锁定工程并设置密码
+- 勾选查看时锁定工程并设置密码
 
 ## 保存与退出
 
@@ -174,7 +172,7 @@ c.HorizontalAlignment = xlCenter
 
 # 生成目录
 
-1、在当前工作薄输入下面代码并执行生成目录
+- 在当前工作薄输入下面代码并执行生成目录
 
 ```vb
 Sub createmulu()
@@ -184,13 +182,13 @@ Sub createmulu()
 End Sub
 ```
 
-2、在 B1 单元格中定义超链接函数并向下填充目录
+- 在 B1 单元格中定义超链接函数并向下填充目录
 
 ``` vb 
 =HYPERLINK("#"&A2&"!A1",A2)
 ```
 
-3、按 shift 键选中所有 sheet 表，在 A1 单元格中写入
+- 按 shift 键选中所有 sheet 表，在 A1 单元格中写入
 
 ```vb
 =HYPERLINK("#sheet1!A1","返回目录")
