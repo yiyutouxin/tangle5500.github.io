@@ -1,3 +1,9 @@
+/* 字体 */
+@font-face {
+    font-family: 'Microsoft YaHei Mono';
+    src: url('MicrosoftYaHeiMono.woff')
+}
+
 /* 文本 */
 body {
     color: #c6c6c6!important;
