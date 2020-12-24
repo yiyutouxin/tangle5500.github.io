@@ -1,8 +1,8 @@
 ---
-layout:     post
-title:      B站 标签
-date:       2019-12-9
-author:     Tangle
+layout:  post
+title:   bilibili 标签
+date:    2019-12-9
+author:  Tangle
 catalog: true
 tags:
     - bilibili
