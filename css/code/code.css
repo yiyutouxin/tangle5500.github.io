@@ -39,5 +39,5 @@ pre {
 code {
     font-family: Consolas, Monaco, monospace;
 }pre code {
-    font-size: 10pt;
+    font-size: 10pt!important;
 }
