@@ -1,6 +1,6 @@
 ---
 layout:  post
-title:   B站 CC字幕
+title:   bilibili CC字幕
 date:    2020-10-25
 author:  Tangle
 catalog: true
