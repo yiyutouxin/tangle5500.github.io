@@ -91,6 +91,8 @@ p {
     padding: 5px!important;
 }.table th, .table td {
     border: 0.5px solid #eee!important;
+}li {
+    word-wrap: break-word;
 }
 
 /* 背景 */
