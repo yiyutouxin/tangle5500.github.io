@@ -36,8 +36,11 @@ pre {
 }
 
 /* 字体 */
-code {
-    font-family: Consolas, Monaco, monospace;
+@font-face {
+    font-family: 'Inconsolata';
+    src: url('/fonts/Inconsolata-VariableFont_wdth,wght.ttf') 
+}code {
+    font-family: Inconsolata;
 }pre code {
-    font-size: 10pt!important;
+/*     font-size: 10pt!important; */
 }
