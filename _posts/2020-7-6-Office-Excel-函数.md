@@ -1,22 +1,20 @@
 ---
-layout:     post
-title:      Excel 函数
-subtitle:   
-date:       2020-7-6
-author:     Tangle
-header-img: img/post-bg-ios9-web.jpg
+layout:  post
+title:   Office Excel 函数
+date:    2020-7-6
+author:  Tangle
 catalog: true
-mathjax: false
 tags:
-    - Excel
+    - Office
 ---
 
 # 函数
 
 ## 随机数
 
-1. 随机：0.85 至 0.9
-2. 小数位数：2
+- 随机：0.85 至 0.9
+
+- 小数位数：2
 
 ```
 =ROUND(0.85+(0.05)*RAND(),4)
@@ -38,9 +36,11 @@ tags:
 
 # 自定义函数
 
-1. 进入 vba 编辑器
-1. 插入模块
-1. 在模块中写入如下代码
+- 进入 vba 编辑器
+
+- 插入模块
+
+- 在模块中写入如下代码
 
 ```vb
 Function demo(x, y As Integer)
