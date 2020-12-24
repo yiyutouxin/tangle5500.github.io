@@ -1,18 +1,16 @@
 ---
-layout:     post
-title:      Excel 宏
-subtitle:   
-date:       2020-7-6
-author:     Tangle
-header-img: img/post-bg-ios9-web.jpg
+layout:  post
+title:   Office Excel 宏
+date:    2020-7-6
+author:  Tangle
 catalog: true
 tags:
-    - Excel
+    - Office
 ---
 
 # python 执行宏
 
-```python
+```
 import win32com.client
 xls = win32com.client.Dispatch("Excel.Application")
 xls.Workbooks.Open(r"C:\Users\Easy Love\Desktop\1.xlsm")
