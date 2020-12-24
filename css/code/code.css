@@ -34,3 +34,10 @@ pre {
 .hljs-emphasis {
     font-style: initial!important;
 }
+
+/* 字体 */
+code {
+    font-family: Consolas, Monaco, monospace;
+}pre code {
+    font-size: 10pt;
+}
