@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      B站 弹幕
+title:      bilibili 弹幕
 date:       2020-11-9
 author:     Tangle
 catalog: true
