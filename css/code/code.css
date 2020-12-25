@@ -37,9 +37,11 @@ pre {
 
 /* 字体 */
 @font-face {
-    font-family: 'Microsoft YaHei Mono';
-    src: url('/fonts/Microsoft YaHei Mono.woff') 
+    font-family: 'consola';
+    src: url('consola.woff') 
+}@font-face {
+    font-family: 'Microsoft YaHei UI';
+    src: url('msyh_1.woff') 
 }code {
-/*     font-family: monospace; */
-    font-family: Microsoft YaHei Mono;
+    font-family: consola,Microsoft YaHei UI;
 }
