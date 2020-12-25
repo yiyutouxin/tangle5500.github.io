@@ -40,7 +40,7 @@ pre {
     font-family: 'Inconsolata';
     src: url('/fonts/Inconsolata-VariableFont_wdth,wght.ttf') 
 }code {
-    font-family: Inconsolata;
+    font-family: monospace;
 }pre code {
 /*     font-size: 10pt!important; */
 }
