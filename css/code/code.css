@@ -38,7 +38,7 @@ pre {
 /* 字体 */
 @font-face {
     font-family: 'Microsoft YaHei Mono';
-    src: url('/fonts/Microsoft YaHei Mono.ttf') 
+    src: url('/fonts/Microsoft YaHei Mono.woff') 
 }code {
 /*     font-family: monospace; */
     font-family: Microsoft YaHei Mono;
