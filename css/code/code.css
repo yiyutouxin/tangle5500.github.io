@@ -44,4 +44,5 @@ pre {
     src: url('/fonts/msyh.woff') 
 }code {
     font-family: consola,Microsoft YaHei UI;
+    font-size: 10pt!important;
 }
