@@ -37,11 +37,9 @@ pre {
 
 /* 字体 */
 @font-face {
-    font-family: 'fonts';
-    src: url('/fonts/Lucida_Sans_Typewriter_Regular.ttf') 
+    font-family: 'Microsoft YaHei Mono';
+    src: url('/fonts/Microsoft YaHei Mono.ttf') 
 }code {
 /*     font-family: monospace; */
-    font-family: fonts,黑体;
-}pre code {
-/*     font-size: 10pt!important; */
+    font-family: Microsoft YaHei Mono;
 }
