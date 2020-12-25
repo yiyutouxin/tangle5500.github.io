@@ -43,6 +43,6 @@ pre {
     font-family: 'Microsoft YaHei UI';
     src: url('/fonts/msyh.woff') 
 }code {
-    font-family: consola,Microsoft YaHei UI;
+    font-family: consola, Microsoft YaHei UI;
     font-size: 10pt!important;
 }
