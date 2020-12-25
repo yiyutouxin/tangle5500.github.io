@@ -37,11 +37,11 @@ pre {
 
 /* 字体 */
 @font-face {
-    font-family: 'Inconsolata';
-    src: url('/fonts/Inconsolata-VariableFont_wdth,wght.ttf') 
+    font-family: 'fonts';
+    src: url('/fonts/Lucida_Sans_Typewriter_Regular.ttf') 
 }code {
 /*     font-family: monospace; */
-    font-family: 黑体;
+    font-family: fonts,黑体;
 }pre code {
 /*     font-size: 10pt!important; */
 }
