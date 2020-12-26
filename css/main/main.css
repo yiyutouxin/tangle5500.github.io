@@ -2,7 +2,7 @@
 body {
     color: #c6c6c6!important;
     /* font-family: Menlo,Monaco,Consolas,"Courier New",monospace!important; */
-    line-height: 1.4;
+    line-height: 1.45!important;
 }
 
 /* 页脚图标 */
@@ -36,7 +36,7 @@ footer .list-inline {
     font-size: 16.4px;
 }a.post-title1 {
     font-family: Tangle;
-    font-weight: 700!important;
+/*     font-weight: 700!important; */
     font-size: 26px!important;
 }a.post-content-preview1 {
     font-size: 16.4px!important;
@@ -189,11 +189,11 @@ hr {
     font-weight: 700!important;
 }nav[data-toggle=toc] .nav .nav>li>a {
     font-size: 16.4px!important;
-    font-weight: 700!important;
+/*     font-weight: 700!important; */
 }nav[data-toggle=toc] .nav>li>a {
     padding: 0px 1em!important;
     font-size: 16.4px!important;
-    font-weight: 700!important;
+/*     font-weight: 700!important; */
 }nav[data-toggle=toc] .nav>.active>ul {
     margin: 0 2em!important;
     padding-bottom: 0!important;
