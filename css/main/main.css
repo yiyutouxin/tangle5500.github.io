@@ -2,7 +2,7 @@
 body {
     color: #c6c6c6!important;
     /* font-family: Menlo,Monaco,Consolas,"Courier New",monospace!important; */
-    line-height: 1.45!important;
+    line-height: 1.4;
 }
 
 /* 页脚图标 */
@@ -31,15 +31,15 @@ footer .list-inline {
     line-height: 1.3;
     font-weight: 700;
     margin: 10px 0;
-    font-family: Tangle;
+    font-family: -apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,"PingFang SC","Hiragino Sans GB",STHeiti,"Microsoft YaHei","Microsoft JhengHei","Source Han Sans SC","Noto Sans CJK SC","Source Han Sans CN","Noto Sans SC","Source Han Sans TC","Noto Sans CJK TC","WenQuanYi Micro Hei",SimSun,sans-serif;
 }a.post-content-preview {
-    font-size: 16.4px;
+    font-size: 14px;
 }a.post-title1 {
-    font-family: Tangle;
-/*     font-weight: 700!important; */
+    font-family: -apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,"PingFang SC","Hiragino Sans GB",STHeiti,"Microsoft YaHei","Microsoft JhengHei","Source Han Sans SC","Noto Sans CJK SC","Source Han Sans CN","Noto Sans SC","Source Han Sans TC","Noto Sans CJK TC","WenQuanYi Micro Hei",SimSun,sans-serif;
+    font-weight: 700!important;
     font-size: 26px!important;
 }a.post-content-preview1 {
-    font-size: 16.4px!important;
+    font-size: 14px!important;
     color: #a3a3a3!important;
     font-weight: 500!important;
 }
@@ -64,9 +64,9 @@ p {
     margin-bottom: 0px!important;
     border: 0px solid #ddd!important;
 }code {
-    font-size: 16.4px!important;
+    font-size: 100%!important;
 }table {
-    font-size: 16.4px!important;
+    font-size: 90%!important;
 }
 
 /* 滚动条 */
@@ -111,7 +111,7 @@ header.intro-header {
     background: #333!important;
     border: 0px!important;
     border-radius: 0px!important;
-    font-family: Tangle;
+    font-family: -apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,"PingFang SC","Hiragino Sans GB",STHeiti,"Microsoft YaHei","Microsoft JhengHei","Source Han Sans SC","Noto Sans CJK SC","Source Han Sans CN","Noto Sans SC","Source Han Sans TC","Noto Sans CJK TC","WenQuanYi Micro Hei",SimSun,sans-serif;
 }
 
 /* 标签 */
@@ -132,7 +132,7 @@ header.intro-header {
 }.listing-seperator {
     color: #f90!important;
 }#tag_cloud a, #tag_cloud .tag {
-    font-family: Tangle;
+    font-family: -apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,"PingFang SC","Hiragino Sans GB",STHeiti,"Microsoft YaHei","Microsoft JhengHei","Source Han Sans SC","Noto Sans CJK SC","Source Han Sans CN","Noto Sans SC","Source Han Sans TC","Noto Sans CJK TC","WenQuanYi Micro Hei",SimSun,sans-serif;
 }
 
 /* 分页 */
@@ -185,15 +185,15 @@ hr {
 }nav[data-toggle=toc] .nav>.active:focus>a, nav[data-toggle=toc] .nav>.active:hover>a, nav[data-toggle=toc] .nav>.active>a {
     border-right: 0px solid #337ab7!important;
     color: #f90!important;
-    font-size: 16.4px!important;
+    font-size: 13px!important;
     font-weight: 700!important;
 }nav[data-toggle=toc] .nav .nav>li>a {
-    font-size: 16.4px!important;
-/*     font-weight: 700!important; */
+    font-size: 13px!important;
+    font-weight: 700!important;
 }nav[data-toggle=toc] .nav>li>a {
     padding: 0px 1em!important;
-    font-size: 16.4px!important;
-/*     font-weight: 700!important; */
+    font-size: 13px!important;
+    font-weight: 700!important;
 }nav[data-toggle=toc] .nav>.active>ul {
     margin: 0 2em!important;
     padding-bottom: 0!important;
@@ -215,7 +215,7 @@ hr {
 }.side-catalog {
     overflow-x: hidden!important;
 }nav[data-toggle=toc] .nav>li>a {
-    font-family: Tangle;
+    font-family: -apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,"PingFang SC","Hiragino Sans GB",STHeiti,"Microsoft YaHei","Microsoft JhengHei","Source Han Sans SC","Noto Sans CJK SC","Source Han Sans CN","Noto Sans SC","Source Han Sans TC","Noto Sans CJK TC","WenQuanYi Micro Hei",SimSun,sans-serif;
 
 /* 图像 */ 
 .post-container img {
