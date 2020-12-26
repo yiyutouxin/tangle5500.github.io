@@ -37,12 +37,9 @@ pre {
 
 /* 字体 */
 @font-face {
-    font-family: 'consola';
-    src: url('/fonts/consola.woff') 
-}@font-face {
-    font-family: 'Microsoft YaHei UI';
-    src: url('/fonts/msyh.woff') 
+    font-family: 'Tangle';
+    src: url('/fonts/Tangle.woff') 
 }code {
-    font-family: consola, Microsoft YaHei UI;
+    font-family: Tangle;
     font-size: 10pt!important;
 }
