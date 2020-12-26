@@ -31,11 +31,11 @@ footer .list-inline {
     line-height: 1.3;
     font-weight: 700;
     margin: 10px 0;
-    font-family: -apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,"PingFang SC","Hiragino Sans GB",STHeiti,"Microsoft YaHei","Microsoft JhengHei","Source Han Sans SC","Noto Sans CJK SC","Source Han Sans CN","Noto Sans SC","Source Han Sans TC","Noto Sans CJK TC","WenQuanYi Micro Hei",SimSun,sans-serif;
+    font-family: Tangle;
 }a.post-content-preview {
     font-size: 14px;
 }a.post-title1 {
-    font-family: -apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,"PingFang SC","Hiragino Sans GB",STHeiti,"Microsoft YaHei","Microsoft JhengHei","Source Han Sans SC","Noto Sans CJK SC","Source Han Sans CN","Noto Sans SC","Source Han Sans TC","Noto Sans CJK TC","WenQuanYi Micro Hei",SimSun,sans-serif;
+    font-family: Tangle;
     font-weight: 700!important;
     font-size: 26px!important;
 }a.post-content-preview1 {
@@ -111,7 +111,7 @@ header.intro-header {
     background: #333!important;
     border: 0px!important;
     border-radius: 0px!important;
-    font-family: -apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,"PingFang SC","Hiragino Sans GB",STHeiti,"Microsoft YaHei","Microsoft JhengHei","Source Han Sans SC","Noto Sans CJK SC","Source Han Sans CN","Noto Sans SC","Source Han Sans TC","Noto Sans CJK TC","WenQuanYi Micro Hei",SimSun,sans-serif;
+    font-family: Tangle;
 }
 
 /* 标签 */
@@ -132,7 +132,7 @@ header.intro-header {
 }.listing-seperator {
     color: #f90!important;
 }#tag_cloud a, #tag_cloud .tag {
-    font-family: -apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,"PingFang SC","Hiragino Sans GB",STHeiti,"Microsoft YaHei","Microsoft JhengHei","Source Han Sans SC","Noto Sans CJK SC","Source Han Sans CN","Noto Sans SC","Source Han Sans TC","Noto Sans CJK TC","WenQuanYi Micro Hei",SimSun,sans-serif;
+    font-family: Tangle;
 }
 
 /* 分页 */
@@ -215,7 +215,7 @@ hr {
 }.side-catalog {
     overflow-x: hidden!important;
 }nav[data-toggle=toc] .nav>li>a {
-    font-family: -apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,"PingFang SC","Hiragino Sans GB",STHeiti,"Microsoft YaHei","Microsoft JhengHei","Source Han Sans SC","Noto Sans CJK SC","Source Han Sans CN","Noto Sans SC","Source Han Sans TC","Noto Sans CJK TC","WenQuanYi Micro Hei",SimSun,sans-serif;
+    font-family: Tangle;
 
 /* 图像 */ 
 .post-container img {
