@@ -33,13 +33,13 @@ footer .list-inline {
     margin: 10px 0;
     font-family: Tangle;
 }a.post-content-preview {
-    font-size: 14px;
+    font-size: 16.4px;
 }a.post-title1 {
     font-family: Tangle;
     font-weight: 700!important;
     font-size: 26px!important;
 }a.post-content-preview1 {
-    font-size: 14px!important;
+    font-size: 16.4px!important;
     color: #a3a3a3!important;
     font-weight: 500!important;
 }
@@ -64,9 +64,9 @@ p {
     margin-bottom: 0px!important;
     border: 0px solid #ddd!important;
 }code {
-    font-size: 100%!important;
+    font-size: 16.4px!important;
 }table {
-    font-size: 90%!important;
+    font-size: 16.4px!important;
 }
 
 /* 滚动条 */
@@ -185,14 +185,14 @@ hr {
 }nav[data-toggle=toc] .nav>.active:focus>a, nav[data-toggle=toc] .nav>.active:hover>a, nav[data-toggle=toc] .nav>.active>a {
     border-right: 0px solid #337ab7!important;
     color: #f90!important;
-    font-size: 13px!important;
+    font-size: 16.4px!important;
     font-weight: 700!important;
 }nav[data-toggle=toc] .nav .nav>li>a {
-    font-size: 13px!important;
+    font-size: 16.4px!important;
     font-weight: 700!important;
 }nav[data-toggle=toc] .nav>li>a {
     padding: 0px 1em!important;
-    font-size: 13px!important;
+    font-size: 16.4px!important;
     font-weight: 700!important;
 }nav[data-toggle=toc] .nav>.active>ul {
     margin: 0 2em!important;
