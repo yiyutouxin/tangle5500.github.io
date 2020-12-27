@@ -28,13 +28,13 @@ Git\bin
 ```
 git config --global user.name "username"   # 修改用户
 git config --global user.email "useremail" # 修改邮箱
-git config --list
-ssh-keygen -t rsa -C "useremail"
+git config --list                          # 查看配置
+ssh-keygen -t rsa -C "useremail"           # 生成 SSH
 ```
 
 - 把 `id_rsa.pub` 中的文本全部复制到 github 上
 
-- 在操作中出现 `CredentialHelperSelector` 弹窗选择 `store`
+- 在操作中出现 `CredentialHelperSelector` 弹窗选择 `store` 或者执行下方命令
 
 ```
 git config --global credential.helper store
@@ -42,7 +42,7 @@ git config --global credential.helper store
 
 ## 修改用户
 
-- 目录：$HOME
+- **目录**：$HOME
 
 ```
 .bash_history                              # 历史命令
