@@ -54,11 +54,11 @@ git push origin master
 # 克隆分支
 
 ```
-git clone git@github.com:username/username.github.io.git
-git checkout v1.0
+git clone -b release git@github.com:username/username.github.io.git
+git clone -b v1.0 git@github.com:username/username.github.io.git
 ```
 
 ```
-git clone -b v1.0 git@github.com:username/username.github.io.git
-git clone -b release git@github.com:username/username.github.io.git
+git clone git@github.com:username/username.github.io.git
+git checkout v1.0
 ```
