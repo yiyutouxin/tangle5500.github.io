@@ -59,6 +59,6 @@ git clone -b v1.0 git@github.com:username/username.github.io.git
 ```
 
 ```
-git clone git@github.com:username/username.github.io.git
-git checkout v1.0
+git clone -b v 1.0 git@github.com:username/username.github.io.git
+git checkout master
 ```
