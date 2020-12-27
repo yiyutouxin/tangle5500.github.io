@@ -10,7 +10,7 @@ tags:
 
 # 用户
 
-## 初始化用户
+## 配置用户
 
 ```
 git config --global user.name "username"   # 修改用户
@@ -32,14 +32,9 @@ git config --global credential.helper store
 - **目录**：$HOME
 
 ```
-.bash_history    # 历史命令
-.gitconfig       # 用户存储
-.git-credentials # 资格证书
-```
-
-- 修改用户
-
-```
+.bash_history                              # 历史命令
+.gitconfig                                 # 用户存储
+.git-credentials                           # 资格证书
 git config --global user.name "username"   # 修改用户
 git config --global user.email "useremail" # 修改邮箱
 ```
@@ -56,9 +51,14 @@ git commit -m init
 git push origin master
 ```
 
-# 克隆标签
+# 克隆分支
 
 ```
 git clone git@github.com:username/username.github.io.git
 git checkout v1.0
+```
+
+```
+git clone -b v1.0 git@github.com:username/username.github.io.git
+git clone -b release git@github.com:username/username.github.io.git
 ```
