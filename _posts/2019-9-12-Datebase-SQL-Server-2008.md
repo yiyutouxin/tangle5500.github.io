@@ -1,20 +1,18 @@
 ---
-layout:     post
-title:      Datebase SQL Server 2008
-subtitle:   
-date:       2019-9-12
-author:     Tangle
-header-img: img/post-bg-ios9-web.jpg
+layout:  post
+title:   Datebase SQL Server 2008
+date:    2019-9-12
+author:  Tangle
 catalog: true
 tags:
     - Database
 ---
 
-1、SQL 语言，识别的指令，执行相应的操作并且给程序提供数据
+- SQL 语言，识别的指令，执行相应的操作并且给程序提供数据
 
-2、结构化查询语言 T-SQL
+- 结构化查询语言 T-SQL
 
-3、SQL 的组成部分，数据操作语言，数据定义语言，数据查询语言，数据控制语言。
+- SQL 的组成部分，数据操作语言，数据定义语言，数据查询语言，数据控制语言。
 
 | 语法                                                         | 作用                            |
 | ------------------------------------------------------------ | ------------------------------- |
