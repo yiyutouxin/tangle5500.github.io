@@ -63,7 +63,7 @@ git clone -b v 1.0 git@github.com:username/username.github.io.git
 git checkout master
 ```
 
-# 同步
+# 更新
 
 ```
 git pull
