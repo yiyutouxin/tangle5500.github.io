@@ -71,12 +71,13 @@ driver.find_elements_by_id("id")[0]
 def wait(css, for_num=10, wait_time=0.1, css_if=False):
     for i in range(for_num):
         try:
-            if driver.find_element_by_css_selector(css):
+            if driver.find_element_by_css_selector(css): # 查找元素
                 return True
         except:
             if css_if:
                 return False
         time.sleep(wait_time)
+        wait(css, for_num, wait_time, css_if)
 ```
 
 # 浏览器操作
