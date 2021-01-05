@@ -79,7 +79,8 @@ def wait(css, for_num=10, wait_time=0.1, css_if=False):
         time.sleep(wait_time)
     return False
     
-wait("#id")
+if wait("#id"):
+    pass
 ```
 
 # 浏览器操作
