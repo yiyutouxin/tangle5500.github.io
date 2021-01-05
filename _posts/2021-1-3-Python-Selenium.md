@@ -121,8 +121,8 @@ from selenium.webdriver.common.action_chains import ActionChains
 
 driver = webdriver.Chrome()
 driver.get("https://www.baidu.com")
-elem = driver.find_element_by_link_text("更多")      # 查找元素
-ActionChains(driver).move_to_element(elem).perform() # 悬停
+ele = driver.find_element_by_link_text("更多")      # 查找元素
+ActionChains(driver).move_to_element(ele).perform() # 悬停
 ```
 
 # 浏览器操作
