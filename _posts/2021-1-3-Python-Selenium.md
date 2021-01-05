@@ -1,4 +1,4 @@
----
+1---
 layout:  post
 title:   Python Selenium
 date:    2021-1-3
@@ -48,3 +48,22 @@ chrome_options.add_argument(r'--user-data-dir=D:\Tangle\A_TT\Tools\no_install\Ch
 driver = webdriver.Chrome(chrome_options=chrome_options)                                                # 加载选项
 driver.get('https://www.baidu.com/')                                                                    # 浏览网页
 ```
+
+# 查找元素
+
+```
+```
+
+# 浏览器操作
+
+# 鼠标
+
+# 键盘
+
+# javascript
+
+# 截图
+
+# cookie
+
+# 文件上传
