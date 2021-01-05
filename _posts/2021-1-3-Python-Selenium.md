@@ -75,9 +75,10 @@ def wait(css, for_num=10, wait_time=0.1, css_if=False):
                 return True
         except:
             if css_if:
-                return False
+                break
         time.sleep(wait_time)
         wait(css, for_num, wait_time, css_if)
+    return False
 ```
 
 # 浏览器操作
