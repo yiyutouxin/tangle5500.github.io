@@ -65,6 +65,19 @@ driver.find_element_by_id("id")
 driver.find_elements_by_id("id")[0]
 ```
 
+# 等待
+
+```
+def wait(css, for_num=10, wait_time=0.1):
+    for i in range(for_num):
+        try:
+            if driver.find_element_by_css_selector(css):
+                return True
+        except:
+            pass
+        time.sleep(wait_time)
+```
+
 # 浏览器操作
 
 # 鼠标
