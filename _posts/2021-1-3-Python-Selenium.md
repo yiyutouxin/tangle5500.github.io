@@ -54,10 +54,10 @@ driver.get('https://www.baidu.com/')                                            
 | `find_element_by_id`                | `find_elements_by_id`                | 通过元素 id 查找        |
 | `find_element_by_name`              | `find_elements_by_name`              | 通过元素 name 查找      |
 | `find_element_by_xpath`             | `find_elements_by_xpath`             | 通过 xpath 表达式查找   |
-| `find_element_by_link_text`         | `find_elements_by_link_tex`          | 通过完整超链接查找      |
-| `find_element_by_partial_link_text` | `find_elements_by_partial_link_text` | 通过部分链接查找        |
-| `find_element_by_tag_name`          | `find_elements_by_tag_name`          | 通过标签查找            |
-| `find_element_by_class_name`        | `find_elements_by_class_name`        | 通过类名进行查找        |
+| `find_element_by_link_text`         | `find_elements_by_link_text`         | 通过 text 查找          |
+| `find_element_by_partial_link_text` | `find_elements_by_partial_link_text` | 通过部分 text 查找      |
+| `find_element_by_tag_name`          | `find_elements_by_tag_name`          | 通过 tag 查找           |
+| `find_element_by_class_name`        | `find_elements_by_class_name`        | 通过 class 进行查找     |
 | `find_element_by_css_selector`      | `find_elements_by_css_selector`      | 通过 css 选择器进行查找 |
 
 ```
@@ -111,6 +111,18 @@ send_keys(Keys.TAB)          # tab
 click()         # 左键单击
 context_click() # 右键单击
 double_click()  # 左键双击
+```
+
+## 悬停
+
+```
+from selenium import webdriver
+from selenium.webdriver.common.action_chains import ActionChains
+
+driver = webdriver.Chrome()
+driver.get("https://www.baidu.com")
+elem = driver.find_element_by_link_text("更多")      # 查找元素
+ActionChains(driver).move_to_element(elem).perform() # 悬停
 ```
 
 # 浏览器操作
