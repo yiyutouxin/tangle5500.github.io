@@ -47,6 +47,13 @@ driver = webdriver.Chrome(chrome_options=chrome_options)                        
 driver.get('https://www.baidu.com/')                                                                    # 浏览网页
 ```
 
+## 参数
+
+```
+driver.close() # 关闭当前标签
+driver.quit()  # 关闭浏览器
+```
+
 # 查找元素
 
 | 查找一个元素                      | 查找多个元素                       | 作用                    |
@@ -87,6 +94,12 @@ if wait_if(".class"): pass
 # 鼠标
 
 # 键盘
+
+```
+from selenium.webdriver.common.keys import Keys
+elem = driver.find_element_by_name("q")
+elem.send_keys("pycon")
+```
 
 # javascript
 
