@@ -68,13 +68,14 @@ driver.find_elements_by_id("id")[0]
 # 等待
 
 ```
-def wait(css, for_num=10, wait_time=0.1):
+def wait(css, for_num=10, wait_time=0.1, css_if=False):
     for i in range(for_num):
         try:
             if driver.find_element_by_css_selector(css):
                 return True
         except:
-            pass
+            if css_if:
+                return False
         time.sleep(wait_time)
 ```
 
