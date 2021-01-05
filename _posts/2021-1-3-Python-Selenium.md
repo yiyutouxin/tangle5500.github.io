@@ -58,10 +58,10 @@ driver.get('https://www.baidu.com/')                                            
 | `find_element_by_partial_link_text` | `find_elements_by_partial_link_text` | 通过部分链接查找        |
 | `find_element_by_tag_name`          | `find_elements_by_tag_name`          | 通过标签查找            |
 | `find_element_by_class_name`        | `find_elements_by_class_name`        | 通过类名进行查找        |
-| `find_elements_by_css_selector`     | `find_elements_by_css_selector`      | 通过 css 选择器进行查找 |
+| `find_element_by_css_selector`      | `find_elements_by_css_selector`      | 通过 css 选择器进行查找 |
 
 ```
-driver.find_element_by_id("id")
+driver.find_element_by_css_selector(".class #id")
 driver.find_elements_by_id("id")[0]
 ```
 
