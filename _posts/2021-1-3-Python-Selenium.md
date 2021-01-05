@@ -82,16 +82,7 @@ def wait_if(css, for_num=10, wait_time=0.1, css_if=False):
 if wait_if(".class"): pass
 ```
 
-# 浏览器操作
-
-```
-driver.close() # 关闭当前标签
-driver.quit()  # 关闭浏览器
-```
-
-# 鼠标
-
-# 键盘
+# 行为
 
 ```
 from selenium import webdriver
@@ -100,8 +91,33 @@ from selenium.webdriver.common.keys import Keys
 driver = webdriver.Chrome()
 driver.get("https://www.baidu.com/")
 elem = driver.find_element_by_id("kw")
-elem.send_keys("Tangle")
-elem.send_keys(Keys.RETURN)
+elem.clear()                # 清空输入框
+elem.send_keys("Tangle")    # 输入字符串
+elem.send_keys(Keys.RETURN) # 回车
+```
+
+# 键盘
+
+```
+send_keys(Keys.ENTER)        # 回车
+send_keys(Keys.F1)           # F1
+send_keys(Keys.CONTROL, "c") # ctrl + c
+send_keys(Keys.TAB)          # tab
+```
+
+# 鼠标
+
+```
+click()         # 左键单击
+context_click() # 右键单击
+double_click()  # 左键双击
+```
+
+# 浏览器操作
+
+```
+driver.close() # 关闭当前标签
+driver.quit()  # 关闭浏览器
 ```
 
 # javascript
