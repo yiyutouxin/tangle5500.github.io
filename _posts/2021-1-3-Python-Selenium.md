@@ -78,6 +78,8 @@ def wait(css, for_num=10, wait_time=0.1, css_if=False):
                 break
         time.sleep(wait_time)
     return False
+    
+wait("#id")
 ```
 
 # 浏览器操作
