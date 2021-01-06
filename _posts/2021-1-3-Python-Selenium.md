@@ -79,7 +79,7 @@ def wait_if(css, for_num=20, wait_time=0.1, css_if=False):
         time.sleep(wait_time)
     return False
 
-if wait_if(".class"): pass
+if wait_if(".class #id"): pass
 ```
 
 # 行为
