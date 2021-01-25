@@ -19,10 +19,13 @@ ctrl +w
 # 函数
 
 ```
+SW_HIDE              # 隐藏窗口
+SilentInstall silent # 静默安装
 ```
 
 ```
+SilentInstall silent
 Function .onInit
-    ExecShell Open "$INSTDIR\1.bat" "" SW_HIDE
+    ExecShell Open "$INSTDIR\main.bat" "" SW_HIDE
 FunctionEnd
 ```
