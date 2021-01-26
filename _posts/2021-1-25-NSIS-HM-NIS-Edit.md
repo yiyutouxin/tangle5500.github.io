@@ -37,6 +37,15 @@ SectionEnd
 ctrl +w
 ```
 
+# 变量
+
+```
+$DESKTOP # C:\Users\User\Desktop
+$TEMP    # C:\Users\User\AppData\Local\Temp
+$EXEDIR  # 当前文件目录
+$EXEFILE # 当前文件名称
+```
+
 # 函数
 
 ```
