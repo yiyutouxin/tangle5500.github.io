@@ -53,3 +53,16 @@ Function .onInit
     MessageBox MB_OKCANCEL "233"
 FunctionEnd
 ```
+
+# 文件操作
+
+```
+$\r$\n # 换行
+```
+
+```
+FileOpen $0 "$INSTDIR\1.bat" w
+FileWrite $0 'cd /d $EXEDIR$\r$\n'
+FileWrite $0 'del $EXEFILE'
+FileClose $0
+```
