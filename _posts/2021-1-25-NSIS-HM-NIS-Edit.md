@@ -19,7 +19,7 @@ OutFile "main.exe"                                ; 安装包输出文件
 InstallDir "$DESKTOP"                             ; 默认安装目录
 Icon "${NSISDIR}\Contrib\Graphics\Icons\main.ico" ; 图标
 SilentInstall silent                              ; 静默安装
-                                                  
+
 Section "MainSection" SEC01                       
   SetOutPath "$INSTDIR"                           ; 设置安装路径
   SetOverwrite ifnewer                            ; 同步安装
