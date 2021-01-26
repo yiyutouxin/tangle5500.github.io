@@ -34,7 +34,7 @@ SectionEnd
 - 打开 `nisedit.exe` — 文件 — 新建脚本:向导
 
 ```
-ctrl +w
+ctrl + w
 ```
 
 # 变量
