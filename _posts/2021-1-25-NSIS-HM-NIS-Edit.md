@@ -31,7 +31,7 @@ SectionEnd
 
 # 向导
 
-- 打开 `nisedit.exe` — 文件 — 新建脚本:向导
+- 打开 `nisedit.exe` — 文件 — `新建脚本:向导`
 
 ```
 ctrl + w
