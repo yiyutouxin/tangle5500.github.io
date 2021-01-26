@@ -15,7 +15,7 @@ SW_HIDE # 隐藏窗口
 ```
 
 ```
-OutFile "main.exe"                                ; 安装包路径
+OutFile "main.exe"                                ; 安装包输出文件
 InstallDir "$DESKTOP"                             ; 默认安装目录
 Icon "${NSISDIR}\Contrib\Graphics\Icons\main.ico" ; 图标
 SilentInstall silent                              ; 静默安装
