@@ -60,9 +60,9 @@ USBDeview.exe /disable_enable "USB DISK"
 %pid%               # 产品 ID
 %vid_hex%           # 厂商 ID
 %pid_hex%           # 产品 ID
-%device_desc%       # 描述
-%product_name%      # 产品名称
 %vendor_name%       # 厂商名称
+%product_name%      # 产品名称
+%device_desc%       # 描述
 %usb_version%       # USB 版本
 %firmware_revision% # 固件修正版
 %power%             # 电源
