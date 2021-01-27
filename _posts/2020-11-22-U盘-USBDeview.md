@@ -15,12 +15,13 @@ tags:
 # 断开命令行选项
 
 ```
-/ showmsg # 显示消息
+/showmsg       # 消息
+/stop_by_drive # 安全地移除硬件
 ```
 
 ```
-USBDeview.exe / stop_by_drive g：
-USBDeview.exe / stop_by_drive / showmsg f：
+USBDeview.exe /stop_by_drive g:
+USBDeview.exe /stop_by_drive /showmsg f:
 ```
 
 # 转换为其他语言
@@ -28,3 +29,9 @@ USBDeview.exe / stop_by_drive / showmsg f：
 - <http://www.nirsoft.net/utils/usb_devices_view.html>
 
 - End
+
+```
+usbdeview-x64
+    USBDeview.exe
+    usbdeview_lng.ini
+```
