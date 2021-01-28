@@ -5,7 +5,7 @@ date:    2021-1-28
 author:  Tangle
 catalog: true
 tags:
-    - Regedit
+    - Windows
 ---
 
 # reg
