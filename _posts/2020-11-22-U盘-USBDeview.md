@@ -41,7 +41,8 @@ USBDeview.exe /stop_by_drive /showmsg f:
 # 禁用启用
 
 ```
-USBDeview.exe /disable_enable "USB DISK"
+USBDeview.exe /disable_enable "USB DISK"    # 设备名称
+USBDeview.exe /disable_enable_by_drive "g:" # 驱动器号
 ```
 
 # 变量
