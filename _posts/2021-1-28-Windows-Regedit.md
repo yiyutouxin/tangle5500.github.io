@@ -1,11 +1,11 @@
 ---
 layout:  post
-title:   Regedit
+title:   Windows Regedit
 date:    2021-1-28
 author:  Tangle
 catalog: true
 tags:
-    - U盘
+    - Regedit
 ---
 
 # reg
