@@ -64,12 +64,7 @@ USBDeview.exe /disable_enable "USB DISK"
 %driver_version%    # 驱动版本
 %power%             # 电源
 %firmware_revision% # 固件修正版
-
 %vendor_name%       # 厂商名称
 %product_name%      # 产品名称
-
 %usb_version%       # USB 版本
-
-
-
 ```
