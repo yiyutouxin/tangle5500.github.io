@@ -243,13 +243,13 @@ xlwt_book.save('demo.xls')
 ## 保存原始格式追加内容
 
 ```
-xlrd_book = xlrd.open_workbook("C:\\\demo.xls",formatting_info=True) # 读取文件，并保留 Excel 的原格式
+xlrd_book = xlrd.open_workbook("C:\\\test.xls",formatting_info=True) # 读取文件，并保留 Excel 的原格式
 xlrd_sheet = xlrd_book.sheets()[0]                                   # 获取 sheet 工作表
 row = xlrd_sheet.nrows                                               # 获取有效行数
 xlwt_book = copy(xlrd_book)                                          # 将文件复制到内存，并改为写模式
 xlwt_sheet = xlwt_book.get_sheet(0)                                  # 获取 sheet 工作表
-xlwt_sheet.write(row + 1,2,'demo')                                   # 写入数据
-xlwt_book.save("C:\\demo.xls")                                       # 保存写入数据后的文件到源文件路径
+xlwt_sheet.write(row + 1,2,'text')                                   # 写入数据
+xlwt_book.save("C:\\text.xls")                                       # 保存写入数据后的文件到源文件路径
 ```
 
 ```
@@ -260,8 +260,8 @@ xlrd_sheet = xlrd_book.sheets()[0]
 row = xlrd_sheet.nrows
 xlwt_book = copy(xlrd_book)
 xlwt_sheet = xlwt_book.get_sheet(0)
-xlwt_sheet.write(row + 1,2,'demo')
-xlwt_book.save("C:\\demo.xls")
+xlwt_sheet.write(row + 1,2,'text')
+xlwt_book.save("C:\\test.xls")
 ```
 
 # pywin32
