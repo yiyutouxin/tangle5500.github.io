@@ -8,6 +8,41 @@ tags:
     - Office
 ---
 
+# xlrd
+
+| 语法                                                         | 返回值       | 作用                |
+| ------------------------------------------------------------ | ------------ | ------------------- |
+| `xlrd_book = xlrd.open_workbook(r'c:\test.xls')`               |              |                     |
+| `xlrd_book.sheet_names()`                                      | `list`         | 查看所有 sheet 名称 |
+| `xlrd_sheet = xlrd_book.sheet_by_index(0)`                     |              | 通过索引获取 Sheet  |
+| `xlrd_sheet = xlrd_book.sheets()[0]`                           |              | 通过索引获取 Sheet  |
+| `xlrd_sheet = xlrd_book.sheet_by_name('sheet')`                |              | 通过名称获取 Sheet  |
+| `cell_11 = xlrd_sheet.cell_value(0,0)`                         | `float | str` | 读取单元格数据      |
+| `self.xlrd_sheet.cell(0, 1).value`                             |              | 可以读取空单元格    |
+| `row = xlrd_sheet.row_values(3)`                               | `list`         | 读取第 2 行数据     |
+| `cols = xlrd_sheet.col_values(3)`                              | `list`         | 读取第 2 列数据     |
+| `[xlrd_sheet.cell(i,ord('B')-ord('A')).value for i in range(0,3)]` | `list`         | 读取 B 列的 1-3 行  |
+| `xlrd_sheet.nrows`                                              | `int`          | 获取有效行数        |
+| `xlrd_sheet.ncols`                                              |              | 获取有效列数        |
+
+获取单元格的类型
+
+| 语法                       | 返回值 |         |        |
+| -------------------------- | ------ | ------- | ------ |
+| `xlrd_sheet.cell(2,2).ctype` | 0      | empty   | 空值   |
+|                            | 1      | string  | 字符串 |
+|                            | 2      | number  | 数字   |
+|                            | 3      | date    | 日期   |
+|                            | 4      | boolean | 布尔   |
+|                            | 5      | error   | 错误   |
+
+## 时间戳
+
+```
+from xlrd import xldate_as_tuple
+xldate_as_tuple(44225.0, 0) # 返回元祖日期
+```
+
 # xlwt
 
 打开一个 Excel 后再写数据直接保存就可以了，不用再重新打开
@@ -193,34 +228,6 @@ for i in range(1000):
 
 xlwt_book.save('demo.xls')
 ```
-
-# xlrd
-
-| 语法                                                         | 返回值       | 作用                |
-| ------------------------------------------------------------ | ------------ | ------------------- |
-| `xlrd_book = xlrd.open_workbook(r'c:\test.xls')`               |              |                     |
-| `xlrd_book.sheet_names()`                                      | `list`         | 查看所有 sheet 名称 |
-| `xlrd_sheet = xlrd_book.sheet_by_index(0)`                     |              | 通过索引获取 Sheet  |
-| `xlrd_sheet = xlrd_book.sheets()[0]`                           |              | 通过索引获取 Sheet  |
-| `xlrd_sheet = xlrd_book.sheet_by_name('sheet')`                |              | 通过名称获取 Sheet  |
-| `cell_11 = xlrd_sheet.cell_value(0,0)`                         | `float | str` | 读取单元格数据      |
-| `self.xlrd_sheet.cell(0, 1).value`                             |              | 可以读取空单元格    |
-| `row = xlrd_sheet.row_values(3)`                               | `list`         | 读取第 2 行数据     |
-| `cols = xlrd_sheet.col_values(3)`                              | `list`         | 读取第 2 列数据     |
-| `[xlrd_sheet.cell(i,ord('B')-ord('A')).value for i in range(0,3)]` | `list`         | 读取 B 列的 1-3 行  |
-| `xlrd_sheet.nrows`                                              | `int`          | 获取有效行数        |
-| `xlrd_sheet.ncols`                                              |              | 获取有效列数        |
-
-获取单元格的类型
-
-| 语法                       | 返回值 |         |        |
-| -------------------------- | ------ | ------- | ------ |
-| `xlrd_sheet.cell(2,2).ctype` | 0      | empty   | 空值   |
-|                            | 1      | string  | 字符串 |
-|                            | 2      | number  | 数字   |
-|                            | 3      | date    | 日期   |
-|                            | 4      | boolean | 布尔   |
-|                            | 5      | error   | 错误   |
 
 # xlutils
 
