@@ -299,19 +299,31 @@ win32_book = excel.Workbooks.Open("C:/test.xls")
 ## write
 
 ```
-win32_sheet.Rows("2:500").delete                                                             # 删除行 2-500 包括 2 和 500
+win32_sheet.Rows("2:500").delete                                                             # 删除行 2-500（包含 2 和 500）
 win32_sheet.Cells(2, 2).Value = "233"                                                        # 写入单元格（2行，2列）
 win32_sheet.Cells(2, 2).Font.Color = -16776961                                               # 设置单元格字体颜色
 win32_sheet.Cells(2, 2).Font.Bold =  True                                                    # 设置单元格字体为粗体
 win32_sheet.Cells(2, 2).Font.Name = "微软雅黑"                                               # 设置单元格字体
-win32_sheet.Range(win32_sheet.Cells(6, 1), win32_sheet.Cells(10, 10)).Value = 嵌套元组       # 给一个范围赋值，输入的值应该为嵌套的元组
 win32_sheet.Range(win32_sheet.Cells(6, 1), win32_sheet.Cells(10, 10)).Font.Color = -11489280 # 改变一个范围的属性值
-win32_sheet.Rows(12).Value =  元组                                                           # 赋值一整行
+win32_sheet.Rows(12).Value = (1,2,3)                                                         # 赋值一整行
 ```
 
 ```
-win32_sheet.Range(win32_sheet.Cells(15, 5), win32_sheet.Cells(15, 10)).Value = (1, 2, 3, 4, 5, 6) # 15行，5-10列（包含 5 和 10）
-win32_sheet.Range(win32_sheet.Cells(10, 5), win32_sheet.Cells(15, 10)).Value = (1, 2, 3, 4, 5, 6) # 10-15行，5-10列
+# 行
+win32_sheet.Range(win32_sheet.Cells(3, 4), win32_sheet.Cells(3, 6)).Value = (1, 2, 3) # 3行，4-6列（包含 4 和 6列）
+123
+
+# 范围
+win32_sheet.Range(win32_sheet.Cells(1, 4), win32_sheet.Cells(3, 6)).Value = (1, 2, 3) # 1-3行，4-6列
+123
+123
+123
+
+# 范围
+win32_sheet.Range(win32_sheet.Cells(1, 4), win32_sheet.Cells(3, 6)).Value = ((1,2,3),(4,5,6),(7,8,9))
+123
+456
+789
 ```
 
 ## read
