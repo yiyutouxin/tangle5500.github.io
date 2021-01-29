@@ -12,7 +12,7 @@ tags:
 
 | 语法                                                         | 返回值       | 作用                |
 | ------------------------------------------------------------ | ------------ | ------------------- |
-| `xlrd_book = xlrd.open_workbook(r'c:\test.xls')`               |              |                     |
+| `xlrd_book = xlrd.open_workbook(r'C:\test.xls')`               |              |                     |
 | `xlrd_book.sheet_names()`                                      | `list`         | 查看所有 sheet 名称 |
 | `xlrd_sheet = xlrd_book.sheet_by_index(0)`                     |              | 通过索引获取 Sheet  |
 | `xlrd_sheet = xlrd_book.sheets()[0]`                           |              | 通过索引获取 Sheet  |
@@ -246,7 +246,7 @@ xlwt_book.save("C:\\demo.xls")                                       # 保存写
 ````python
 import xlrd
 from xlutils.copy import copy
-xlrd_book = xlrd.open_workbook("C:\\demo.xls",formatting_info=True)
+xlrd_book = xlrd.open_workbook("C:\\test.xls",formatting_info=True)
 xlrd_sheet = xlrd_book.sheets()[0]
 row = xlrd_sheet.nrows
 xlwt_book = copy(xlrd_book)
@@ -260,7 +260,7 @@ xlwt_book.save("C:\\demo.xls")
 ```
 excel = win32com.client.Dispatch('Excel.Application') # 获取 excel 对象
 excel.Visible = -1                                    # -1 显示。0 隐藏，菜单显示。2 隐藏，VBA 显示
-win32_book = excel.Workbooks.Open("c:/demo.xls")      # 打开 excel
+win32_book = excel.Workbooks.Open("C:/test.xls")      # 打开 excel
 win32_sheet = win32_book.Worksheets("sheet1")         # sheet，序号，名称
 win32_book.save                                       # 保存
 win32_book.close                                      # 退出
@@ -273,7 +273,7 @@ import win32com.client
 
 excel = win32com.client.Dispatch('Excel.Application')
 excel.Visible = -1
-win32_book = excel.Workbooks.Open(r'c:/demo.xls')
+win32_book = excel.Workbooks.Open(r'C:/test.xls')
 win32_sheet = win32_book.Worksheets('sheet1')
 win32_book.save
 win32_book.close
@@ -284,7 +284,7 @@ win32_book.close
 ```
 # 绝对路径
 
-win32_book = excel.Workbooks.Open("c:/demo.xls")
+win32_book = excel.Workbooks.Open("C:/test.xls")
 ```
 
 ## write
