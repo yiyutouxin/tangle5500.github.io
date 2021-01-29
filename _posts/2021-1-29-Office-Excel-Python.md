@@ -25,7 +25,18 @@ tags:
 | `xlrd_sheet.nrows`                                              | `int`          | 获取有效行数        |
 | `xlrd_sheet.ncols`                                              |              | 获取有效列数        |
 
-获取单元格的类型
+```
+import xlrd
+xlrd_book = xlrd.open_workbook('test.xls')
+xlrd_sheet = xlrd_book.sheet_by_index(0)
+nr = xlrd_sheet.nrows
+nc = xlrd_sheet.ncols
+for i in range(nr):
+    row = xlrd_sheet.row_values(i)
+    print(row)
+```
+
+## 单元格的类型
 
 | 语法                       | 返回值 |         |        |
 | -------------------------- | ------ | ------- | ------ |
@@ -51,7 +62,7 @@ xldate_as_tuple(44225.0, 0) # 返回元祖日期
 xlwt_book = xlwt.Workbook(encoding='utf-8') # 新建工作薄
 xlwt_sheet = xlwt_book.add_sheet('sheet1')  # 新建 Sheet
 xlwt_sheet.write(0,0,'文本')                # 通过行列索引写入数据
-xlwt_book.save(r'c:\test.xls')              # 保存
+xlwt_book.save(r'C:\test.xls')              # 保存
 ```
 
 ```
@@ -63,10 +74,10 @@ xlwt_sheet = xlwt_book.add_sheet('sheet1')
 for i in range(1,10):
     style = XFStyle()
     style.num_format_str = 'mm:ss'
-    xlwt_sheet.write(i, 0,'文本', style)
+    xlwt_sheet.write(i, 0, '文本', style)
     xlwt_sheet.write(0, i, '文本', style)
 
-xlwt_book.save('demo.xls')
+xlwt_book.save('test.xls')
 ```
 
 ## 类别
@@ -129,19 +140,18 @@ ws.write(1, 1, '文本', style) # 根据索引写入单元格
 ## 框线与合并
 
 ```
-borders = Borders()                     # 样式实例化
-borders.left = 2                        # 2号左框线
-borders.right = 2                       # 2号右框线
-borders.top = 2                         # 2号上框线
-borders.bottom = 2                      # 2号下框线
-style.borders = borders                 # 设置好的参数导入 Style
-sheet.write_merge(2,2,3,3,'文本',style) # 为第 4 行，第 5 列添加样式
-sheet.write_merge(3,3,4,5,'文本',style) # 合并第 3 行，4 和 5 列
+borders = Borders()                          # 样式实例化
+borders.left = 2                             # 2号左框线
+borders.right = 2                            # 2号右框线
+borders.top = 2                              # 2号上框线
+borders.bottom = 2                           # 2号下框线
+style.borders = borders                      # 设置好的参数导入 Style
+sheet.write_merge(2, 2, 3, 3, 'text', style) # 为第 4 行，第 5 列添加样式
+sheet.write_merge(3, 3, 4, 5, 'text', style) # 合并第 3 行，4 和 5 列
 ```
 
-为 1-10 行添加样式
-
 ```
+# 为 1-10 行添加样式
 for i in range(0, 10):
     borders = Borders()
     borders.left = 2
@@ -160,19 +170,19 @@ pattern = Pattern()                          # 创建一个模式
 pattern.pattern = Pattern.SOLID_PATTERN      # 设置其模式为实型
 pattern.pattern_fore_colour = 1              # 设置单元格背景色
 style.pattern = pattern                      # 将赋值好的模式参数导入 Style
-sheet.write_merge(1, 1, 1, 1, '文本', style) # 写入单元格
+sheet.write_merge(1, 1, 1, 1, 'text', style) # 写入单元格
 ```
 
 ## 字体样式
 
 ```
-style = XFStyle()                       # 赋值 style 为 XFStyle()，实例化样式
-fnt = Font()                            # 创建一个文本格式，包括字体，字号和颜色样式特性
-fnt.name = u'微软雅黑'                  # 设置字体为微软雅黑
-fnt.colour_index = 1                    # 设置其字体颜色
-fnt.bold = True                         # 粗体
-style.font = fnt                        # 将赋值好的模式参数导入 Style
-sheet.write_merge(1,1,1,1,'文本',style) # 写入单元格
+style = XFStyle()                            # 赋值 style 为 XFStyle()，实例化样式
+fnt = Font()                                 # 创建一个文本格式，包括字体，字号和颜色样式特性
+fnt.name = u'微软雅黑'                       # 设置字体为微软雅黑
+fnt.colour_index = 1                         # 设置其字体颜色
+fnt.bold = True                              # 粗体
+style.font = fnt                             # 将赋值好的模式参数导入 Style
+sheet.write_merge(1, 1, 1, 1, 'text', style) # 写入单元格
 ```
 
 ## 列宽与行高
@@ -189,10 +199,9 @@ first_row = sheet.row(0)
 first_row.set_style(tall_style)
 ```
 
-
-
 ```
 # 设置所有单元格行高
+
 tall_style = xlwt.easyxf('font:height 400;')
 for i in range(65536):
     first_row = sheet.row(i)
@@ -243,7 +252,7 @@ xlwt_sheet.write(row + 1,2,'demo')                                   # 写入数
 xlwt_book.save("C:\\demo.xls")                                       # 保存写入数据后的文件到源文件路径
 ```
 
-````python
+```
 import xlrd
 from xlutils.copy import copy
 xlrd_book = xlrd.open_workbook("C:\\test.xls",formatting_info=True)
@@ -253,7 +262,7 @@ xlwt_book = copy(xlrd_book)
 xlwt_sheet = xlwt_book.get_sheet(0)
 xlwt_sheet.write(row + 1,2,'demo')
 xlwt_book.save("C:\\demo.xls")
-````
+```
 
 # pywin32
 
