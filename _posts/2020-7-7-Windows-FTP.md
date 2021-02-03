@@ -1,10 +1,8 @@
 ---
-layout:     post
-title:      Windows FTP
-subtitle:   
-date:       2019-9-12
-author:     Tangle
-header-img: img/post-bg-ios9-web.jpg
+layout:  post
+title:   Windows FTP
+date:    2020-7-7
+author:  Tangle
 catalog: true
 tags:
     - Windows
@@ -32,13 +30,15 @@ Windows 7
 
 ## 防火墙
 
-0. 控制面板 — 防火墙 — 允许程序或动能通过 Windows 防火墙 — 勾选**FTP 服务器**
-1. 点击**允许运行另一程序** — **浏览**打开**C:\Windows\System32\svchost.exe**
+- 控制面板 — 防火墙 — 允许程序或动能通过 Windows 防火墙 — 勾选**FTP 服务器**
+
+- 点击**允许运行另一程序** — **浏览**打开**C:\Windows\System32\svchost.exe**
 
 ## 测试
 
-0. 浏览器中输入 **ftp://IP 地址**
-1. 输入刚创建的用户名和密码
+- 浏览器中输入 **ftp://IP 地址**
+
+- 输入刚创建的用户名和密码
 
 # 客户端
 
@@ -111,12 +111,17 @@ start data.xls
 
 # 映射网络驱动器
 
-0. 此电脑
-0. 打开**映射网络驱动器**
-1. 点击下方的**连接到可用于存储文档和图片的网站**然后下一步
-3. 在 **internet 地址或网络地址**输入 **ftp://IP 地址**
-4. 用户名
-5. 随意名称
+- 此电脑
+
+- 打开**映射网络驱动器**
+
+- 点击下方的**连接到可用于存储文档和图片的网站**然后下一步
+
+- 在 **internet 地址或网络地址**输入 **ftp://IP 地址**
+
+- 用户名
+
+- 随意名称
 
 # ERROR
 
