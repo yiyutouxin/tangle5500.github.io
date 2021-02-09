@@ -21,7 +21,7 @@ ssh-keygen -t rsa -C "useremail"           # 生成 SSH
 
 - 把 `id_rsa.pub` 中的文本复制到 github 上
 
-- 在操作中出现 `CredentialHelperSelector` 弹窗选择 `store` 或者执行下方命令
+- 提交出现 `CredentialHelperSelector` 选择 `store` 勾选 `Always use this from now on` 或者执行下方命令
 
 ```
 git config --global credential.helper store
