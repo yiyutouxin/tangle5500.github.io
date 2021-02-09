@@ -40,6 +40,10 @@ ssh-keygen -t rsa -C "useremail"           # 生成 SSH
 git config --global credential.helper store
 ```
 
+```
+Git\etc\gitconfig
+```
+
 ## 修改用户
 
 - **目录**：$HOME
