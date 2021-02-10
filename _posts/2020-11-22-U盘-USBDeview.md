@@ -30,14 +30,49 @@ usbdeview-x64
 ```
 
 ```
-REM main.bat %device_name%
-mkdir device
-set file_path=device\"%date:~0,4%%date:~5,2%%date:~8,2%%time:~0,2%%time:~3,2%%time:~6,2%.txt"
-echo;%date% %time%>%file_path%
+# main.exe "%device_name%" "%drive%" "%serial_number%" "%vid_hex%"
+
+import sys
+import subprocess
+import time
+import os
+
+class App:
+    def __init__(self):
+        self.init()
+        self.main()
+        self.xcopy()
+        
+    def init(self):
+        self.file_name_date = time.strftime("%Y%m%d%H%M%S")
+        self.date = time.strftime("%Y-%m-%d %H:%M:%S")
+        args = sys.argv
+        self.device_name = args[1]
+        self.drive = args[2]
+        self.serial_number = args[3]
+        self.vid_hex = args[4]
+        
+    def main(self):
+        cmd = f"""mkdir device
+set file_path=device\{self.file_name_date}.txt
+echo;{self.date}>%file_path%
 echo.>>%file_path%
-echo;%1 %2>>%file_path%
+echo;{self.device_name}>>%file_path%
 echo.>>%file_path%
 USBDeview.exe /DisplayDisconnected 0 /stabular>>%file_path%
+rundll32.exe user32.dll,LockWorkStation
+del %0
+        """
+        with open('temp.bat','w') as f:
+            f.write(cmd)
+        subprocess.call("temp.bat", shell=True, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    
+    def xcopy(self):
+        local_path = f'D:\\drive\\{self.vid_hex}{self.serial_number}\\'
+        cmd = f'xcopy {self.drive} {local_path} /e /h /d /y'
+        subprocess.call(cmd, shell=True, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        
+App()
 ```
 
 # 断开命令行选项
