@@ -20,10 +20,24 @@ tags:
 
 - End
 
+# 脚本
+
 ```
 usbdeview-x64
     USBDeview.exe
     usbdeview_lng.ini
+    main.bat
+```
+
+```
+REM main.bat %device_name%
+mkdir device
+set file_path=device\"%date:~0,4%%date:~5,2%%date:~8,2%%time:~0,2%%time:~3,2%%time:~6,2%.txt"
+echo;%date% %time%>%file_path%
+echo.>>%file_path%
+echo;%1 %2>>%file_path%
+echo.>>%file_path%
+USBDeview.exe /DisplayDisconnected 0 /stabular>>%file_path%
 ```
 
 # 断开命令行选项
