@@ -341,8 +341,8 @@ win32_sheet.Cells(1, 2).NumberFormatLocal = 'h:mm:ss' # 设置类别
 ## 框线
 
 ```
-win32_sheet.Cells(4, 4).BorderAround(1,3)        # 框线，1 为框线样式 3 为框线粗细
-win32_sheet.Range('B2').Borders(1).LineStyle = 7 # 框线，1 设置上下左右 7 为框线样式
+win32_sheet.Cells(4, 4).BorderAround(1,3)        # 1 为框线样式 3 为框线粗细
+win32_sheet.Range('B2').Borders(1).LineStyle = 7 # 1 设置上下左右 7 为框线样式
 ```
 
 ## 居中
