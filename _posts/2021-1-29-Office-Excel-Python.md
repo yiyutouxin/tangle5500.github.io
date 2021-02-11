@@ -379,7 +379,7 @@ win32_sheet.Cells(1, 2).Interior.ColorIndex = 28 # 单元格颜色
 ## 合并单元格
 
 ```
-win32_sheet.Range(win32_sheet.Cells(1, 1), win32_sheet.Cells(3, 3)) .MergeCells = True # 合并单元格
+win32_sheet.Range(win32_sheet.Cells(1, 1), win32_sheet.Cells(3, 3)).MergeCells = True # 合并单元格
 ```
 
 ## 列宽
