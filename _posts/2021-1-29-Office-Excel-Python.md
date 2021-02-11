@@ -292,7 +292,6 @@ win32_book.close
 
 ```
 # 绝对路径
-
 win32_book = excel.Workbooks.Open("C:/test.xls")
 ```
 
