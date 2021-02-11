@@ -328,7 +328,7 @@ win32_sheet.Range(win32_sheet.Cells(1, 4), win32_sheet.Cells(3, 6)).Value = ((1,
 ## read
 
 ```
-aCellValue = win32_sheet.Cells(2, 3).Value                                           # 获取一个单元格的值
+CellValue = win32_sheet.Cells(2, 3).Value                                            # 获取一个单元格的值
 嵌套元组 = win32_sheet.Range(win32_sheet.Cells(1, 1), win32_sheet.Cells(5, 5)).Value # 获取一个范围的值，类型为嵌套的元组
 ```
 
