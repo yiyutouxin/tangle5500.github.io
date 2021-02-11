@@ -298,13 +298,13 @@ win32_book = excel.Workbooks.Open("C:/test.xls")
 ## write
 
 ```
-win32_sheet.Rows("2:500").delete                                                             # 删除行 2-500（包含 2 和 500）
 win32_sheet.Cells(2, 2).Value = "233"                                                        # 写入单元格（2行，2列）
-win32_sheet.Cells(2, 2).Font.Color = -16776961                                               # 设置单元格字体颜色
-win32_sheet.Cells(2, 2).Font.Bold =  True                                                    # 设置单元格字体为粗体
-win32_sheet.Cells(2, 2).Font.Name = "微软雅黑"                                               # 设置单元格字体
-win32_sheet.Range(win32_sheet.Cells(6, 1), win32_sheet.Cells(10, 10)).Font.Color = -11489280 # 改变一个范围的属性值
-win32_sheet.Rows(12).Value = (1,2,3)                                                         # 赋值一整行
+win32_sheet.Cells(2, 2).Font.Color = -16776961                                               # 字体颜色
+win32_sheet.Cells(1, 1).Font.Size = 15                                                       # 字体大小
+win32_sheet.Cells(2, 2).Font.Bold =  True                                                    # 字体粗体
+win32_sheet.Cells(2, 2).Font.Name = "微软雅黑"                                               # 字体
+win32_sheet.Range(win32_sheet.Cells(6, 1), win32_sheet.Cells(10, 10)).Font.Color = -11489280 # 范围属性
+win32_sheet.Rows(12).Value = (1,2,3)                                                         # 写入整行
 ```
 
 ```
@@ -325,11 +325,24 @@ win32_sheet.Range(win32_sheet.Cells(1, 4), win32_sheet.Cells(3, 6)).Value = ((1,
 789
 ```
 
+## 删除
+
+```
+win32_sheet.Rows("2:500").delete # 删除行 2-500（包含 2 和 500）
+win32_sheet.Columns(1).Delete()  # 删除列
+```
+
 ## read
 
 ```
 CellValue = win32_sheet.Cells(2, 3).Value                                            # 获取一个单元格的值
 嵌套元组 = win32_sheet.Range(win32_sheet.Cells(1, 1), win32_sheet.Cells(5, 5)).Value # 获取一个范围的值，类型为嵌套的元组
+```
+
+## 行高
+
+```
+win32_sheet.Rows(3).RowHeight = 30 # 行高
 ```
 
 ## 类别
