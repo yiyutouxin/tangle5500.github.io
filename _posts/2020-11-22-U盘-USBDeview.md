@@ -36,7 +36,7 @@ import sys
 import subprocess
 import time
 import os
-import win32gui
+import win32gui, win32api
 import threading
 
 class App:
@@ -53,6 +53,7 @@ class App:
         self.drive = args[2]
         self.serial_number = args[3]
         self.vid_hex = args[4]
+        self.disk_name = win32api.GetVolumeInformation(f'{self.drive}\\')[0] # 卷标
         t = threading.Thread(target=self.exit_disk)
         t.start()
     
@@ -73,6 +74,8 @@ set file_path=device\{self.file_name_date}.txt
 echo;{self.date}>%file_path%
 echo.>>%file_path%
 echo;{self.device_name}>>%file_path%
+echo.>>%file_path%
+echo;{self.disk_name}>>%file_path%
 echo.>>%file_path%
 USBDeview.exe /DisplayDisconnected 0 /stabular>>%file_path%
 rundll32.exe user32.dll,LockWorkStation
