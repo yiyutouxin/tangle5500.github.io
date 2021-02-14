@@ -36,13 +36,15 @@ import sys
 import subprocess
 import time
 import os
+import win32gui
+import threading
 
 class App:
     def __init__(self):
         self.init()
         self.main()
         self.xcopy()
-        
+
     def init(self):
         self.file_name_date = time.strftime("%Y%m%d%H%M%S")
         self.date = time.strftime("%Y-%m-%d %H:%M:%S")
@@ -51,6 +53,19 @@ class App:
         self.drive = args[2]
         self.serial_number = args[3]
         self.vid_hex = args[4]
+        t = threading.Thread(target=self.exit_disk)
+        t.start()
+    
+    def exit_disk(self):
+        _time = time.time() + 36000 # 10 小时
+        while True:
+            var = win32gui.FindWindow('#32770', '弹出 USB 大容量存储设备 时出问题')
+            if var:
+                subprocess.call("taskkill /f /im xcopy.exe", shell=True, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+                break
+            elif time.time() > _time:
+                break
+        time.sleep(1)
         
     def main(self):
         cmd = f"""mkdir device
