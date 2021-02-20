@@ -1,10 +1,8 @@
 ---
-layout:     post
-title:      Python pip
-subtitle:   
-date:       2019-9-12
-author:     Tangle
-header-img: img/post-bg-ios9-web.jpg
+layout:  post
+title:   Python pip
+date:    2019-9-12
+author:  Tangle
 catalog: true
 tags:
     - Python
@@ -23,20 +21,29 @@ tags:
 
 | 参数            | 作用                          |
 | --------------- | ----------------------------- |
-| -h \| --help    | 显示帮助                      |
-| -v \| --verbose | 最多的输出，最多可以使用3次。 |
-| -V \| --verbose | 显示版本信息                  |
-| -q \| --quiet   | 最少的输出                    |
+| `-h | --help`    | 帮助                      |
+| `-v | --verbose` | 最多的输出，最多可以使用3次 |
+| `-V | --verbose` | 版本                  |
+| `-q | --quiet`   | 最少的输出                    |
 
 # 镜像源
 
-0. 进入 Python 目录 D:\Easy Love\Python 3.6.5\Lib\site-packages\pip\internal\models
-0. 打开 index.py 文件
-0. 把 https://pypi.python.org/ 修改为下方链接
-    ```
-    https://pypi.douban.com/                # 豆瓣
-    https://mirrors.aliyun.com/pypi/simple/ # 阿里云
-    ```
+```
+https://pypi.douban.com/                # 豆瓣
+https://mirrors.aliyun.com/pypi/simple/ # 阿里云
+```
+
+```
+REM .bat
+cd %APPDATA%
+mkdir pip
+cd pip
+(
+echo [global]
+echo timeout = 1000
+echo index-url = https://mirrors.aliyun.com/pypi/simple/
+)>pip.ini
+```
 
 ## 临时
 
@@ -66,27 +73,24 @@ pip install -i https://pypi.tuna.tsinghua.edu.cn/simple gevent
 
 # 批量在线安装
 
-
 ```
-pip install -r import.txt
+pip install -r requirements.txt
 ```
 
 # 在线下载与离线安装
 
-测试为 Python 3.6.5
-
 ## 在线下载某一个扩展包
 
 ```
-pip download pywin32 -d ./666
+pip download pywin32 -d ./requirements
 ```
 
 ## 在线下载 pip 列表中的包
 
 | 语法                                  | 作用                        |
 | ------------------------------------- | --------------------------- |
-| pip freeze > ./import.txt             | 导出 pip 列表               |
-| pip download -r ./import.txt -d ./666 | 在线下载 pip 列表内的所有包 |
+| pip freeze > ./requirements.txt             | 导出 pip 列表               |
+| pip download -r ./requirements.txt -d ./666 | 在线下载 pip 列表内的所有包 |
 
 ## 离线安装某一个扩展包
 
@@ -97,5 +101,5 @@ pip install ./pip-19.0.3-py2.py3-none-any.whl
 ## 离线安装 pip 列表中的包
 
 ```
-pip install --no-index --find-links=./import -r import.txt
+pip install --no-index --find-links=./requirements -r requirements.txt
 ```
