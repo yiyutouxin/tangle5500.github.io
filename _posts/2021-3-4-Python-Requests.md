@@ -81,9 +81,9 @@ ua = {
 
 def read_cookies():
     with open("mycookies.txt", 'r', encoding='utf-8') as f:
-        cookies_txt = f.read()
-        cookies_txt = dict([i.split("=", 1) for i in cookies_txt.split(";")])
-        cookiesJar = requests.utils.cookiejar_from_dict(cookies_txt, cookiejar=None,overwrite=True)
+        cookies_txt = f.read()                                                                      # cookie 字符串
+        cookies_txt = dict([i.split("=", 1) for i in cookies_txt.split(";")])                       # 转字典
+        cookiesJar = requests.utils.cookiejar_from_dict(cookies_txt, cookiejar=None,overwrite=True) # 转 cookiejar
         print(cookiesJar)
         return cookiesJar
 session = requests.session()
