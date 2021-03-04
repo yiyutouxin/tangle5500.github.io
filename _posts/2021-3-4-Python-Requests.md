@@ -68,3 +68,28 @@ if __name__ == '__main__':
     pool.close()
     pool.join()
 ```
+
+# session
+
+```
+import requests
+
+test_url = 'https://space.bilibili.com/122566598'
+ua = {
+    'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:71.0) Gecko/20100101 Firefox/71.0',
+}
+
+def read_cookies():
+    with open("mycookies.txt", 'r', encoding='utf-8') as f:
+        cookies_txt = f.read()
+        cookies_txt = dict([i.split("=", 1) for i in cookies_txt.split(";")])
+        cookiesJar = requests.utils.cookiejar_from_dict(cookies_txt, cookiejar=None,overwrite=True)
+        print(cookiesJar)
+        return cookiesJar
+session = requests.session()
+session.headers = ua
+session.cookies = read_cookies()
+response = session.get(test_url)
+print(session.cookies)
+print(response.text)
+```
