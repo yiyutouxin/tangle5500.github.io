@@ -1,6 +1,6 @@
 ---
 layout:  post
-title:   Python 爬虫 Requests
+title:   Python Requests
 date:    2021-3-4
 author:  Tangle
 catalog: true
