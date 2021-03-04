@@ -1,6 +1,6 @@
 ---
 layout:  post
-title:   Python 爬虫 Selenium
+title:   Python Selenium
 date:    2021-1-3
 author:  Tangle
 catalog: true
