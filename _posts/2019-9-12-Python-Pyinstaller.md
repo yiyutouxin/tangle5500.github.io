@@ -1,6 +1,6 @@
 ---
 layout:  post
-title:   Python 打包
+title:   Python Pyinstaller
 date:    2019-9-12
 author:  Tangle
 catalog: true
@@ -53,7 +53,7 @@ pywin32-ctypes (0.2.0)
 -w           # 无 dos 窗口
 ```
 
-想在 32位系统上使用可执行文件，要用低版本32位的 Python 版本打包
+想在 32位系统上使用可执行文件，要用低版本 32位的 Python 版本打包
 
 ### pip 安装版
 
