@@ -134,6 +134,14 @@ driver.quit()  # 关闭浏览器
 
 # javascript
 
+```
+from selenium import webdriver
+
+driver = webdriver.Chrome()
+driver.get('https://www.baidu.com/')
+driver.execute_script('window.alert(233+666)')
+```
+
 # 截图
 
 # cookie
