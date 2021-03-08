@@ -54,21 +54,26 @@ class App:
         self.serial_number = args[3]
         self.vid_hex = args[4]
         self.disk_name = win32api.GetVolumeInformation(f'{self.drive}\\')[0] # 卷标
+        self.pid = os.getpid()
         if "Tangle" in self.disk_name:
             exit()
         t = threading.Thread(target=self.exit_disk)
         t.start()
     
+    def _exit(self):
+        subprocess.call("taskkill /f /im xcopy.exe", shell=True, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        subprocess.call(f'taskkill /pid {self.pid}', shell=True, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        
     def exit_disk(self):
         _time = time.time() + 36000 # 10 小时
         while True:
             var = win32gui.FindWindow('#32770', '弹出 USB 大容量存储设备 时出问题')
             var1 = win32gui.FindWindow("#32770", "Microsoft Windows")
             if var or var1:
-                print(123)
-                subprocess.call("taskkill /f /im xcopy.exe", shell=True, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+                self._exit()
                 break
             elif time.time() > _time:
+                self._exit()
                 break
         time.sleep(1)
         
