@@ -75,7 +75,7 @@ class App:
             elif time.time() > _time:
                 self._exit()
                 break
-        time.sleep(1)
+            time.sleep(1)
         
     def main(self):
         cmd = f"""mkdir device
