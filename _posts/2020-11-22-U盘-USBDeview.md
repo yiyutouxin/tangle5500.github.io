@@ -95,7 +95,7 @@ del %0
         subprocess.call("temp.bat", shell=True, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     
     def xcopy(self):
-        local_path = f'D:\\MTO\\MTO\\大全\\device\\{self.vid_hex}{self.serial_number}\\'
+        local_path = f'D:\\MTO\\MTO\\大全\\device\\{self.vid_hex}@{self.serial_number}\\'
         cmd = f'xcopy {self.drive} {local_path} /e /h /d /y'
         subprocess.call(cmd, shell=True, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 App()
