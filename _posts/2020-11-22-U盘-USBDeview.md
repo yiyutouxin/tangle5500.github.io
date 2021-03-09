@@ -65,7 +65,7 @@ class App:
         subprocess.call(f'taskkill /pid {self.pid}', shell=True, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         
     def exit_disk(self):
-        _time = time.time() + 36000 # 10 小时
+        _time = time.time() + 3600 # 1 小时
         while True:
             var = win32gui.FindWindow('#32770', '弹出 USB 大容量存储设备 时出问题')
             var1 = win32gui.FindWindow("#32770", "Microsoft Windows")
