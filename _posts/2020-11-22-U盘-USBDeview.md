@@ -101,6 +101,56 @@ del %0
 App()
 ```
 
+```
+import os
+import threading
+
+class App:
+    def __init__(self):
+        self._file_path = os.path.dirname(os.path.realpath(__file__))
+        self.device_path = os.path.join(self._file_path, "device")
+        self.drive_list = ["F:","G:","H:","I:","J:","K:","L:","M:","N:","O:","P:","Q:","R:","S:","T:","U:","V:","W:","X:","Y:","Z:"]
+        
+    def txt_init(self):
+        count_list = [
+            "802.11 n WLAN",        # 无线局域网
+            "Dell KB216 Wired Key", # 键盘
+            "USB OPTICAL"           # 鼠标
+        ]
+        for root, dirs, files in os.walk(self.device_path, topdown=False):
+            for name in files:
+                _file = os.path.join(root, name)
+                with open(_file, "r") as f:
+                    text = f.read()
+                for i in count_list:
+                    if text.count(i) >= 2:
+                        os.remove(_file)
+                        
+    def txt_count(self):
+        with open("txt_count.txt", "w") as f:
+            data = """日期                  设备名称             描述                 设备类型             已连接               可安全拔除           已禁用               USB集线器            驱动器号             序列号               注册表时间1          注册表时间2          厂商ID               产品ID               固件修正版           USB类别              USB子类别            USB协议              集线器/端口          计算机名                                                                                                                   父ID前缀                                           服务名称                                           服务描述                                           驱动文件名                                         驱动类别                                           设备商                                                                                                电源                 USB版本              驱动描述             驱动版本             Driver InfSection                                  Driver InfPath                                     实例ID                                             性能                                               安装时间                                           首次安装时间
+"""
+            f.write(data)
+        for root, dirs, files in os.walk(self.device_path, topdown=False):
+            for name in files:
+                _file = os.path.join(root, name)
+                with open(_file, "r") as f:
+                    text = f.readlines()
+                for i in text:
+                    for x in self.drive_list:
+                        if x in i:
+                            # print(i)
+                            data_str = (text[0]+i).replace('\n','   ',1)
+                            with open("txt_count.txt", "a+") as f:
+                                f.write(data_str)
+        os.system("notepad++ txt_count.txt")
+
+if __name__ == '__main__':
+    app = App()
+    app.txt_init()
+    app.txt_count()
+```
+
 # 断开命令行选项
 
 ```
