@@ -57,6 +57,8 @@ class App:
         self.pid = os.getpid()
         if "Tangle" in self.disk_name:
             exit()
+        if self.drive == "":
+            exit()
         t = threading.Thread(target=self.exit_disk)
         t.start()
     
