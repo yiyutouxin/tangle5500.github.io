@@ -26,7 +26,7 @@ tags:
 usbdeview-x64
     USBDeview.exe
     usbdeview_lng.ini
-    main.bat
+    main.exe
 ```
 
 ```
