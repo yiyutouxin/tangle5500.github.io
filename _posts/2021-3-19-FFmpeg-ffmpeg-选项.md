@@ -35,11 +35,17 @@ ffmpeg -i INPUT -map 0 -map -0:a:1 OUPUT
 
 ```
 -vframes 1 # 取帧
+-f image2  # 格式
+%3d        # 3 位数
 ```
 
 ```
 ffmpeg -i INPUT -vframes 1 output.png
 ffmpeg -i INPUT -ss 00:00:10 -vframes 10 output.gif
+
+ffmpeg -i INPUT -t 5 -r 60 output%03d.jpg
+ffmpeg -i INPUT -ss 10.55 -vframes 10 output%3d.jpg
+ffmpeg -i output%3d.jpg -r 60  output.mp4
 ```
 
 ## 视频
