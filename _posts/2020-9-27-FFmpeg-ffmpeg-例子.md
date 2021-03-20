@@ -17,13 +17,6 @@ ffprobe -h
 ffmepg -h -ss
 ```
 
-## 调试
-
-```
-ffplay video.mp4  # 播放
-ffprobe video.mp4 # 参数信息
-```
-
 # 表达式
 
 - 浏览 <https://www.bookstack.cn/read/other-doc-cn-ffmpeg/ffmpeg-doc-cn-08.md>
