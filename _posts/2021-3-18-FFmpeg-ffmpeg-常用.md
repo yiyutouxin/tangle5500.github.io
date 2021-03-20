@@ -1,6 +1,6 @@
 ---
 layout:  post
-title:   FFmpeg 常用
+title:   FFmpeg ffmpeg 常用
 date:    2020-9-27
 author:  Tangle
 catalog: true
