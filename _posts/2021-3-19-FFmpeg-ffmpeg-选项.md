@@ -1,6 +1,6 @@
 ---
 layout:  post
-title:   FFmpeg 选项
+title:   FFmpeg ffmpeg 选项
 date:    2021-3-19
 author:  Tangle
 catalog: true
