@@ -22,6 +22,6 @@ def get_video_duration(filename):
         duration = frame_num/rate
         return duration       # 视频长度
     return -1
-t=get_video_duration("test.mp4")
+t = get_video_duration("test.mp4")
 print(t)
 ```
