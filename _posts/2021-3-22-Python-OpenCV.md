@@ -1,11 +1,11 @@
 ---
 layout:  post
 title:   Python OpenCV
-date:    2019-10-13
+date:    2021-3-22
 author:  Tangle
 catalog: true
 tags:
-    - Vim
+    - Python
 ---
       
 # 视频时长
