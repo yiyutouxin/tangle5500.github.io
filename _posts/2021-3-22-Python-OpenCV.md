@@ -25,3 +25,7 @@ def get_video_duration(filename):
 t = get_video_duration("test.mp4")
 print(t)
 ```
+
+# 文档
+
+<https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_tutorials.html>
